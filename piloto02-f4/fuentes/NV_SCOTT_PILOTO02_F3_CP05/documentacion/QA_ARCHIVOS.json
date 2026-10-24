@@ -1,0 +1,42 @@
+{
+  "reensamblado": [
+    {
+      "progress": 10,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 20,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 30,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 40,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 50,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 60,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 70,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 80,
+      "max_error_rgb": 0
+    },
+    {
+      "progress": 90,
+      "max_error_rgb": 0
+    }
+  ],
+  "nota": "Verificación de estados estáticos; no animación continua.",
+  "star_pixels_outside_old_insert_p040": 25928
+}

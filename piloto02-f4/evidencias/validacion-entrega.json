@@ -1,0 +1,17 @@
+{
+  "archive": "NV_SCOTT_PILOTO02_F4_CP01_v1.0_PROTOTIPO.zip",
+  "zip_crc_ok": true,
+  "clean_extraction_startup": true,
+  "independent_directory_and_port": true,
+  "route": [
+    0,
+    60,
+    30,
+    60,
+    100
+  ],
+  "same_pixels_at_60": true,
+  "distinct_endpoints": true,
+  "console_and_page_errors": [],
+  "assets_loaded": 8
+}

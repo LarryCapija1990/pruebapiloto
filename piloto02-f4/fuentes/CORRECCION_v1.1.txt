@@ -1,0 +1,1 @@
+Corrección de entrega: el ZIP v1.0 quedó truncado. Esta versión reconstruye el paquete; no cambia las imágenes ni su estado de revisión. Capas de abajo a arriba: BG, MID_CONTEXTO, MOTIVO. MASK son máscaras monocromas; EXP es la composición y REENSAMBLADO su comprobación. F3 sigue en revisión; no es animación ni acabado aprobado.

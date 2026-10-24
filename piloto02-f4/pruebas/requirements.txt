@@ -1,0 +1,4 @@
+# Solo para recrear recursos y ejecutar pruebas; la web no tiene dependencias.
+playwright==1.62.0
+Pillow==12.3.0
+numpy==2.3.5

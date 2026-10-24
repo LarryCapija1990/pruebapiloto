@@ -1,0 +1,40 @@
+{
+  "canvas": [
+    1066,
+    600
+  ],
+  "parent_box_xyxy": [
+    405,
+    190,
+    555,
+    275
+  ],
+  "destination_full_image": [
+    1066,
+    600
+  ],
+  "mapping": "child x,y -> parent 405+x*150/1066,190+y*85/600",
+  "camera_desktop": {
+    "20": [
+      533,
+      320,
+      870
+    ],
+    "40": [
+      480,
+      235,
+      450
+    ],
+    "60": [
+      480,
+      232.5,
+      170
+    ],
+    "70": [
+      480,
+      232.5,
+      103
+    ]
+  },
+  "note": "70% solo inspección; 80% retroceso a destino. No se ha implementado interpolación ni scroll."
+}

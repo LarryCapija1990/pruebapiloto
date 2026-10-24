@@ -1,0 +1,102 @@
+[
+  {
+    "progress": 10,
+    "terrain_shift_y_px": 0.0,
+    "layers_bottom_to_top": [
+      "p010_FONDO_RGB.png",
+      "p010_ESTRELLAS_RGBA.png",
+      "p010_RAYO_ORIGINAL_RGBA.png",
+      "p010_RAYO_EJE_RGBA.png",
+      "p010_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 20,
+    "terrain_shift_y_px": 0.0,
+    "layers_bottom_to_top": [
+      "p020_FONDO_RGB.png",
+      "p020_ESTRELLAS_RGBA.png",
+      "p020_RAYO_EJE_RGBA.png",
+      "p020_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 30,
+    "terrain_shift_y_px": 0.0,
+    "layers_bottom_to_top": [
+      "p030_FONDO_RGB.png",
+      "p030_ESTRELLAS_RGBA.png",
+      "p030_RAYO_EJE_RGBA.png",
+      "p030_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 40,
+    "terrain_shift_y_px": 29.12,
+    "layers_bottom_to_top": [
+      "p040_FONDO_RGB.png",
+      "p040_ESTRELLAS_RGBA.png",
+      "p040_RAYO_EJE_RGBA.png",
+      "p040_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 50,
+    "terrain_shift_y_px": 98.56,
+    "layers_bottom_to_top": [
+      "p050_FONDO_RGB.png",
+      "p050_ESTRELLAS_RGBA.png",
+      "p050_RAYO_EJE_RGBA.png",
+      "p050_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 60,
+    "terrain_shift_y_px": 181.44,
+    "layers_bottom_to_top": [
+      "p060_FONDO_RGB.png",
+      "p060_ESTRELLAS_RGBA.png",
+      "p060_RAYO_EJE_RGBA.png",
+      "p060_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 70,
+    "terrain_shift_y_px": 250.88,
+    "layers_bottom_to_top": [
+      "p070_FONDO_RGB.png",
+      "p070_ESTRELLAS_RGBA.png",
+      "p070_RAYO_EJE_RGBA.png",
+      "p070_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 80,
+    "terrain_shift_y_px": 280.0,
+    "layers_bottom_to_top": [
+      "p080_FONDO_RGB.png",
+      "p080_ESTRELLAS_RGBA.png",
+      "p080_RAYO_EJE_RGBA.png",
+      "p080_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  },
+  {
+    "progress": 90,
+    "terrain_shift_y_px": 280.0,
+    "layers_bottom_to_top": [
+      "p090_FONDO_RGB.png",
+      "p090_ESTRELLAS_RGBA.png",
+      "p090_RAYO_EJE_RGBA.png",
+      "p090_SIGNO_RGBA.png"
+    ],
+    "note": "p010 additionally preserves original lightning"
+  }
+]

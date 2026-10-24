@@ -1,0 +1,22 @@
+{
+  "name": "NV_SCOTT_PILOTO02_F4_CP01_v1.0_ACUMULADO",
+  "phase": "F4",
+  "checkpoint": "CP01",
+  "version": "1.0",
+  "date": "2026-10-24",
+  "visual_source": "F3 CP05 v1.0",
+  "approval": "Pendiente de revisión del prototipo en funcionamiento",
+  "source_archives": [
+    {
+      "name": "NV_SCOTT_CP05_PARTE_01_ACTUAL.zip",
+      "bytes": 27042231,
+      "sha256": "25520605b819c1571c76ef8a3a2d12f5a6070b42248c9dbc70e02cd4dbdb0491"
+    },
+    {
+      "name": "NV_SCOTT_CP05_PARTE_02_HISTORICO_Y_ORIGINALES.zip",
+      "bytes": 20620792,
+      "sha256": "23e43b6c9bc16db774731a84e29df9e61c46cbd250216dd77d8b60db558bd3cb"
+    }
+  ],
+  "scope": "Solo Thunder and Lightning → Innervision; independiente de Nero’s Vice."
+}

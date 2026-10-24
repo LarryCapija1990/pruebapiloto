@@ -1,0 +1,14 @@
+{
+  "checkpoint": "F4 CP01 v1.0",
+  "prototype_zip": {
+    "name": "NV_SCOTT_PILOTO02_F4_CP01_v1.0_PROTOTIPO.zip",
+    "bytes": 3231496,
+    "sha256": "0c7ad5609b1af2019477081e0f7d017108a476d849479bcdbbe155a5ecff551b"
+  },
+  "cumulative_zip": "NV_SCOTT_PILOTO02_F4_CP01_v1.0_ACUMULADO.zip",
+  "approval": "Pendiente de revisión visual del prototipo en funcionamiento",
+  "source_preserved": true,
+  "runtime_scope": "Solo Thunder and Lightning → Innervision",
+  "tests": "104 checks + 2 táctiles + extracción limpia; ver evidencias",
+  "cloud_config": "start_skill guardado en borrador, pendiente de revisión/guardado/publicación por el usuario"
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "runtime": "thunder-scene.png",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/capas/C03_SIN_RAYO_RGB.png",
+    "sha256": "62c74f058590d0906c42f68667a9a06383a45180d018ffb698c2acd874e77b57"
+  },
+  {
+    "runtime": "space.png",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/capas/ESPACIO_BASE_RGB.png",
+    "sha256": "78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369"
+  },
+  {
+    "runtime": "stars.png",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/capas/ESTRELLAS_RGBA.png",
+    "sha256": "0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9"
+  },
+  {
+    "runtime": "symbol.png",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/capas/SIGNO_ORIGINAL_RGBA.png",
+    "sha256": "96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a"
+  },
+  {
+    "runtime": "lightning.png",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/capas/C03_RAYO_ORIGINAL_RGBA.png",
+    "sha256": "c52317be4598ee13a75010ef2753a17b7efcabe347d49953448cc64e99077cb7"
+  },
+  {
+    "runtime": "thunder-original.jpg",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP04/originales/thunder.jpg",
+    "sha256": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29"
+  },
+  {
+    "runtime": "innervision-original.jpg",
+    "source": "fuentes/NV_SCOTT_PILOTO02_F3_CP04/originales/innervision.jpg",
+    "sha256": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f"
+  },
+  {
+    "runtime": "reveal-field.png",
+    "channels": {
+      "R": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/mascaras/CAMPO_APARICION_ESPACIO.png",
+      "G": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/mascaras/CIELO_OSCURO_INICIAL.png",
+      "B": "0"
+    },
+    "operation": "Empaquetado sin remuestreo, 1066×600"
+  },
+  {
+    "runtime": "line-geometry.json",
+    "sources": "fuentes/NV_SCOTT_PILOTO02_F3_CP05/estados/p020…p080_RAYO_EJE_RGBA.png",
+    "operation": "16 centroides de alfa por fila por geometría, umbral de caja alfa>12; Catmull–Rom en app.js"
+  }
+]

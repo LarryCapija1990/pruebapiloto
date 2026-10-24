@@ -1,0 +1,327 @@
+[
+  {
+    "archivo": "00_LEEME.md",
+    "bytes": 3532,
+    "sha256": "a83ba59b0a81af1fc5d29ca5937313f7a40d64aaabd63706ce38c24a287459ee"
+  },
+  {
+    "archivo": "C03_Thunder/C03_BG_D.png",
+    "bytes": 1257755,
+    "sha256": "491ddfb05a9019047b245825f0833529e094b1e045ff5af25af0d4cf74dcb6b2",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "C03_Thunder/C03_EXP_D_v003.png",
+    "bytes": 1253662,
+    "sha256": "bc6f305e867a8eb70911fc5dbe7051474c14d0a5dc4bb43de7b49f2d239967ea",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "C03_Thunder/C03_MASK_MOTIVO_D.png",
+    "bytes": 1597,
+    "sha256": "6ea867773c87987c92337f047240d8c2ad04f17c2db74024ab211074f9b73f60",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "L"
+  },
+  {
+    "archivo": "C03_Thunder/C03_MASK_TEXTO_D.png",
+    "bytes": 793,
+    "sha256": "6befd1213201f5f37ece61301dd921c4042292628365cc785552189b4a110cf0",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "L"
+  },
+  {
+    "archivo": "C03_Thunder/C03_MID_CONTEXTO_D.png",
+    "bytes": 1387525,
+    "sha256": "6f13d11d09c29f8465d1604a6047dfe5a537a228c62b3f16d111e9ee02928ef6",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "archivo": "C03_Thunder/C03_MOTIVO_D.png",
+    "bytes": 1387231,
+    "sha256": "764b7eaeb8050df928f1b24862209487174379de4dbed310ab3fc921e9696edd",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "archivo": "C03_Thunder/C03_REENSAMBLADO_D.png",
+    "bytes": 1253662,
+    "sha256": "bc6f305e867a8eb70911fc5dbe7051474c14d0a5dc4bb43de7b49f2d239967ea",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "C04_Innervision/C04_BG_D.png",
+    "bytes": 874056,
+    "sha256": "cc1dfaf5cbeff5793497694fff7458de619b0568d520849588a7e83737e13f71",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "C04_Innervision/C04_EXP_D_v003.png",
+    "bytes": 934420,
+    "sha256": "d5ebc9d6a29d17694755785c7e5021780f0a809d25ab8712c86919967b53c7a7",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "C04_Innervision/C04_MASK_MOTIVO_D.png",
+    "bytes": 3747,
+    "sha256": "3d76ba3e281425eb2c6292b47779a56d587aae63251c602f2844655edb70fb1a",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "L"
+  },
+  {
+    "archivo": "C04_Innervision/C04_MASK_TEXTO_D.png",
+    "bytes": 1475,
+    "sha256": "7e831ef4459a01383a499e8b7be1add9b34cfac2877cc85ca6f4fa64d9f3b4b3",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "L"
+  },
+  {
+    "archivo": "C04_Innervision/C04_MID_CONTEXTO_D.png",
+    "bytes": 1039258,
+    "sha256": "b5f432c3f1189755d60fb0398e2bcd5591b6934c07b5b71065707aaaf2ef476d",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "archivo": "C04_Innervision/C04_MOTIVO_D.png",
+    "bytes": 1038344,
+    "sha256": "b458fd1bc79ba01d0eb2f25702e3c75deeb5f75749261a16ce60bb6000682358",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "archivo": "C04_Innervision/C04_REENSAMBLADO_D.png",
+    "bytes": 934420,
+    "sha256": "d5ebc9d6a29d17694755785c7e5021780f0a809d25ab8712c86919967b53c7a7",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "T34/T34_ANIDADO_D_v001.png",
+    "bytes": 1250716,
+    "sha256": "4b1921b5d8c103828a97a48aad0046119bb19239183e1b1a620531f4ef2102e6",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "T34/T34_APERTURE_MASK_D.png",
+    "bytes": 4937,
+    "sha256": "fcd3e12e16d8deec60591c160b6052df19991033c89461156ee949ce15eae03b",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "L"
+  },
+  {
+    "archivo": "T34/T34_DESTINO_REGISTRADO_D.png",
+    "bytes": 934420,
+    "sha256": "d5ebc9d6a29d17694755785c7e5021780f0a809d25ab8712c86919967b53c7a7",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "T34/T34_INSERT_RGBA_D.png",
+    "bytes": 27709,
+    "sha256": "a441069d03684d7dac6b6e1b2d9b78fccdbb3bcd8a4bcfb82a83f418344dd9f7",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGBA"
+  },
+  {
+    "archivo": "documentacion/01_CAPAS_Y_USO.md",
+    "bytes": 2309,
+    "sha256": "346ae66287ce4f32a090904800bb5b07ed5854f704b34a3bca077cd971243e60"
+  },
+  {
+    "archivo": "documentacion/02_GUIA_CAMERA_Y_QA.md",
+    "bytes": 3326,
+    "sha256": "5cc80806ce12f0ebcf51cbdc9a64c4c5e75b11c19e4aeabe25a12531ece6528d"
+  },
+  {
+    "archivo": "documentacion/QA_MEDICIONES.json",
+    "bytes": 822,
+    "sha256": "2feaa289755a21723dcb5e29a1eed078fb65ebe78be2e2824a929dd51181ae7f"
+  },
+  {
+    "archivo": "documentacion/REGISTRO_GEOMETRIA.json",
+    "bytes": 561,
+    "sha256": "8b680d779fadf8301a80d73485d9e1fb4281d2c86115d0fb741f48be5be8f68f"
+  },
+  {
+    "archivo": "fotogramas/T34_D_p000.png",
+    "bytes": 644371,
+    "sha256": "aad35c76aec82c1ca7749882e5a7c3e57fbcb0646fcd8de04c4c1bfa9527ec28",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "fotogramas/T34_D_p020.png",
+    "bytes": 1248746,
+    "sha256": "9ef64ec8b0fcc40a42bb6881ebfa0b3f3a85eeae4a19358fccba7ffb14194538",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "fotogramas/T34_D_p040.png",
+    "bytes": 856285,
+    "sha256": "abb70a34e20a9c0446799304bd4ec2bb2fe6e4394ecc611f32860fc87fd0e676",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "fotogramas/T34_D_p060.png",
+    "bytes": 767731,
+    "sha256": "17b1a1ba5f0ba1a02f7416e288c8763a899a9f2be9fe112730d37689e476feff",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "fotogramas/T34_D_p080.png",
+    "bytes": 934420,
+    "sha256": "d5ebc9d6a29d17694755785c7e5021780f0a809d25ab8712c86919967b53c7a7",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "fotogramas/T34_D_p100.png",
+    "bytes": 533280,
+    "sha256": "832539dbe5804aaae68503b7293fa8641739f4ba833af5e3aaae21b1522a17ee",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "originales/innervision.jpg",
+    "bytes": 105728,
+    "sha256": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f",
+    "dimensions": [
+      600,
+      594
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "originales/thunder.jpg",
+    "bytes": 154225,
+    "sha256": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29",
+    "dimensions": [
+      600,
+      593
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "revision/T34_D_p050.png",
+    "bytes": 669739,
+    "sha256": "289f7d19f8b4f2523038079cdbb4d5864483ce9928e3338afd02e1f1fb8b72bd",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "revision/T34_D_p070_cruce.png",
+    "bytes": 871741,
+    "sha256": "3dfab940686898164576a014fdffa0a95f7250ef728a8c55f6ebfb8175c23eae",
+    "dimensions": [
+      1066,
+      600
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "revision/T34_SECUENCIA_IDA.jpg",
+    "bytes": 96450,
+    "sha256": "8c79d63609c33c8937ad9dda1dbfbcd282218c9dd1f8dca240148c0c8a5e28d0",
+    "dimensions": [
+      1200,
+      750
+    ],
+    "mode": "RGB"
+  },
+  {
+    "archivo": "revision/T34_SECUENCIA_VUELTA.jpg",
+    "bytes": 96780,
+    "sha256": "5185d651fa3a109f2160d3473fdffbc4b49dc7769eff4f7c9d9b9fdedbdab5e9",
+    "dimensions": [
+      1200,
+      750
+    ],
+    "mode": "RGB"
+  }
+]

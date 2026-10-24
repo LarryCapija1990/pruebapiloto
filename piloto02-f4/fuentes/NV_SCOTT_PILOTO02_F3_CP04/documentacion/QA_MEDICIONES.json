@@ -1,0 +1,38 @@
+{
+  "C03": {
+    "source_size": [
+      600,
+      593
+    ],
+    "canvas": [
+      1066,
+      600
+    ],
+    "offset": [
+      233,
+      3
+    ],
+    "core_pixels_unchanged": 298552,
+    "core_pixels_tested": 298552,
+    "reassembly_max_error": 0,
+    "text_repair": "interpolaci\u00f3n arm\u00f3nica local con protecci\u00f3n del trazo c\u00e1lido; interpretaci\u00f3n, no restauraci\u00f3n documental"
+  },
+  "C04": {
+    "source_size": [
+      600,
+      594
+    ],
+    "canvas": [
+      1066,
+      600
+    ],
+    "offset": [
+      233,
+      3
+    ],
+    "core_pixels_unchanged": 266219,
+    "core_pixels_tested": 266219,
+    "reassembly_max_error": 0,
+    "text_repair": "interpolaci\u00f3n arm\u00f3nica local con protecci\u00f3n del trazo c\u00e1lido; interpretaci\u00f3n, no restauraci\u00f3n documental"
+  }
+}

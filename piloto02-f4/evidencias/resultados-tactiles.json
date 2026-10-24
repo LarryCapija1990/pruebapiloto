@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "name": "Gesto táctil CDP desplaza scroll y transformación",
+      "passed": true,
+      "before": 0,
+      "after": 0.08724687634640241
+    },
+    {
+      "name": "Toque en control de recorrido alcanza posición",
+      "passed": true,
+      "actual": 0.6249461439034899
+    }
+  ],
+  "scope": "Input.dispatchTouchEvent y touchscreen.tap en Chromium emulado; no teléfono físico."
+}

@@ -1,0 +1,22 @@
+{
+  "cp05_manifest_entries": 80,
+  "errors": [],
+  "originals": {
+    "thunder": {
+      "size": [
+        600,
+        593
+      ],
+      "sha256": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29"
+    },
+    "innervision": {
+      "size": [
+        600,
+        594
+      ],
+      "sha256": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f"
+    }
+  },
+  "source_files": 145,
+  "cp05_reference_frames": 11
+}

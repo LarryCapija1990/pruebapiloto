@@ -1,0 +1,4 @@
+PASS Continuidad: 201 estados distintos en todo el recorrido
+PASS Continuidad: ningún salto >15/255 en promedio a pasos de 0.5%
+PASS Empalmes: sin discontinuidad >5/255 a ambos lados ±0.1%
+{"passed": 104, "failed": 0, "visual_approval": false, "mobile_scope": "Emulación Chromium; no dispositivo físico ni Safari iOS."}

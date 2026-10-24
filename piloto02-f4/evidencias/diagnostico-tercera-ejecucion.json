@@ -1,0 +1,3420 @@
+{
+  "checkpoint": "F4 CP01 v1.0",
+  "checks": [
+    {
+      "name": "escritorio: 8 imágenes cargadas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: pantalla completa y sin desbordamiento horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio 0%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 25%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 40%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 45%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 50%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 55%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 60%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 65%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 70%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 75%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 90%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 92.5%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 95%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 97.5%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 99%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio 100%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1272.828125,
+            22,
+            133.171875,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            797,
+            1372,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            34,
+            829,
+            90,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            1316,
+            829,
+            90,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "escritorio: 0→60→30→60→100, píxeles idénticos al volver al 60%",
+      "passed": true,
+      "details": {
+        "hashes": [
+          "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+          "3b6d9543f90d33fd11ed0d59ddafb581687a1d5e43bdf54366d8b143da19cd33",
+          "256cc0694cfb01e6c03a8b28215bda61b10d7ee658615300c9a573ec2d999e10",
+          "3b6d9543f90d33fd11ed0d59ddafb581687a1d5e43bdf54366d8b143da19cd33",
+          "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616"
+        ]
+      }
+    },
+    {
+      "name": "escritorio: pausa en 53.7% sin cambio ni renders nuevos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: rueda cambia scroll y composición",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: teclado End alcanza 100%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: teclado Home alcanza 0%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: teclado flecha incrementa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: botón Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: botón Thunder",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: ascenso coincide con CP05 ±0.25 px",
+      "passed": true,
+      "details": [
+        [
+          0.3,
+          0,
+          0
+        ],
+        [
+          0.4,
+          29.12,
+          29.12000000000002
+        ],
+        [
+          0.5,
+          98.56,
+          98.56000000000003
+        ],
+        [
+          0.6,
+          181.44,
+          181.44
+        ],
+        [
+          0.7,
+          250.88,
+          250.87999999999997
+        ],
+        [
+          0.8,
+          280,
+          280
+        ]
+      ]
+    },
+    {
+      "name": "escritorio: movimiento reducido manual fija terreno",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: movimiento reducido estable en pausa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: modo normal recupera composición exacta",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Continuidad: 201 estados distintos en todo el recorrido",
+      "passed": true,
+      "details": {
+        "unique": 201
+      }
+    },
+    {
+      "name": "Continuidad: ningún salto >15/255 en promedio a pasos de 0.5%",
+      "passed": false,
+      "details": {
+        "maximum": {
+          "to_percent": 8.0,
+          "mean_abs_rgb_255": 16.26369791666667
+        }
+      }
+    },
+    {
+      "name": "Empalmes: sin discontinuidad >5/255 a ambos lados ±0.1%",
+      "passed": false,
+      "details": [
+        {
+          "percent": 10.0,
+          "left_diff": 0.2403877314814815,
+          "right_diff": 0.00043402777777777775
+        },
+        {
+          "percent": 40.0,
+          "left_diff": 6.1016261574074075,
+          "right_diff": 6.006620370370371
+        },
+        {
+          "percent": 50.0,
+          "left_diff": 6.508263888888889,
+          "right_diff": 6.448819444444444
+        },
+        {
+          "percent": 60.0,
+          "left_diff": 3.809826388888889,
+          "right_diff": 3.797928240740741
+        },
+        {
+          "percent": 65.0,
+          "left_diff": 2.2471180555555557,
+          "right_diff": 1.8502951388888889
+        },
+        {
+          "percent": 70.0,
+          "left_diff": 0.9314756944444444,
+          "right_diff": 0.8731944444444445
+        },
+        {
+          "percent": 80.0,
+          "left_diff": 0.015960648148148147,
+          "right_diff": 0.013431712962962963
+        },
+        {
+          "percent": 90.0,
+          "left_diff": 0.0006481481481481481,
+          "right_diff": 0.01945601851851852
+        },
+        {
+          "percent": 95.0,
+          "left_diff": 1.1046296296296296,
+          "right_diff": 0.9338715277777778
+        },
+        {
+          "percent": 99.0,
+          "left_diff": 0.6891666666666667,
+          "right_diff": 0.6046412037037037
+        }
+      ]
+    },
+    {
+      "name": "movil: 8 imágenes cargadas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: pantalla completa y sin desbordamiento horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil 0%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 25%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 40%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 45%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 50%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 55%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 60%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 65%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 70%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 75%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 90%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 92.5%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 95%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 97.5%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 99%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil 100%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            267.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            746,
+            354,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            778,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            299,
+            778,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil: 0→60→30→60→100, píxeles idénticos al volver al 60%",
+      "passed": true,
+      "details": {
+        "hashes": [
+          "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+          "e1e7b04a120a3a3e5b723dd101b414988814a6e57743e29a0e6e36c1322fddc5",
+          "8c4127fb0d11cf3dd4f3a42dc37ce3fea37fce274a00d0143eb015dabaabf669",
+          "e1e7b04a120a3a3e5b723dd101b414988814a6e57743e29a0e6e36c1322fddc5",
+          "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763"
+        ]
+      }
+    },
+    {
+      "name": "movil: pausa en 53.7% sin cambio ni renders nuevos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: rueda cambia scroll y composición",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: teclado End alcanza 100%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: teclado Home alcanza 0%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: teclado flecha incrementa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: botón Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: botón Thunder",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: ascenso coincide con CP05 ±0.25 px",
+      "passed": true,
+      "details": [
+        [
+          0.3,
+          0,
+          2.49458948576917e-05
+        ],
+        [
+          0.4,
+          29.12,
+          29.14316617194296
+        ],
+        [
+          0.5,
+          98.56,
+          98.56000000000003
+        ],
+        [
+          0.6,
+          181.44,
+          181.40525510793967
+        ],
+        [
+          0.7,
+          250.88,
+          250.8336601736355
+        ],
+        [
+          0.8,
+          280,
+          280
+        ]
+      ]
+    },
+    {
+      "name": "movil: movimiento reducido manual fija terreno",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: movimiento reducido estable en pausa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: modo normal recupera composición exacta",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: 8 imágenes cargadas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: pantalla completa y sin desbordamiento horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno 0%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            197.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            470,
+            284,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            502,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            229,
+            502,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil-pequeno 50%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            197.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            470,
+            284,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            502,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            229,
+            502,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil-pequeno 100%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            197.21875,
+            14,
+            104.78125,
+            44
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            470,
+            284,
+            32
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            18,
+            502,
+            73,
+            44
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            229,
+            502,
+            73,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "name": "movil-pequeno: 0→60→30→60→100, píxeles idénticos al volver al 60%",
+      "passed": true,
+      "details": {
+        "hashes": [
+          "2e3186d4ac11f18d7e4c38e7c7a326405b83ab524521aec0c8d1ff04ff332b13",
+          "44093a206d1ea07cb470a673415dec8f8c245881327340eaf7f51d0fd6535726",
+          "da3e679aadbe38f28c546af94ffed6f4ed300a81f6a3dcec7005ab019adbc279",
+          "44093a206d1ea07cb470a673415dec8f8c245881327340eaf7f51d0fd6535726",
+          "f054c7013d7894a621889a613db80eb992df6a7c5effa6db83d2eb516825059d"
+        ]
+      }
+    },
+    {
+      "name": "movil-pequeno: pausa en 53.7% sin cambio ni renders nuevos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: rueda cambia scroll y composición",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: teclado End alcanza 100%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: teclado Home alcanza 0%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: teclado flecha incrementa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: botón Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: botón Thunder",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: ascenso coincide con CP05 ±0.25 px",
+      "passed": true,
+      "details": [
+        [
+          0.3,
+          0,
+          0
+        ],
+        [
+          0.4,
+          29.12,
+          29.188867869033864
+        ],
+        [
+          0.5,
+          98.56,
+          98.56000000000003
+        ],
+        [
+          0.6,
+          181.44,
+          181.33673675158946
+        ],
+        [
+          0.7,
+          250.88,
+          250.91440914957346
+        ],
+        [
+          0.8,
+          280,
+          279.99998622980326
+        ]
+      ]
+    },
+    {
+      "name": "movil-pequeno: movimiento reducido manual fija terreno",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: movimiento reducido estable en pausa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil-pequeno: modo normal recupera composición exacta",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: 8 imágenes cargadas",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: pantalla completa y sin desbordamiento horizontal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal 0%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            690.828125,
+            22,
+            133.171875,
+            34
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            20,
+            332,
+            804,
+            24
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            20,
+            356,
+            90,
+            30
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            734,
+            356,
+            90,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "horizontal 50%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            690.828125,
+            22,
+            133.171875,
+            34
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            20,
+            332,
+            804,
+            24
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            20,
+            356,
+            90,
+            30
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            734,
+            356,
+            90,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "horizontal 100%: controles visibles y accesibles",
+      "passed": true,
+      "details": [
+        {
+          "id": "motion",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            690.828125,
+            22,
+            133.171875,
+            34
+          ]
+        },
+        {
+          "id": "scrub",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            20,
+            332,
+            804,
+            24
+          ]
+        },
+        {
+          "id": "begin",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            20,
+            356,
+            90,
+            30
+          ]
+        },
+        {
+          "id": "end",
+          "visible": true,
+          "unobstructed": true,
+          "rect": [
+            734,
+            356,
+            90,
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "name": "horizontal: 0→60→30→60→100, píxeles idénticos al volver al 60%",
+      "passed": true,
+      "details": {
+        "hashes": [
+          "19b678cfed955545b83c996b4b3f0506d551ab661aa6e024f6ae2e180028b580",
+          "7a786e3ef9d61aa03fd35da84391163ab70b0536467d51b5fe6719c67701510c",
+          "eea7b158ddd649244deeac823af8103e10cc70ef376ec2711befa04ad92b5e05",
+          "7a786e3ef9d61aa03fd35da84391163ab70b0536467d51b5fe6719c67701510c",
+          "674cab62e684b4a28b6cbb3880e10ff5820ed7f01a540a82bbabfbdfbf3d286f"
+        ]
+      }
+    },
+    {
+      "name": "horizontal: pausa en 53.7% sin cambio ni renders nuevos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: rueda cambia scroll y composición",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: teclado End alcanza 100%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: teclado Home alcanza 0%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: teclado flecha incrementa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: botón Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: botón Thunder",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: ascenso coincide con CP05 ±0.25 px",
+      "passed": true,
+      "details": [
+        [
+          0.3,
+          0,
+          0.00018251127254014724
+        ],
+        [
+          0.4,
+          29.12,
+          29.12000000000002
+        ],
+        [
+          0.5,
+          98.56,
+          98.74800848483275
+        ],
+        [
+          0.6,
+          181.44,
+          181.44
+        ],
+        [
+          0.7,
+          250.88,
+          251.00520508776367
+        ],
+        [
+          0.8,
+          280,
+          280
+        ]
+      ]
+    },
+    {
+      "name": "horizontal: movimiento reducido manual fija terreno",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: movimiento reducido estable en pausa",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: modo normal recupera composición exacta",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "prefers-reduced-motion activa la alternativa desde el inicio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Alternativa reducida alcanza portada final sin ascenso",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Fallo de carga informa del recurso y ofrece reintento",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sin WebGL: mensaje y enlaces a ambos originales",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sin errores de JavaScript en flujos normales",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Sin errores de consola en flujos normales",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Sin peticiones fallidas ni HTTP 4xx/5xx en flujos normales",
+      "passed": true,
+      "details": {
+        "failed": [],
+        "http": []
+      }
+    }
+  ],
+  "profiles": {
+    "escritorio": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "device_scale_factor": 1,
+      "emulated_touch": false,
+      "screenshots": [
+        "escritorio-p000.0.png",
+        "escritorio-p025.0.png",
+        "escritorio-p040.0.png",
+        "escritorio-p045.0.png",
+        "escritorio-p050.0.png",
+        "escritorio-p055.0.png",
+        "escritorio-p060.0.png",
+        "escritorio-p065.0.png",
+        "escritorio-p070.0.png",
+        "escritorio-p075.0.png",
+        "escritorio-p090.0.png",
+        "escritorio-p092.5.png",
+        "escritorio-p095.0.png",
+        "escritorio-p097.5.png",
+        "escritorio-p099.0.png",
+        "escritorio-p100.0.png"
+      ],
+      "destination_button_observed_ms": 265.21572800015747,
+      "runtime": {
+        "state": {
+          "progress": 0.6,
+          "reduced": false,
+          "ready": true,
+          "width": 1440,
+          "height": 900,
+          "buffer": [
+            1440,
+            900
+          ],
+          "terrainShift": 181.44
+        },
+        "assets": 8,
+        "contextLosses": 0
+      },
+      "continuity": [
+        {
+          "to_percent": 0.5,
+          "mean_abs_rgb_255": 2.514409722222222
+        },
+        {
+          "to_percent": 1.0,
+          "mean_abs_rgb_255": 5.521064814814815
+        },
+        {
+          "to_percent": 1.5,
+          "mean_abs_rgb_255": 7.044039351851852
+        },
+        {
+          "to_percent": 2.0,
+          "mean_abs_rgb_255": 8.277494212962964
+        },
+        {
+          "to_percent": 2.5,
+          "mean_abs_rgb_255": 9.122436342592593
+        },
+        {
+          "to_percent": 3.0,
+          "mean_abs_rgb_255": 9.974444444444444
+        },
+        {
+          "to_percent": 3.5,
+          "mean_abs_rgb_255": 10.544629629629629
+        },
+        {
+          "to_percent": 4.0,
+          "mean_abs_rgb_255": 11.385792824074073
+        },
+        {
+          "to_percent": 4.5,
+          "mean_abs_rgb_255": 12.347008101851852
+        },
+        {
+          "to_percent": 5.0,
+          "mean_abs_rgb_255": 13.282447916666667
+        },
+        {
+          "to_percent": 5.5,
+          "mean_abs_rgb_255": 14.087818287037036
+        },
+        {
+          "to_percent": 6.0,
+          "mean_abs_rgb_255": 14.99988425925926
+        },
+        {
+          "to_percent": 6.5,
+          "mean_abs_rgb_255": 15.584265046296297
+        },
+        {
+          "to_percent": 7.0,
+          "mean_abs_rgb_255": 16.019733796296297
+        },
+        {
+          "to_percent": 7.5,
+          "mean_abs_rgb_255": 15.977974537037037
+        },
+        {
+          "to_percent": 8.0,
+          "mean_abs_rgb_255": 16.26369791666667
+        },
+        {
+          "to_percent": 8.5,
+          "mean_abs_rgb_255": 15.717899305555555
+        },
+        {
+          "to_percent": 9.0,
+          "mean_abs_rgb_255": 14.49201388888889
+        },
+        {
+          "to_percent": 9.5,
+          "mean_abs_rgb_255": 11.112511574074073
+        },
+        {
+          "to_percent": 10.0,
+          "mean_abs_rgb_255": 5.169479166666667
+        },
+        {
+          "to_percent": 10.5,
+          "mean_abs_rgb_255": 0.002916666666666667
+        },
+        {
+          "to_percent": 11.0,
+          "mean_abs_rgb_255": 0.008559027777777778
+        },
+        {
+          "to_percent": 11.5,
+          "mean_abs_rgb_255": 0.012569444444444444
+        },
+        {
+          "to_percent": 12.0,
+          "mean_abs_rgb_255": 0.017708333333333333
+        },
+        {
+          "to_percent": 12.5,
+          "mean_abs_rgb_255": 0.022042824074074076
+        },
+        {
+          "to_percent": 13.0,
+          "mean_abs_rgb_255": 0.025659722222222223
+        },
+        {
+          "to_percent": 13.5,
+          "mean_abs_rgb_255": 0.02802083333333333
+        },
+        {
+          "to_percent": 14.0,
+          "mean_abs_rgb_255": 0.032586805555555556
+        },
+        {
+          "to_percent": 14.5,
+          "mean_abs_rgb_255": 0.03505787037037037
+        },
+        {
+          "to_percent": 15.0,
+          "mean_abs_rgb_255": 0.038113425925925926
+        },
+        {
+          "to_percent": 15.5,
+          "mean_abs_rgb_255": 0.03892361111111111
+        },
+        {
+          "to_percent": 16.0,
+          "mean_abs_rgb_255": 0.04228587962962963
+        },
+        {
+          "to_percent": 16.5,
+          "mean_abs_rgb_255": 0.04420138888888889
+        },
+        {
+          "to_percent": 17.0,
+          "mean_abs_rgb_255": 0.04947337962962963
+        },
+        {
+          "to_percent": 17.5,
+          "mean_abs_rgb_255": 0.054467592592592595
+        },
+        {
+          "to_percent": 18.0,
+          "mean_abs_rgb_255": 0.05666087962962963
+        },
+        {
+          "to_percent": 18.5,
+          "mean_abs_rgb_255": 0.05607060185185185
+        },
+        {
+          "to_percent": 19.0,
+          "mean_abs_rgb_255": 0.06462962962962963
+        },
+        {
+          "to_percent": 19.5,
+          "mean_abs_rgb_255": 0.058506944444444445
+        },
+        {
+          "to_percent": 20.0,
+          "mean_abs_rgb_255": 0.0696875
+        },
+        {
+          "to_percent": 20.5,
+          "mean_abs_rgb_255": 0.062100694444444444
+        },
+        {
+          "to_percent": 21.0,
+          "mean_abs_rgb_255": 0.06394097222222223
+        },
+        {
+          "to_percent": 21.5,
+          "mean_abs_rgb_255": 0.05296875
+        },
+        {
+          "to_percent": 22.0,
+          "mean_abs_rgb_255": 0.054814814814814816
+        },
+        {
+          "to_percent": 22.5,
+          "mean_abs_rgb_255": 0.05379629629629629
+        },
+        {
+          "to_percent": 23.0,
+          "mean_abs_rgb_255": 0.061446759259259257
+        },
+        {
+          "to_percent": 23.5,
+          "mean_abs_rgb_255": 0.057332175925925925
+        },
+        {
+          "to_percent": 24.0,
+          "mean_abs_rgb_255": 0.05771990740740741
+        },
+        {
+          "to_percent": 24.5,
+          "mean_abs_rgb_255": 0.07179976851851852
+        },
+        {
+          "to_percent": 25.0,
+          "mean_abs_rgb_255": 0.07335069444444445
+        },
+        {
+          "to_percent": 25.5,
+          "mean_abs_rgb_255": 0.06592592592592593
+        },
+        {
+          "to_percent": 26.0,
+          "mean_abs_rgb_255": 0.08163773148148148
+        },
+        {
+          "to_percent": 26.5,
+          "mean_abs_rgb_255": 0.07939236111111111
+        },
+        {
+          "to_percent": 27.0,
+          "mean_abs_rgb_255": 0.08794560185185185
+        },
+        {
+          "to_percent": 27.5,
+          "mean_abs_rgb_255": 0.08467592592592593
+        },
+        {
+          "to_percent": 28.0,
+          "mean_abs_rgb_255": 0.09655671296296296
+        },
+        {
+          "to_percent": 28.5,
+          "mean_abs_rgb_255": 0.09107060185185185
+        },
+        {
+          "to_percent": 29.0,
+          "mean_abs_rgb_255": 0.10465277777777778
+        },
+        {
+          "to_percent": 29.5,
+          "mean_abs_rgb_255": 0.09652199074074073
+        },
+        {
+          "to_percent": 30.0,
+          "mean_abs_rgb_255": 0.1088599537037037
+        },
+        {
+          "to_percent": 30.5,
+          "mean_abs_rgb_255": 1.2782002314814815
+        },
+        {
+          "to_percent": 31.0,
+          "mean_abs_rgb_255": 3.302141203703704
+        },
+        {
+          "to_percent": 31.5,
+          "mean_abs_rgb_255": 5.066226851851852
+        },
+        {
+          "to_percent": 32.0,
+          "mean_abs_rgb_255": 7.006059027777778
+        },
+        {
+          "to_percent": 32.5,
+          "mean_abs_rgb_255": 8.541527777777778
+        },
+        {
+          "to_percent": 33.0,
+          "mean_abs_rgb_255": 9.855572916666667
+        },
+        {
+          "to_percent": 33.5,
+          "mean_abs_rgb_255": 10.777465277777777
+        },
+        {
+          "to_percent": 34.0,
+          "mean_abs_rgb_255": 12.15744212962963
+        },
+        {
+          "to_percent": 34.5,
+          "mean_abs_rgb_255": 12.885538194444445
+        },
+        {
+          "to_percent": 35.0,
+          "mean_abs_rgb_255": 13.602106481481481
+        },
+        {
+          "to_percent": 35.5,
+          "mean_abs_rgb_255": 13.893072916666666
+        },
+        {
+          "to_percent": 36.0,
+          "mean_abs_rgb_255": 14.488229166666667
+        },
+        {
+          "to_percent": 36.5,
+          "mean_abs_rgb_255": 14.882204861111111
+        },
+        {
+          "to_percent": 37.0,
+          "mean_abs_rgb_255": 14.980364583333333
+        },
+        {
+          "to_percent": 37.5,
+          "mean_abs_rgb_255": 15.005069444444445
+        },
+        {
+          "to_percent": 38.0,
+          "mean_abs_rgb_255": 15.490798611111112
+        },
+        {
+          "to_percent": 38.5,
+          "mean_abs_rgb_255": 15.557118055555556
+        },
+        {
+          "to_percent": 39.0,
+          "mean_abs_rgb_255": 15.679652777777777
+        },
+        {
+          "to_percent": 39.5,
+          "mean_abs_rgb_255": 15.504097222222223
+        },
+        {
+          "to_percent": 40.0,
+          "mean_abs_rgb_255": 15.69167824074074
+        },
+        {
+          "to_percent": 40.5,
+          "mean_abs_rgb_255": 15.519565972222223
+        },
+        {
+          "to_percent": 41.0,
+          "mean_abs_rgb_255": 15.385480324074074
+        },
+        {
+          "to_percent": 41.5,
+          "mean_abs_rgb_255": 15.336458333333333
+        },
+        {
+          "to_percent": 42.0,
+          "mean_abs_rgb_255": 15.3146875
+        },
+        {
+          "to_percent": 42.5,
+          "mean_abs_rgb_255": 15.232337962962964
+        },
+        {
+          "to_percent": 43.0,
+          "mean_abs_rgb_255": 15.121568287037038
+        },
+        {
+          "to_percent": 43.5,
+          "mean_abs_rgb_255": 14.938599537037037
+        },
+        {
+          "to_percent": 44.0,
+          "mean_abs_rgb_255": 15.027795138888889
+        },
+        {
+          "to_percent": 44.5,
+          "mean_abs_rgb_255": 14.787297453703705
+        },
+        {
+          "to_percent": 45.0,
+          "mean_abs_rgb_255": 14.660491898148148
+        },
+        {
+          "to_percent": 45.5,
+          "mean_abs_rgb_255": 14.393611111111111
+        },
+        {
+          "to_percent": 46.0,
+          "mean_abs_rgb_255": 14.286903935185185
+        },
+        {
+          "to_percent": 46.5,
+          "mean_abs_rgb_255": 14.116215277777778
+        },
+        {
+          "to_percent": 47.0,
+          "mean_abs_rgb_255": 13.96083912037037
+        },
+        {
+          "to_percent": 47.5,
+          "mean_abs_rgb_255": 13.687881944444445
+        },
+        {
+          "to_percent": 48.0,
+          "mean_abs_rgb_255": 13.506359953703704
+        },
+        {
+          "to_percent": 48.5,
+          "mean_abs_rgb_255": 13.337847222222223
+        },
+        {
+          "to_percent": 49.0,
+          "mean_abs_rgb_255": 13.142164351851852
+        },
+        {
+          "to_percent": 49.5,
+          "mean_abs_rgb_255": 12.850931712962963
+        },
+        {
+          "to_percent": 50.0,
+          "mean_abs_rgb_255": 12.621030092592592
+        },
+        {
+          "to_percent": 50.5,
+          "mean_abs_rgb_255": 12.158773148148148
+        },
+        {
+          "to_percent": 51.0,
+          "mean_abs_rgb_255": 12.012488425925927
+        },
+        {
+          "to_percent": 51.5,
+          "mean_abs_rgb_255": 11.650335648148149
+        },
+        {
+          "to_percent": 52.0,
+          "mean_abs_rgb_255": 11.390972222222222
+        },
+        {
+          "to_percent": 52.5,
+          "mean_abs_rgb_255": 11.023078703703703
+        },
+        {
+          "to_percent": 53.0,
+          "mean_abs_rgb_255": 10.790046296296296
+        },
+        {
+          "to_percent": 53.5,
+          "mean_abs_rgb_255": 10.420185185185185
+        },
+        {
+          "to_percent": 54.0,
+          "mean_abs_rgb_255": 10.17332175925926
+        },
+        {
+          "to_percent": 54.5,
+          "mean_abs_rgb_255": 9.910387731481482
+        },
+        {
+          "to_percent": 55.0,
+          "mean_abs_rgb_255": 9.735578703703704
+        },
+        {
+          "to_percent": 55.5,
+          "mean_abs_rgb_255": 9.435833333333333
+        },
+        {
+          "to_percent": 56.0,
+          "mean_abs_rgb_255": 9.19157986111111
+        },
+        {
+          "to_percent": 56.5,
+          "mean_abs_rgb_255": 8.760335648148148
+        },
+        {
+          "to_percent": 57.0,
+          "mean_abs_rgb_255": 8.648258101851852
+        },
+        {
+          "to_percent": 57.5,
+          "mean_abs_rgb_255": 8.34738425925926
+        },
+        {
+          "to_percent": 58.0,
+          "mean_abs_rgb_255": 8.066157407407408
+        },
+        {
+          "to_percent": 58.5,
+          "mean_abs_rgb_255": 7.696493055555556
+        },
+        {
+          "to_percent": 59.0,
+          "mean_abs_rgb_255": 7.564704861111111
+        },
+        {
+          "to_percent": 59.5,
+          "mean_abs_rgb_255": 7.2450173611111115
+        },
+        {
+          "to_percent": 60.0,
+          "mean_abs_rgb_255": 7.026811342592593
+        },
+        {
+          "to_percent": 60.5,
+          "mean_abs_rgb_255": 6.790254629629629
+        },
+        {
+          "to_percent": 61.0,
+          "mean_abs_rgb_255": 6.5890914351851855
+        },
+        {
+          "to_percent": 61.5,
+          "mean_abs_rgb_255": 6.322112268518518
+        },
+        {
+          "to_percent": 62.0,
+          "mean_abs_rgb_255": 6.048697916666667
+        },
+        {
+          "to_percent": 62.5,
+          "mean_abs_rgb_255": 5.774699074074074
+        },
+        {
+          "to_percent": 63.0,
+          "mean_abs_rgb_255": 5.503125
+        },
+        {
+          "to_percent": 63.5,
+          "mean_abs_rgb_255": 5.167893518518518
+        },
+        {
+          "to_percent": 64.0,
+          "mean_abs_rgb_255": 4.9891145833333335
+        },
+        {
+          "to_percent": 64.5,
+          "mean_abs_rgb_255": 4.7553530092592595
+        },
+        {
+          "to_percent": 65.0,
+          "mean_abs_rgb_255": 4.501053240740741
+        },
+        {
+          "to_percent": 65.5,
+          "mean_abs_rgb_255": 4.230393518518518
+        },
+        {
+          "to_percent": 66.0,
+          "mean_abs_rgb_255": 4.024085648148148
+        },
+        {
+          "to_percent": 66.5,
+          "mean_abs_rgb_255": 3.7966087962962964
+        },
+        {
+          "to_percent": 67.0,
+          "mean_abs_rgb_255": 3.5424247685185186
+        },
+        {
+          "to_percent": 67.5,
+          "mean_abs_rgb_255": 3.260451388888889
+        },
+        {
+          "to_percent": 68.0,
+          "mean_abs_rgb_255": 3.0264872685185185
+        },
+        {
+          "to_percent": 68.5,
+          "mean_abs_rgb_255": 2.787841435185185
+        },
+        {
+          "to_percent": 69.0,
+          "mean_abs_rgb_255": 2.562175925925926
+        },
+        {
+          "to_percent": 69.5,
+          "mean_abs_rgb_255": 2.365173611111111
+        },
+        {
+          "to_percent": 70.0,
+          "mean_abs_rgb_255": 2.247170138888889
+        },
+        {
+          "to_percent": 70.5,
+          "mean_abs_rgb_255": 2.016684027777778
+        },
+        {
+          "to_percent": 71.0,
+          "mean_abs_rgb_255": 1.8952256944444446
+        },
+        {
+          "to_percent": 71.5,
+          "mean_abs_rgb_255": 1.682650462962963
+        },
+        {
+          "to_percent": 72.0,
+          "mean_abs_rgb_255": 1.550480324074074
+        },
+        {
+          "to_percent": 72.5,
+          "mean_abs_rgb_255": 1.4123148148148148
+        },
+        {
+          "to_percent": 73.0,
+          "mean_abs_rgb_255": 1.2650578703703703
+        },
+        {
+          "to_percent": 73.5,
+          "mean_abs_rgb_255": 1.0959375
+        },
+        {
+          "to_percent": 74.0,
+          "mean_abs_rgb_255": 1.007517361111111
+        },
+        {
+          "to_percent": 74.5,
+          "mean_abs_rgb_255": 0.8751215277777777
+        },
+        {
+          "to_percent": 75.0,
+          "mean_abs_rgb_255": 0.7910243055555556
+        },
+        {
+          "to_percent": 75.5,
+          "mean_abs_rgb_255": 0.6509143518518519
+        },
+        {
+          "to_percent": 76.0,
+          "mean_abs_rgb_255": 0.5410879629629629
+        },
+        {
+          "to_percent": 76.5,
+          "mean_abs_rgb_255": 0.47402777777777777
+        },
+        {
+          "to_percent": 77.0,
+          "mean_abs_rgb_255": 0.39780671296296294
+        },
+        {
+          "to_percent": 77.5,
+          "mean_abs_rgb_255": 0.3160706018518519
+        },
+        {
+          "to_percent": 78.0,
+          "mean_abs_rgb_255": 0.2527951388888889
+        },
+        {
+          "to_percent": 78.5,
+          "mean_abs_rgb_255": 0.20418981481481482
+        },
+        {
+          "to_percent": 79.0,
+          "mean_abs_rgb_255": 0.15785300925925927
+        },
+        {
+          "to_percent": 79.5,
+          "mean_abs_rgb_255": 0.1103587962962963
+        },
+        {
+          "to_percent": 80.0,
+          "mean_abs_rgb_255": 0.0816261574074074
+        },
+        {
+          "to_percent": 80.5,
+          "mean_abs_rgb_255": 0.06436342592592592
+        },
+        {
+          "to_percent": 81.0,
+          "mean_abs_rgb_255": 0.05816550925925926
+        },
+        {
+          "to_percent": 81.5,
+          "mean_abs_rgb_255": 0.04960648148148148
+        },
+        {
+          "to_percent": 82.0,
+          "mean_abs_rgb_255": 0.04524884259259259
+        },
+        {
+          "to_percent": 82.5,
+          "mean_abs_rgb_255": 0.03720486111111111
+        },
+        {
+          "to_percent": 83.0,
+          "mean_abs_rgb_255": 0.03015625
+        },
+        {
+          "to_percent": 83.5,
+          "mean_abs_rgb_255": 0.02066550925925926
+        },
+        {
+          "to_percent": 84.0,
+          "mean_abs_rgb_255": 0.013755787037037037
+        },
+        {
+          "to_percent": 84.5,
+          "mean_abs_rgb_255": 0.008414351851851852
+        },
+        {
+          "to_percent": 85.0,
+          "mean_abs_rgb_255": 0.007951388888888888
+        },
+        {
+          "to_percent": 85.5,
+          "mean_abs_rgb_255": 0.007100694444444444
+        },
+        {
+          "to_percent": 86.0,
+          "mean_abs_rgb_255": 0.0068865740740740745
+        },
+        {
+          "to_percent": 86.5,
+          "mean_abs_rgb_255": 0.0064756944444444445
+        },
+        {
+          "to_percent": 87.0,
+          "mean_abs_rgb_255": 0.00587962962962963
+        },
+        {
+          "to_percent": 87.5,
+          "mean_abs_rgb_255": 0.005052083333333333
+        },
+        {
+          "to_percent": 88.0,
+          "mean_abs_rgb_255": 0.004976851851851852
+        },
+        {
+          "to_percent": 88.5,
+          "mean_abs_rgb_255": 0.00433449074074074
+        },
+        {
+          "to_percent": 89.0,
+          "mean_abs_rgb_255": 0.0038252314814814815
+        },
+        {
+          "to_percent": 89.5,
+          "mean_abs_rgb_255": 0.003460648148148148
+        },
+        {
+          "to_percent": 90.0,
+          "mean_abs_rgb_255": 0.003292824074074074
+        },
+        {
+          "to_percent": 90.5,
+          "mean_abs_rgb_255": 0.4206423611111111
+        },
+        {
+          "to_percent": 91.0,
+          "mean_abs_rgb_255": 0.852644675925926
+        },
+        {
+          "to_percent": 91.5,
+          "mean_abs_rgb_255": 1.1823263888888889
+        },
+        {
+          "to_percent": 92.0,
+          "mean_abs_rgb_255": 1.4727314814814816
+        },
+        {
+          "to_percent": 92.5,
+          "mean_abs_rgb_255": 1.7863483796296296
+        },
+        {
+          "to_percent": 93.0,
+          "mean_abs_rgb_255": 2.056903935185185
+        },
+        {
+          "to_percent": 93.5,
+          "mean_abs_rgb_255": 2.333755787037037
+        },
+        {
+          "to_percent": 94.0,
+          "mean_abs_rgb_255": 2.6753761574074075
+        },
+        {
+          "to_percent": 94.5,
+          "mean_abs_rgb_255": 2.9143518518518516
+        },
+        {
+          "to_percent": 95.0,
+          "mean_abs_rgb_255": 3.149814814814815
+        },
+        {
+          "to_percent": 95.5,
+          "mean_abs_rgb_255": 3.1979224537037036
+        },
+        {
+          "to_percent": 96.0,
+          "mean_abs_rgb_255": 3.367465277777778
+        },
+        {
+          "to_percent": 96.5,
+          "mean_abs_rgb_255": 3.4347743055555555
+        },
+        {
+          "to_percent": 97.0,
+          "mean_abs_rgb_255": 3.4463483796296295
+        },
+        {
+          "to_percent": 97.5,
+          "mean_abs_rgb_255": 3.311568287037037
+        },
+        {
+          "to_percent": 98.0,
+          "mean_abs_rgb_255": 3.177465277777778
+        },
+        {
+          "to_percent": 98.5,
+          "mean_abs_rgb_255": 3.0580555555555557
+        },
+        {
+          "to_percent": 99.0,
+          "mean_abs_rgb_255": 2.540885416666667
+        },
+        {
+          "to_percent": 99.5,
+          "mean_abs_rgb_255": 1.921429398148148
+        },
+        {
+          "to_percent": 100.0,
+          "mean_abs_rgb_255": 0.9269328703703704
+        }
+      ],
+      "render_finish_ms": {
+        "count": 56,
+        "median": 0.5,
+        "p95": 2.5000000000582077,
+        "max": 14.099999999860302,
+        "note": "draw + gl.finish en SwiftShader; no equivale a FPS de hardware real"
+      }
+    },
+    "movil": {
+      "viewport": [
+        390,
+        844
+      ],
+      "device_scale_factor": 2,
+      "emulated_touch": true,
+      "screenshots": [
+        "movil-p000.0.png",
+        "movil-p025.0.png",
+        "movil-p040.0.png",
+        "movil-p045.0.png",
+        "movil-p050.0.png",
+        "movil-p055.0.png",
+        "movil-p060.0.png",
+        "movil-p065.0.png",
+        "movil-p070.0.png",
+        "movil-p075.0.png",
+        "movil-p090.0.png",
+        "movil-p092.5.png",
+        "movil-p095.0.png",
+        "movil-p097.5.png",
+        "movil-p099.0.png",
+        "movil-p100.0.png"
+      ],
+      "destination_button_observed_ms": 191.40078899999935,
+      "runtime": {
+        "state": {
+          "progress": 0.5999569151227919,
+          "reduced": false,
+          "ready": true,
+          "width": 390,
+          "height": 844,
+          "buffer": [
+            585,
+            1266
+          ],
+          "terrainShift": 181.40525510793967
+        },
+        "assets": 8,
+        "contextLosses": 0
+      }
+    },
+    "movil-pequeno": {
+      "viewport": [
+        320,
+        568
+      ],
+      "device_scale_factor": 2,
+      "emulated_touch": true,
+      "screenshots": [
+        "movil-pequeno-p000.0.png",
+        "movil-pequeno-p050.0.png",
+        "movil-pequeno-p100.0.png"
+      ],
+      "destination_button_observed_ms": 122.2368969999934,
+      "runtime": {
+        "state": {
+          "progress": 0.5998719590268886,
+          "reduced": false,
+          "ready": true,
+          "width": 320,
+          "height": 568,
+          "buffer": [
+            480,
+            852
+          ],
+          "terrainShift": 181.33673675158946
+        },
+        "assets": 8,
+        "contextLosses": 0
+      }
+    },
+    "horizontal": {
+      "viewport": [
+        844,
+        390
+      ],
+      "device_scale_factor": 1,
+      "emulated_touch": true,
+      "screenshots": [
+        "horizontal-p000.0.png",
+        "horizontal-p050.0.png",
+        "horizontal-p100.0.png"
+      ],
+      "destination_button_observed_ms": 97.077956000021,
+      "runtime": {
+        "state": {
+          "progress": 0.6,
+          "reduced": false,
+          "ready": true,
+          "width": 844,
+          "height": 390,
+          "buffer": [
+            844,
+            390
+          ],
+          "terrainShift": 181.44
+        },
+        "assets": 8,
+        "contextLosses": 0
+      }
+    }
+  },
+  "console": [],
+  "page_errors": [],
+  "load_failures": [],
+  "http_errors": [],
+  "browser": "154.0.8037.57",
+  "summary": {
+    "passed": 102,
+    "failed": 2,
+    "visual_approval": false,
+    "mobile_scope": "Emulación Chromium; no dispositivo físico ni Safari iOS."
+  }
+}
