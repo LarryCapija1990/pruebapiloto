@@ -1,0 +1,3 @@
+escritorio {"count": 200, "median_ms": 182.85000000149012, "p95_ms": 250, "max_ms": 532.5, "over_100ms": 193, "over_250ms": 10}
+movil_emulado {"count": 200, "median_ms": 133.05000000074506, "p95_ms": 184.80000000447035, "max_ms": 849.8999999985099, "over_100ms": 147, "over_250ms": 7}
+{"passed": 2, "failed": 0, "real_device_fps": "No medido", "gpu_memory": "No perfilada; heap JS disponible por separado, no equivale a memoria total."}

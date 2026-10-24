@@ -1,55 +1,51 @@
-# Piloto 02 — F4 CP02 v1.1
+# Piloto 02 — F4 cerrado · CP03 v1.2
 
-Prototipo independiente de la transición **Thin Lizzy — Thunder and Lightning → Phenomena — Innervision**, controlada y reversible mediante scroll.
+**Thunder and Lightning → Innervision, aprobada creativamente por el usuario para este piloto.** El cierre conserva el movimiento CP02 sin cambios artísticos. No se han construido otros álbumes ni se ha modificado Nero’s Vice.
 
-**Prueba funcional pendiente de revisión visual. No se declara aprobada la experiencia ni la calidad cinematográfica.** CP05 es la fuente visual vigente. No se modifica Nero’s Vice ni se incorporan otros álbumes al prototipo.
+## Verlo sin programar
 
-**CP02 corrige únicamente el motivo central:** conserva el rayo original al inicio y su curvatura en el centro; el enderezamiento se concentra en 62–90 %, con más cuerpo y luz. Cámara, fondo, estrellas y estructura de la experiencia se mantienen. Comprueba que la cabecera muestra **F4 / CP02**.
+1. Descargar [NV_SCOTT_PILOTO02_F4_CP03_v1.2_LOCAL.zip](descargas/NV_SCOTT_PILOTO02_F4_CP03_v1.2_LOCAL.zip). En la página del archivo, pulsar **Download raw file** o el icono de descarga.
+2. Extraer todo en una carpeta nueva.
+3. Hacer doble clic en **ABRIR_PILOTO_F4.html** y abrirlo con Chrome o Edge. `LEEME_PRIMERO.html` incluye las instrucciones.
 
-Consulta [la comparativa y el informe breve CP02](piloto02-f4/revision-cp02/INFORME_CP02.md). Las evidencias CP01 de más abajo se conservan como histórico.
+El HTML contiene todos los recursos: no necesita Python, VS Code, terminal, servidor ni Internet. Necesita un navegador completo con JavaScript y WebGL. Si una política del equipo bloquea HTML local, usar el método de servidor explicado en [la guía de visualización](piloto02-f4/cierre-f4/RECUPERAR_Y_VISUALIZAR.md).
 
-## Descargar y ejecutar
+**Límite de la prueba local:** Chromium administrado bloqueó `file://`; se verificó el contenido del HTML en un navegador sin red y su igualdad de píxeles con CP02. La apertura nativa por doble clic no se afirma como ensayada en este entorno. La alternativa HTTP sí está probada.
 
-Versión ligera vigente: [NV_SCOTT_PILOTO02_F4_CP02_v1.1_PROTOTIPO.zip](descargas/NV_SCOTT_PILOTO02_F4_CP02_v1.1_PROTOTIPO.zip). En su página de GitHub, pulsa **Download raw file**. Tras extraerla, usa `py prototipo/server.py` en Windows o `python3 prototipo/server.py` en macOS/Linux.
+## ZIP acumulativo estable y recuperable
 
-Checkpoint acumulativo versionado: [F4 CP02 v1.1 — ZIP del tag](https://github.com/LarryCapija1990/pruebapiloto/archive/refs/tags/piloto02-f4-cp02-v1.1.zip).
+[Descargar el cierre completo F4 CP03 v1.2](https://github.com/LarryCapija1990/pruebapiloto/archive/refs/tags/piloto02-f4-cierre-v1.2.zip).
 
-Para descargar todo el repositorio desde su rama principal:
+El tag **`piloto02-f4-cierre-v1.2`** fija esta entrega. El ZIP contiene código, recursos, originales, máscaras, decisiones, historial CP01/CP02, cierre, pruebas y evidencias. Para recuperar la versión aprobada en el futuro, descargar ese tag y extraer en una carpeta nueva; `main` podrá avanzar.
 
-En GitHub, pulsa **Code → Download ZIP**, descomprime el archivo y abre una terminal en la carpeta que contiene este README.
+## Evidencia verificable del cierre
 
-Con Python 3.10+ instalado:
+- [Informe de cierre: pruebas, rendimiento y límites](piloto02-f4/cierre-f4/INFORME_CIERRE.md).
+- [Aprobación y congelación de CP02](piloto02-f4/cierre-f4/APROBACION_F4.md).
+- [Resultados estructurados de F4](piloto02-f4/cierre-f4/RESULTADOS_F4.json).
+- [Capturas y evidencia visual](piloto02-f4/cierre-f4/EVIDENCIAS.md).
+- [Qué se reutiliza y qué exige producción visual nueva](piloto02-f4/cierre-f4/REUTILIZACION.md).
+- [Integridad del checkpoint](piloto02-f4/MANIFIESTO_F4.sha256).
 
-```sh
-# Windows
-py piloto02-f4/prototipo/server.py
+Se completaron 104 comprobaciones generales, 61 de congelación/equivalencia, dos pruebas táctiles y dos recorridos de rendimiento. No hubo errores de aplicación en los flujos normales. El rendimiento por software fue lento y no certifica 30/60 FPS ni GPU o móvil físicos; consultar cifras y método en el informe.
 
-# macOS / Linux
-python3 piloto02-f4/prototipo/server.py
+## Ejecutar las fuentes, como alternativa
+
+Desde la carpeta extraída del acumulativo, con Python 3.10+:
+
+```text
+Windows:       py piloto02-f4/prototipo/server.py
+macOS / Linux: python3 piloto02-f4/prototipo/server.py
 ```
 
-Abre `http://127.0.0.1:4173` en tu navegador local. No abras `index.html` directamente: el prototipo carga sus capas por HTTP. No hace falta instalar paquetes para ejecutar la web. Requiere JavaScript y WebGL. `Ctrl+C` detiene el servidor.
+Abrir `http://127.0.0.1:4173` y mantener la terminal abierta. `Ctrl+C` detiene el servidor. Cerrar un servidor anterior o añadir `--port 4174` si el puerto está ocupado. La cabecera debe decir **F4 / CP03 · CIERRE ESTABLE**.
 
-Usa scroll, el control «Recorrido» o los botones de extremos. «Reducir movimiento» fija la cámara y el terreno; también se respeta la preferencia del navegador.
+El archivo fuente `prototipo/index.html` requiere servidor porque carga recursos separados; el archivo **ABRIR_PILOTO_F4.html** del ZIP local es autocontenido. No deben confundirse.
 
-## Evidencias vigentes CP02
+## Archivo anterior
 
-- [Informe breve y detalle del antes/después a 25, 50, 75 y 90 %](piloto02-f4/revision-cp02/INFORME_CP02.md).
-- [Vídeo sincronizado CP01 / CP02](piloto02-f4/revision-cp02/evidencias/F4_CP02_ANTES_DESPUES.mp4).
-- [Capturas completas y resultados CP02](piloto02-f4/revision-cp02/evidencias/).
+- [CP02: corrección del motivo y comparativas](piloto02-f4/revision-cp02/INFORME_CP02.md).
+- [Vídeo CP02 antes/después, movimiento aprobado](piloto02-f4/revision-cp02/evidencias/F4_CP02_ANTES_DESPUES.mp4).
+- [CP01: primera prueba funcional](piloto02-f4/INFORME_PRUEBAS.md).
 
-## Archivo y documentación CP01
-
-- [Grabación completa de ida y vuelta](piloto02-f4/evidencias/F4_CP01_ida_y_vuelta.mp4). En su página, usa **Download raw file** para descargarla.
-- [Resumen de capturas: escritorio y móvil](piloto02-f4/evidencias/F4_CP01_RESUMEN.jpg).
-- [Informe de pruebas, fallos y limitaciones](piloto02-f4/INFORME_PRUEBAS.md).
-- [Instrucciones completas](piloto02-f4/README.md).
-- [Decisiones de interpolación](piloto02-f4/DECISIONES_F4.md).
-- [Resultados técnicos consolidados](piloto02-f4/evidencias/resultados-pruebas.json).
-- [Integridad SHA-256 del checkpoint](piloto02-f4/MANIFIESTO_F4.sha256).
-
-Después de descargar, `piloto02-f4/ABRIR_REVISION.html` permite explorar localmente las evidencias. Es un índice de capturas y vídeo; para probar el scroll real, ejecuta el servidor indicado arriba.
-
-El checkpoint incluye el código, recursos runtime, fuentes históricas reconstruidas, documentación, pruebas y evidencias. Los documentos de otras fases se conservan como archivo histórico; el runtime cubre exclusivamente esta transición.
-
-104 comprobaciones técnicas y 2 pruebas táctiles emuladas superadas; además se verificó el prototipo extraído en otra carpeta y puerto. Móvil se probó mediante Chromium emulado, no en un teléfono físico. La resolución, las reparaciones visibles de CP05 y la cadencia de la grabación están documentadas. Los resultados no constituyen aprobación artística.
+Los textos «pendiente de revisión» de esos informes y vídeos son históricos. La aprobación vigente queda registrada en el cierre. F4 termina aquí; cualquier otra transición requiere un nuevo encargo y su propia producción visual.

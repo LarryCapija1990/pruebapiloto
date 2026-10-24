@@ -1,0 +1,736 @@
+{
+  "approved_commit": "2c680f925e801ca45f2904deb49a9953c7dd6634",
+  "checks": [
+    {
+      "name": "Congelado: app.js",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/PROVENIENCIA.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/innervision-original.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/lightning.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/line-geometry.json",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/reveal-field.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/space.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/stars.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/symbol.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/thunder-original.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: assets/thunder-scene.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: motif.js",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: scene.frag",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: server.py",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Congelado: style.css",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Único cambio de presentación en runtime: texto de aprobación",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "ZIP local: CRC válido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio/cp02: carga 8 imágenes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio/http: carga 8 imágenes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio/portable: carga 8 imágenes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio 0%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+        "http": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+        "portable": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933"
+      }
+    },
+    {
+      "name": "escritorio 25%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "11c11203a7e1b9b328fa3447a1dd3a5162fe059618262b0b17d2073bfea9693e",
+        "http": "11c11203a7e1b9b328fa3447a1dd3a5162fe059618262b0b17d2073bfea9693e",
+        "portable": "11c11203a7e1b9b328fa3447a1dd3a5162fe059618262b0b17d2073bfea9693e"
+      }
+    },
+    {
+      "name": "escritorio 40%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111",
+        "http": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111",
+        "portable": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111"
+      }
+    },
+    {
+      "name": "escritorio 50%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "fc9ec99362286b10222e5991191ed221a280c8b66d6291b63855c6aa7a6ad8f6",
+        "http": "fc9ec99362286b10222e5991191ed221a280c8b66d6291b63855c6aa7a6ad8f6",
+        "portable": "fc9ec99362286b10222e5991191ed221a280c8b66d6291b63855c6aa7a6ad8f6"
+      }
+    },
+    {
+      "name": "escritorio 60%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab",
+        "http": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab",
+        "portable": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab"
+      }
+    },
+    {
+      "name": "escritorio 70%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "2ba6c687c850300ccddd4c22228813fbdfb175956d1224fc9b4cf636d167164d",
+        "http": "2ba6c687c850300ccddd4c22228813fbdfb175956d1224fc9b4cf636d167164d",
+        "portable": "2ba6c687c850300ccddd4c22228813fbdfb175956d1224fc9b4cf636d167164d"
+      }
+    },
+    {
+      "name": "escritorio 75%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "94d2a44773549b0e05e370a92a335454be4ba61d3efa53a4f2764702db6def11",
+        "http": "94d2a44773549b0e05e370a92a335454be4ba61d3efa53a4f2764702db6def11",
+        "portable": "94d2a44773549b0e05e370a92a335454be4ba61d3efa53a4f2764702db6def11"
+      }
+    },
+    {
+      "name": "escritorio 82%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "18d24e7cae9341953259dec46e097f764ae3920e0c80b9c001120b117cc43f18",
+        "http": "18d24e7cae9341953259dec46e097f764ae3920e0c80b9c001120b117cc43f18",
+        "portable": "18d24e7cae9341953259dec46e097f764ae3920e0c80b9c001120b117cc43f18"
+      }
+    },
+    {
+      "name": "escritorio 86%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "068907f20dc5a1ce657cf4357e87cec1582455031c6359ad04ddb4e10c130e55",
+        "http": "068907f20dc5a1ce657cf4357e87cec1582455031c6359ad04ddb4e10c130e55",
+        "portable": "068907f20dc5a1ce657cf4357e87cec1582455031c6359ad04ddb4e10c130e55"
+      }
+    },
+    {
+      "name": "escritorio 90%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "5e3602d9656aedce49c008b3b90bdb02f34aca5627a7013de7a1333dcbe826d8",
+        "http": "5e3602d9656aedce49c008b3b90bdb02f34aca5627a7013de7a1333dcbe826d8",
+        "portable": "5e3602d9656aedce49c008b3b90bdb02f34aca5627a7013de7a1333dcbe826d8"
+      }
+    },
+    {
+      "name": "escritorio 95%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "410dd2912caf2508e60d4fe36889970ff64cbe0b61703064f638181ebe00f4d2",
+        "http": "410dd2912caf2508e60d4fe36889970ff64cbe0b61703064f638181ebe00f4d2",
+        "portable": "410dd2912caf2508e60d4fe36889970ff64cbe0b61703064f638181ebe00f4d2"
+      }
+    },
+    {
+      "name": "escritorio 100%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616",
+        "http": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616",
+        "portable": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616"
+      }
+    },
+    {
+      "name": "escritorio: portable 0→60→30→60→100 reversible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: portable pausa sin cambio ni renders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 0%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 50%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 100%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: portable muestra aprobación",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil/cp02: carga 8 imágenes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil/http: carga 8 imágenes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil/portable: carga 8 imágenes",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil 0%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+        "http": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+        "portable": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac"
+      }
+    },
+    {
+      "name": "movil 25%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "e94acdb16cb4ecb613eafb188f2bbe61f86435e5c683bcf6f4cc3e13afc5e0e3",
+        "http": "e94acdb16cb4ecb613eafb188f2bbe61f86435e5c683bcf6f4cc3e13afc5e0e3",
+        "portable": "e94acdb16cb4ecb613eafb188f2bbe61f86435e5c683bcf6f4cc3e13afc5e0e3"
+      }
+    },
+    {
+      "name": "movil 40%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d",
+        "http": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d",
+        "portable": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d"
+      }
+    },
+    {
+      "name": "movil 50%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "0a7837c8bac91060808b02cf888507b9c6d1e6143e64cf1cb997dbe2bac1ce3c",
+        "http": "0a7837c8bac91060808b02cf888507b9c6d1e6143e64cf1cb997dbe2bac1ce3c",
+        "portable": "0a7837c8bac91060808b02cf888507b9c6d1e6143e64cf1cb997dbe2bac1ce3c"
+      }
+    },
+    {
+      "name": "movil 60%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4",
+        "http": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4",
+        "portable": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4"
+      }
+    },
+    {
+      "name": "movil 70%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "8e1eecbc312214dbe8258cd48f9dbed9529f5ef396a9d7e52d26231be460a10d",
+        "http": "8e1eecbc312214dbe8258cd48f9dbed9529f5ef396a9d7e52d26231be460a10d",
+        "portable": "8e1eecbc312214dbe8258cd48f9dbed9529f5ef396a9d7e52d26231be460a10d"
+      }
+    },
+    {
+      "name": "movil 75%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "633ac2c5c331e885d98be0bb240c190aafefff17ca0062fde61c4586a6a98624",
+        "http": "633ac2c5c331e885d98be0bb240c190aafefff17ca0062fde61c4586a6a98624",
+        "portable": "633ac2c5c331e885d98be0bb240c190aafefff17ca0062fde61c4586a6a98624"
+      }
+    },
+    {
+      "name": "movil 82%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "b2884bf1e920964b4d57c30173bf05573cdcc151091e6cdd4157df1dff276c0d",
+        "http": "b2884bf1e920964b4d57c30173bf05573cdcc151091e6cdd4157df1dff276c0d",
+        "portable": "b2884bf1e920964b4d57c30173bf05573cdcc151091e6cdd4157df1dff276c0d"
+      }
+    },
+    {
+      "name": "movil 86%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "016976bff0fb6456045fec9e77341b4b6f9ad4777e3901084853396d0bb6e837",
+        "http": "016976bff0fb6456045fec9e77341b4b6f9ad4777e3901084853396d0bb6e837",
+        "portable": "016976bff0fb6456045fec9e77341b4b6f9ad4777e3901084853396d0bb6e837"
+      }
+    },
+    {
+      "name": "movil 90%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "b93332824d14dae0835df8ebe47c9e9efad08229af98e4a2013b73c116be956b",
+        "http": "b93332824d14dae0835df8ebe47c9e9efad08229af98e4a2013b73c116be956b",
+        "portable": "b93332824d14dae0835df8ebe47c9e9efad08229af98e4a2013b73c116be956b"
+      }
+    },
+    {
+      "name": "movil 95%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "39f4d433ace60533cc2f06669ab0df3baecaa5d490a4cffee55bc16dbd44bd69",
+        "http": "39f4d433ace60533cc2f06669ab0df3baecaa5d490a4cffee55bc16dbd44bd69",
+        "portable": "39f4d433ace60533cc2f06669ab0df3baecaa5d490a4cffee55bc16dbd44bd69"
+      }
+    },
+    {
+      "name": "movil 100%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": {
+        "cp02": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763",
+        "http": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763",
+        "portable": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763"
+      }
+    },
+    {
+      "name": "movil: portable 0→60→30→60→100 reversible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: portable pausa sin cambio ni renders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 0%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 50%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 100%: CP02 = HTTP = portable",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: portable muestra aprobación",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Portable sin conexión: ninguna petición HTTP/HTTPS",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Sin errores de consola, JavaScript ni cargas fallidas",
+      "passed": true,
+      "details": {
+        "console": [],
+        "js": [],
+        "failed": []
+      }
+    }
+  ],
+  "frozen_files": [
+    {
+      "path": "app.js",
+      "sha256_approved": "988158cc774954494bb4c925ab88a6578763c1e9e15ef9fef7efcdcedb112da8",
+      "sha256_current": "988158cc774954494bb4c925ab88a6578763c1e9e15ef9fef7efcdcedb112da8",
+      "identical": true
+    },
+    {
+      "path": "assets/PROVENIENCIA.json",
+      "sha256_approved": "91f79b85ffe68d12cc6f5b3847697cea97b8a099821153bd65756895ac0a06e3",
+      "sha256_current": "91f79b85ffe68d12cc6f5b3847697cea97b8a099821153bd65756895ac0a06e3",
+      "identical": true
+    },
+    {
+      "path": "assets/innervision-original.jpg",
+      "sha256_approved": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f",
+      "sha256_current": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f",
+      "identical": true
+    },
+    {
+      "path": "assets/lightning.png",
+      "sha256_approved": "c52317be4598ee13a75010ef2753a17b7efcabe347d49953448cc64e99077cb7",
+      "sha256_current": "c52317be4598ee13a75010ef2753a17b7efcabe347d49953448cc64e99077cb7",
+      "identical": true
+    },
+    {
+      "path": "assets/line-geometry.json",
+      "sha256_approved": "74499fb4551a652a477d0e54ff0951dfa7ba68b636f76759fd13948a0ac21b5c",
+      "sha256_current": "74499fb4551a652a477d0e54ff0951dfa7ba68b636f76759fd13948a0ac21b5c",
+      "identical": true
+    },
+    {
+      "path": "assets/reveal-field.png",
+      "sha256_approved": "6bd902f16c2a7b432623a1c82350b70bbf747c92e6275810c5dcc1fb6da79e87",
+      "sha256_current": "6bd902f16c2a7b432623a1c82350b70bbf747c92e6275810c5dcc1fb6da79e87",
+      "identical": true
+    },
+    {
+      "path": "assets/space.png",
+      "sha256_approved": "78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369",
+      "sha256_current": "78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369",
+      "identical": true
+    },
+    {
+      "path": "assets/stars.png",
+      "sha256_approved": "0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9",
+      "sha256_current": "0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9",
+      "identical": true
+    },
+    {
+      "path": "assets/symbol.png",
+      "sha256_approved": "96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a",
+      "sha256_current": "96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a",
+      "identical": true
+    },
+    {
+      "path": "assets/thunder-original.jpg",
+      "sha256_approved": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29",
+      "sha256_current": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29",
+      "identical": true
+    },
+    {
+      "path": "assets/thunder-scene.png",
+      "sha256_approved": "62c74f058590d0906c42f68667a9a06383a45180d018ffb698c2acd874e77b57",
+      "sha256_current": "62c74f058590d0906c42f68667a9a06383a45180d018ffb698c2acd874e77b57",
+      "identical": true
+    },
+    {
+      "path": "index.html",
+      "sha256_approved": "7973da7980b72a404be53bd8d83fc9bbede41633288fdefe0c0cb349fb801688",
+      "sha256_current": "37af7959cd818bca0d7187d9fc1814bf014a215d542c968eead892efd0b485ee",
+      "identical": false
+    },
+    {
+      "path": "motif.js",
+      "sha256_approved": "193d6f14dcb4d52ba988dfbadf3980cee1d25c237f982192c9c584ce54eeab1f",
+      "sha256_current": "193d6f14dcb4d52ba988dfbadf3980cee1d25c237f982192c9c584ce54eeab1f",
+      "identical": true
+    },
+    {
+      "path": "scene.frag",
+      "sha256_approved": "2199397f080c6b1954d762a94cbe711738b84396acd1c5de829fea1a55317bb5",
+      "sha256_current": "2199397f080c6b1954d762a94cbe711738b84396acd1c5de829fea1a55317bb5",
+      "identical": true
+    },
+    {
+      "path": "server.py",
+      "sha256_approved": "0ac5dd78fb2058b532b7907653459deb1b23e0c608cc0074ea69bd6ebd6ce82f",
+      "sha256_current": "0ac5dd78fb2058b532b7907653459deb1b23e0c608cc0074ea69bd6ebd6ce82f",
+      "identical": true
+    },
+    {
+      "path": "style.css",
+      "sha256_approved": "36fdf2d4320be27cd6ab62d43165bff678de43da0d90f11b2e7af68e4920490d",
+      "sha256_current": "36fdf2d4320be27cd6ab62d43165bff678de43da0d90f11b2e7af68e4920490d",
+      "identical": true
+    }
+  ],
+  "console": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "portable_http_requests": [],
+  "profiles": {
+    "escritorio": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "device_scale_factor": 1,
+      "pixel_hashes": [
+        {
+          "progress": 0,
+          "hashes": {
+            "cp02": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+            "http": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+            "portable": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933"
+          }
+        },
+        {
+          "progress": 0.25,
+          "hashes": {
+            "cp02": "11c11203a7e1b9b328fa3447a1dd3a5162fe059618262b0b17d2073bfea9693e",
+            "http": "11c11203a7e1b9b328fa3447a1dd3a5162fe059618262b0b17d2073bfea9693e",
+            "portable": "11c11203a7e1b9b328fa3447a1dd3a5162fe059618262b0b17d2073bfea9693e"
+          }
+        },
+        {
+          "progress": 0.4,
+          "hashes": {
+            "cp02": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111",
+            "http": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111",
+            "portable": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111"
+          }
+        },
+        {
+          "progress": 0.5,
+          "hashes": {
+            "cp02": "fc9ec99362286b10222e5991191ed221a280c8b66d6291b63855c6aa7a6ad8f6",
+            "http": "fc9ec99362286b10222e5991191ed221a280c8b66d6291b63855c6aa7a6ad8f6",
+            "portable": "fc9ec99362286b10222e5991191ed221a280c8b66d6291b63855c6aa7a6ad8f6"
+          }
+        },
+        {
+          "progress": 0.6,
+          "hashes": {
+            "cp02": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab",
+            "http": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab",
+            "portable": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab"
+          }
+        },
+        {
+          "progress": 0.7,
+          "hashes": {
+            "cp02": "2ba6c687c850300ccddd4c22228813fbdfb175956d1224fc9b4cf636d167164d",
+            "http": "2ba6c687c850300ccddd4c22228813fbdfb175956d1224fc9b4cf636d167164d",
+            "portable": "2ba6c687c850300ccddd4c22228813fbdfb175956d1224fc9b4cf636d167164d"
+          }
+        },
+        {
+          "progress": 0.75,
+          "hashes": {
+            "cp02": "94d2a44773549b0e05e370a92a335454be4ba61d3efa53a4f2764702db6def11",
+            "http": "94d2a44773549b0e05e370a92a335454be4ba61d3efa53a4f2764702db6def11",
+            "portable": "94d2a44773549b0e05e370a92a335454be4ba61d3efa53a4f2764702db6def11"
+          }
+        },
+        {
+          "progress": 0.82,
+          "hashes": {
+            "cp02": "18d24e7cae9341953259dec46e097f764ae3920e0c80b9c001120b117cc43f18",
+            "http": "18d24e7cae9341953259dec46e097f764ae3920e0c80b9c001120b117cc43f18",
+            "portable": "18d24e7cae9341953259dec46e097f764ae3920e0c80b9c001120b117cc43f18"
+          }
+        },
+        {
+          "progress": 0.86,
+          "hashes": {
+            "cp02": "068907f20dc5a1ce657cf4357e87cec1582455031c6359ad04ddb4e10c130e55",
+            "http": "068907f20dc5a1ce657cf4357e87cec1582455031c6359ad04ddb4e10c130e55",
+            "portable": "068907f20dc5a1ce657cf4357e87cec1582455031c6359ad04ddb4e10c130e55"
+          }
+        },
+        {
+          "progress": 0.9,
+          "hashes": {
+            "cp02": "5e3602d9656aedce49c008b3b90bdb02f34aca5627a7013de7a1333dcbe826d8",
+            "http": "5e3602d9656aedce49c008b3b90bdb02f34aca5627a7013de7a1333dcbe826d8",
+            "portable": "5e3602d9656aedce49c008b3b90bdb02f34aca5627a7013de7a1333dcbe826d8"
+          }
+        },
+        {
+          "progress": 0.95,
+          "hashes": {
+            "cp02": "410dd2912caf2508e60d4fe36889970ff64cbe0b61703064f638181ebe00f4d2",
+            "http": "410dd2912caf2508e60d4fe36889970ff64cbe0b61703064f638181ebe00f4d2",
+            "portable": "410dd2912caf2508e60d4fe36889970ff64cbe0b61703064f638181ebe00f4d2"
+          }
+        },
+        {
+          "progress": 1,
+          "hashes": {
+            "cp02": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616",
+            "http": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616",
+            "portable": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616"
+          }
+        }
+      ]
+    },
+    "movil": {
+      "viewport": [
+        390,
+        844
+      ],
+      "device_scale_factor": 2,
+      "pixel_hashes": [
+        {
+          "progress": 0,
+          "hashes": {
+            "cp02": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+            "http": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+            "portable": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac"
+          }
+        },
+        {
+          "progress": 0.25,
+          "hashes": {
+            "cp02": "e94acdb16cb4ecb613eafb188f2bbe61f86435e5c683bcf6f4cc3e13afc5e0e3",
+            "http": "e94acdb16cb4ecb613eafb188f2bbe61f86435e5c683bcf6f4cc3e13afc5e0e3",
+            "portable": "e94acdb16cb4ecb613eafb188f2bbe61f86435e5c683bcf6f4cc3e13afc5e0e3"
+          }
+        },
+        {
+          "progress": 0.4,
+          "hashes": {
+            "cp02": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d",
+            "http": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d",
+            "portable": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d"
+          }
+        },
+        {
+          "progress": 0.5,
+          "hashes": {
+            "cp02": "0a7837c8bac91060808b02cf888507b9c6d1e6143e64cf1cb997dbe2bac1ce3c",
+            "http": "0a7837c8bac91060808b02cf888507b9c6d1e6143e64cf1cb997dbe2bac1ce3c",
+            "portable": "0a7837c8bac91060808b02cf888507b9c6d1e6143e64cf1cb997dbe2bac1ce3c"
+          }
+        },
+        {
+          "progress": 0.6,
+          "hashes": {
+            "cp02": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4",
+            "http": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4",
+            "portable": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4"
+          }
+        },
+        {
+          "progress": 0.7,
+          "hashes": {
+            "cp02": "8e1eecbc312214dbe8258cd48f9dbed9529f5ef396a9d7e52d26231be460a10d",
+            "http": "8e1eecbc312214dbe8258cd48f9dbed9529f5ef396a9d7e52d26231be460a10d",
+            "portable": "8e1eecbc312214dbe8258cd48f9dbed9529f5ef396a9d7e52d26231be460a10d"
+          }
+        },
+        {
+          "progress": 0.75,
+          "hashes": {
+            "cp02": "633ac2c5c331e885d98be0bb240c190aafefff17ca0062fde61c4586a6a98624",
+            "http": "633ac2c5c331e885d98be0bb240c190aafefff17ca0062fde61c4586a6a98624",
+            "portable": "633ac2c5c331e885d98be0bb240c190aafefff17ca0062fde61c4586a6a98624"
+          }
+        },
+        {
+          "progress": 0.82,
+          "hashes": {
+            "cp02": "b2884bf1e920964b4d57c30173bf05573cdcc151091e6cdd4157df1dff276c0d",
+            "http": "b2884bf1e920964b4d57c30173bf05573cdcc151091e6cdd4157df1dff276c0d",
+            "portable": "b2884bf1e920964b4d57c30173bf05573cdcc151091e6cdd4157df1dff276c0d"
+          }
+        },
+        {
+          "progress": 0.86,
+          "hashes": {
+            "cp02": "016976bff0fb6456045fec9e77341b4b6f9ad4777e3901084853396d0bb6e837",
+            "http": "016976bff0fb6456045fec9e77341b4b6f9ad4777e3901084853396d0bb6e837",
+            "portable": "016976bff0fb6456045fec9e77341b4b6f9ad4777e3901084853396d0bb6e837"
+          }
+        },
+        {
+          "progress": 0.9,
+          "hashes": {
+            "cp02": "b93332824d14dae0835df8ebe47c9e9efad08229af98e4a2013b73c116be956b",
+            "http": "b93332824d14dae0835df8ebe47c9e9efad08229af98e4a2013b73c116be956b",
+            "portable": "b93332824d14dae0835df8ebe47c9e9efad08229af98e4a2013b73c116be956b"
+          }
+        },
+        {
+          "progress": 0.95,
+          "hashes": {
+            "cp02": "39f4d433ace60533cc2f06669ab0df3baecaa5d490a4cffee55bc16dbd44bd69",
+            "http": "39f4d433ace60533cc2f06669ab0df3baecaa5d490a4cffee55bc16dbd44bd69",
+            "portable": "39f4d433ace60533cc2f06669ab0df3baecaa5d490a4cffee55bc16dbd44bd69"
+          }
+        },
+        {
+          "progress": 1,
+          "hashes": {
+            "cp02": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763",
+            "http": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763",
+            "portable": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763"
+          }
+        }
+      ]
+    }
+  },
+  "environment_blocks": [],
+  "portable_load_methods": {
+    "escritorio": "Extracted HTML loaded through page.set_content in an offline context; native file:// blocked by administrator. Not a native file navigation test.",
+    "movil": "Extracted HTML loaded through page.set_content in an offline context; native file:// blocked by administrator. Not a native file navigation test."
+  },
+  "summary": {
+    "passed": 61,
+    "failed": 0,
+    "creative_approval": "Usuario: aprobada creativamente para este piloto",
+    "physical_mobile_tested": false,
+    "native_file_navigation": "See environment_blocks; offline content is verified separately."
+  }
+}

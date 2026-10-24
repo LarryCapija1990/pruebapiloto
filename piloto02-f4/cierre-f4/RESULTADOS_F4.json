@@ -1,0 +1,47 @@
+{
+  "phase": "F4",
+  "checkpoint": "CP03",
+  "version": "1.2",
+  "creative_approval": "Aprobada por el usuario para este piloto",
+  "approved_motion_commit": "2c680f925e801ca45f2904deb49a9953c7dd6634",
+  "recovery_tag": "piloto02-f4-cierre-v1.2",
+  "tests": {
+    "general": {
+      "passed": 104,
+      "failed": 0,
+      "visual_approval": false,
+      "mobile_scope": "Emulación Chromium; no dispositivo físico ni Safari iOS."
+    },
+    "freeze_and_offline_equivalence": {
+      "passed": 61,
+      "failed": 0,
+      "creative_approval": "Usuario: aprobada creativamente para este piloto",
+      "physical_mobile_tested": false,
+      "native_file_navigation": "See environment_blocks; offline content is verified separately."
+    },
+    "touch": {
+      "passed": 2,
+      "failed": 0
+    },
+    "performance_completion": {
+      "passed": 2,
+      "failed": 0,
+      "real_device_fps": "No medido",
+      "gpu_memory": "No perfilada; heap JS disponible por separado, no equivale a memoria total."
+    }
+  },
+  "application_errors": {
+    "console": 0,
+    "javascript": 0,
+    "loads": 0
+  },
+  "platform_limitations": {
+    "native_file_navigation": [],
+    "physical_mobile": "No ensayado",
+    "real_gpu_fps": "No medido",
+    "software_performance": "Lento; consultar latencias serializadas, no se certifica 30/60 FPS."
+  },
+  "portable_zip_sha256": "3e0acf7712198662c291b29bb9ee7edd08c11e111d6814249506dbd0126cb112",
+  "current_engine_identical_to_cp02": true,
+  "other_albums_started": false
+}

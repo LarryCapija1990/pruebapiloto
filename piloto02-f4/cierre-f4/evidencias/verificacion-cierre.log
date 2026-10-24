@@ -1,0 +1,62 @@
+PASS Congelado: app.js
+PASS Congelado: assets/PROVENIENCIA.json
+PASS Congelado: assets/innervision-original.jpg
+PASS Congelado: assets/lightning.png
+PASS Congelado: assets/line-geometry.json
+PASS Congelado: assets/reveal-field.png
+PASS Congelado: assets/space.png
+PASS Congelado: assets/stars.png
+PASS Congelado: assets/symbol.png
+PASS Congelado: assets/thunder-original.jpg
+PASS Congelado: assets/thunder-scene.png
+PASS Congelado: motif.js
+PASS Congelado: scene.frag
+PASS Congelado: server.py
+PASS Congelado: style.css
+PASS Único cambio de presentación en runtime: texto de aprobación
+PASS ZIP local: CRC válido
+PASS escritorio/cp02: carga 8 imágenes
+PASS escritorio/http: carga 8 imágenes
+PASS escritorio/portable: carga 8 imágenes
+PASS escritorio 0%: CP02 = HTTP = portable
+PASS escritorio 25%: CP02 = HTTP = portable
+PASS escritorio 40%: CP02 = HTTP = portable
+PASS escritorio 50%: CP02 = HTTP = portable
+PASS escritorio 60%: CP02 = HTTP = portable
+PASS escritorio 70%: CP02 = HTTP = portable
+PASS escritorio 75%: CP02 = HTTP = portable
+PASS escritorio 82%: CP02 = HTTP = portable
+PASS escritorio 86%: CP02 = HTTP = portable
+PASS escritorio 90%: CP02 = HTTP = portable
+PASS escritorio 95%: CP02 = HTTP = portable
+PASS escritorio 100%: CP02 = HTTP = portable
+PASS escritorio: portable 0→60→30→60→100 reversible
+PASS escritorio: portable pausa sin cambio ni renders
+PASS escritorio reducido 0%: CP02 = HTTP = portable
+PASS escritorio reducido 50%: CP02 = HTTP = portable
+PASS escritorio reducido 100%: CP02 = HTTP = portable
+PASS escritorio: portable muestra aprobación
+PASS movil/cp02: carga 8 imágenes
+PASS movil/http: carga 8 imágenes
+PASS movil/portable: carga 8 imágenes
+PASS movil 0%: CP02 = HTTP = portable
+PASS movil 25%: CP02 = HTTP = portable
+PASS movil 40%: CP02 = HTTP = portable
+PASS movil 50%: CP02 = HTTP = portable
+PASS movil 60%: CP02 = HTTP = portable
+PASS movil 70%: CP02 = HTTP = portable
+PASS movil 75%: CP02 = HTTP = portable
+PASS movil 82%: CP02 = HTTP = portable
+PASS movil 86%: CP02 = HTTP = portable
+PASS movil 90%: CP02 = HTTP = portable
+PASS movil 95%: CP02 = HTTP = portable
+PASS movil 100%: CP02 = HTTP = portable
+PASS movil: portable 0→60→30→60→100 reversible
+PASS movil: portable pausa sin cambio ni renders
+PASS movil reducido 0%: CP02 = HTTP = portable
+PASS movil reducido 50%: CP02 = HTTP = portable
+PASS movil reducido 100%: CP02 = HTTP = portable
+PASS movil: portable muestra aprobación
+PASS Portable sin conexión: ninguna petición HTTP/HTTPS
+PASS Sin errores de consola, JavaScript ni cargas fallidas
+{"passed": 61, "failed": 0, "creative_approval": "Usuario: aprobada creativamente para este piloto", "physical_mobile_tested": false, "native_file_navigation": "See environment_blocks; offline content is verified separately."}

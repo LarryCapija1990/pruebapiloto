@@ -1,0 +1,19 @@
+{
+  "version": "F4 CP03 v1.2 — cierre estable",
+  "date": "2026-10-24",
+  "timezone": "Europe/Berlin",
+  "creative_approval": "Aprobada por el usuario para este piloto",
+  "approved_motion_commit": "2c680f925e801ca45f2904deb49a9953c7dd6634",
+  "stable_tag": "piloto02-f4-cierre-v1.2",
+  "cumulative_zip": "https://github.com/LarryCapija1990/pruebapiloto/archive/refs/tags/piloto02-f4-cierre-v1.2.zip",
+  "local_zip": "descargas/NV_SCOTT_PILOTO02_F4_CP03_v1.2_LOCAL.zip",
+  "local_zip_bytes": 3261269,
+  "local_zip_sha256": "3e0acf7712198662c291b29bb9ee7edd08c11e111d6814249506dbd0126cb112",
+  "creative_or_motion_changes": false,
+  "metadata_only_changes": "Tres textos en index.html",
+  "checks_passed": 169,
+  "native_file_navigation": "Bloqueada por administrador; contenido HTML probado offline y HTTP ensayado",
+  "performance": "Software lento; medidas registradas, no certificación de GPU/móvil físico",
+  "other_albums_started": false,
+  "cloud_start_skill": "Borrador guardado; no publicado ni restauración nueva validada"
+}

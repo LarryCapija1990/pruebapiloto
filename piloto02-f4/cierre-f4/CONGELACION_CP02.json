@@ -1,0 +1,23 @@
+{
+  "approved_commit": "2c680f925e801ca45f2904deb49a9953c7dd6634",
+  "creative_approval": "Aprobada creativamente por el usuario para este piloto",
+  "files": {
+    "app.js": "988158cc774954494bb4c925ab88a6578763c1e9e15ef9fef7efcdcedb112da8",
+    "assets/PROVENIENCIA.json": "91f79b85ffe68d12cc6f5b3847697cea97b8a099821153bd65756895ac0a06e3",
+    "assets/innervision-original.jpg": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f",
+    "assets/lightning.png": "c52317be4598ee13a75010ef2753a17b7efcabe347d49953448cc64e99077cb7",
+    "assets/line-geometry.json": "74499fb4551a652a477d0e54ff0951dfa7ba68b636f76759fd13948a0ac21b5c",
+    "assets/reveal-field.png": "6bd902f16c2a7b432623a1c82350b70bbf747c92e6275810c5dcc1fb6da79e87",
+    "assets/space.png": "78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369",
+    "assets/stars.png": "0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9",
+    "assets/symbol.png": "96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a",
+    "assets/thunder-original.jpg": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29",
+    "assets/thunder-scene.png": "62c74f058590d0906c42f68667a9a06383a45180d018ffb698c2acd874e77b57",
+    "index.html": "7973da7980b72a404be53bd8d83fc9bbede41633288fdefe0c0cb349fb801688",
+    "motif.js": "193d6f14dcb4d52ba988dfbadf3980cee1d25c237f982192c9c584ce54eeab1f",
+    "scene.frag": "2199397f080c6b1954d762a94cbe711738b84396acd1c5de829fea1a55317bb5",
+    "server.py": "0ac5dd78fb2058b532b7907653459deb1b23e0c608cc0074ea69bd6ebd6ce82f",
+    "style.css": "36fdf2d4320be27cd6ab62d43165bff678de43da0d90f11b2e7af68e4920490d"
+  },
+  "allowed_runtime_change": "Solo tres textos de aprobación y versión en index.html. Motor, cámara, movimiento, CSS y assets deben mantener SHA-256."
+}

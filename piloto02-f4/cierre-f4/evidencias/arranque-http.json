@@ -1,0 +1,32 @@
+{
+  "canonical_directory": "/workspace/pruebapiloto/piloto02-f4/prototipo",
+  "port": 4173,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "expected_content": true
+    },
+    {
+      "path": "/app.js",
+      "status": 200,
+      "expected_content": true
+    },
+    {
+      "path": "/motif.js",
+      "status": 200,
+      "expected_content": true
+    },
+    {
+      "path": "/scene.frag",
+      "status": 200,
+      "expected_content": true
+    },
+    {
+      "path": "/assets/line-geometry.json",
+      "status": 200,
+      "expected_content": true
+    }
+  ],
+  "future_cloud_restoration_verified": false
+}

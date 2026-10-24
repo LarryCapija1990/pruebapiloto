@@ -1,10 +1,10 @@
-# Piloto 02 · F4 CP02 v1.1
+# Piloto 02 · F4 cerrado · CP03 v1.2
 
-Versión vigente: **CP02**, corrección puntual del rayo. Ver [informe y comparativa CP02](revision-cp02/INFORME_CP02.md). Las evidencias y métricas CP01 indicadas en los apartados históricos se conservan para el antes/después; los archivos de `prototipo/` ejecutan CP02.
+Versión estable: **CP03 v1.2**, cierre del movimiento **CP02 aprobado creativamente**. Ver [informe de cierre](cierre-f4/INFORME_CIERRE.md) y [guía de visualización sencilla](cierre-f4/RECUPERAR_Y_VISUALIZAR.md). El motor y los recursos de `prototipo/` conservan sus bytes CP02; solo cambia el texto de estado. El ZIP local autocontenido se abre sin servidor; las instrucciones de servidor de este documento corresponden a las fuentes.
 
 Prototipo web independiente de **Thin Lizzy — Thunder and Lightning → Phenomena — Innervision**. CP05 es la fuente visual vigente. CP04 aporta exclusivamente los JPG originales al runtime y permanece como archivo histórico. No se incorpora ningún otro álbum al prototipo ni se modifica Nero’s Vice.
 
-**Estado: prueba funcional para revisión. No se declara aprobada la experiencia ni la calidad cinematográfica.**
+**Estado vigente: aprobada creativamente para este piloto por el usuario; cierre estable con límites técnicos documentados.**
 
 ## Ejecutar localmente
 
@@ -63,6 +63,6 @@ El ejecutable Chromium se busca en `/usr/bin/chromium`; puede cambiarse con `F4_
 
 `pruebas/preparar_recursos.py` permite recrear el runtime desde las fuentes. No es un paso obligatorio para ejecutarlo: los recursos ya están incluidos. `pruebas/grabar.py` captura el navegador mediante CDP y usa `ffmpeg` de sistema para guardar el MP4 de ida y vuelta.
 
-## Revisión pendiente
+## Antecedentes de revisión CP01/CP02
 
-Validar en funcionamiento la fidelidad del trazo, las reparaciones visibles de las fuentes, el ritmo de cámara y el empalme final. Las pruebas automáticas no otorgan aprobación artística. La emulación de móvil no sustituye una prueba física en Android/iOS; Safari y Firefox quedan fuera de la validación de este checkpoint.
+La revisión del trazo, del ritmo de cámara y del empalme final culminó en la aprobación creativa del usuario para el piloto. Se conservan las limitaciones de resolución y reparaciones de las fuentes. Las pruebas automáticas no otorgan aprobación artística ni homologación de hardware: la emulación de móvil no sustituye una prueba física en Android/iOS; Safari y Firefox quedan fuera del ámbito ensayado.

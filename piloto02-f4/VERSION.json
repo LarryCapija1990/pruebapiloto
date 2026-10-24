@@ -1,11 +1,11 @@
 {
-  "name": "NV_SCOTT_PILOTO02_F4_CP02_v1.1_ACUMULADO",
+  "name": "NV_SCOTT_PILOTO02_F4_CP03_v1.2_ACUMULADO",
   "phase": "F4",
-  "checkpoint": "CP02",
-  "version": "1.1",
+  "checkpoint": "CP03",
+  "version": "1.2",
   "date": "2026-10-24",
   "visual_source": "F3 CP05 v1.0",
-  "approval": "Pendiente de revisión del ajuste en funcionamiento",
+  "approval": "Aprobada creativamente por el usuario para este piloto; cierre F4",
   "source_archives": [
     {
       "name": "NV_SCOTT_CP05_PARTE_01_ACTUAL.zip",
@@ -18,10 +18,18 @@
       "sha256": "23e43b6c9bc16db774731a84e29df9e61c46cbd250216dd77d8b60db558bd3cb"
     }
   ],
-  "scope": "Corrección exclusiva del motivo central Thunder → Innervision: organicidad, grosor, luz y ritmo de enderezamiento.",
-  "base_commit": "81a9dfbb757c5cc2b1011c0314587cb9b9d661ee",
+  "scope": "Cierre estable de F4. Movimiento y dirección artística CP02 congelados; solo metadatos de aprobación, empaquetado local, pruebas y documentación de reutilización.",
+  "base_commit": "2c680f925e801ca45f2904deb49a9953c7dd6634",
   "straightening_progress_range": [
     0.62,
     0.9
-  ]
+  ],
+  "approved_motion_commit": "2c680f925e801ca45f2904deb49a9953c7dd6634",
+  "recovery_tag": "piloto02-f4-cierre-v1.2",
+  "creative_approval": {
+    "by": "usuario",
+    "scope": "este piloto, Thunder and Lightning → Innervision",
+    "date": "2026-10-24",
+    "timezone": "Europe/Berlin"
+  }
 }

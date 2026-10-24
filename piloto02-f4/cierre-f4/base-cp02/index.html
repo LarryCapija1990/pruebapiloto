@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080a0f">
+  <meta name="description" content="Piloto 02: transición reversible de Thunder and Lightning a Innervision. F4 CP01, pendiente de revisión visual.">
+  <title>Thunder → Innervision · Piloto 02</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#scrub">Ir al control de progreso</a>
+  <main id="journey" aria-label="Recorrido de Thunder and Lightning a Innervision">
+    <div id="stage">
+      <canvas id="scene" role="img" aria-label="Transformación de cielo de tormenta en espacio estrellado"></canvas>
+      <header>
+        <div class="edition"><span class="mark" aria-hidden="true">Ⅱ</span><span>PILOTO 02 <small>F4 / CP02 · AJUSTE DEL RAYO</small></span></div>
+        <button id="motion" type="button" aria-pressed="false">Reducir movimiento</button>
+      </header>
+      <div id="loading" role="status">Preparando las capas de CP05…</div>
+      <div id="error" role="alert" hidden></div>
+      <section class="caption" aria-label="Estado del recorrido">
+        <p class="eyebrow" id="phase">01 / THUNDER AND LIGHTNING</p>
+        <h1 id="title">Del trueno<br>al espacio.</h1>
+        <p id="description">Thin Lizzy → Phenomena</p>
+      </section>
+      <footer>
+        <div class="progress-top"><label for="scrub">RECORRIDO</label><output id="percent" for="scrub">0 %</output></div>
+        <input id="scrub" type="range" min="0" max="1000" value="0" step="1" aria-label="Progreso de la transformación" aria-valuetext="0 por ciento">
+        <div class="navigation">
+          <button id="begin" type="button" title="Ir a la portada completa de Thunder and Lightning">← Thunder</button>
+          <span id="hint">Desliza para transformar · vuelve para regresar</span>
+          <button id="end" type="button" title="Ir a la portada completa de Innervision">Innervision →</button>
+        </div>
+        <p class="review">CP05 · Prototipo pendiente de revisión visual</p>
+      </footer>
+      <p class="sr-only" id="accessible-state" aria-live="polite">Portada original de Thunder and Lightning, Thin Lizzy.</p>
+    </div>
+  </main>
+  <noscript><div class="noscript">Este prototipo requiere JavaScript. Los originales están disponibles en assets/thunder-original.jpg y assets/innervision-original.jpg.</div></noscript>
+</body>
+</html>

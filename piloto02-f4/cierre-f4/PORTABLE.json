@@ -1,0 +1,39 @@
+{
+  "artifact": "descargas/NV_SCOTT_PILOTO02_F4_CP03_v1.2_LOCAL.zip",
+  "bytes": 3261269,
+  "sha256": "3e0acf7712198662c291b29bb9ee7edd08c11e111d6814249506dbd0126cb112",
+  "files": {
+    "ABRIR_PILOTO_F4.html": {
+      "bytes": 4330403,
+      "sha256": "e478759325b4ad84a7156507961d72be514cb0be5ee8e3fd732d60d2c7ede1c0"
+    },
+    "LEEME_PRIMERO.html": {
+      "bytes": 1618,
+      "sha256": "1b680624de727a6bfac8aef080e7824bdfab14b453e69a7c035db09ff7687790"
+    },
+    "LEEME.txt": {
+      "bytes": 887,
+      "sha256": "ab11645d785059476881f969d52b57d13b1c3a07b356c653a967b147bab54b55"
+    }
+  },
+  "source_hashes": {
+    "prototipo/app.js": "988158cc774954494bb4c925ab88a6578763c1e9e15ef9fef7efcdcedb112da8",
+    "prototipo/assets/PROVENIENCIA.json": "91f79b85ffe68d12cc6f5b3847697cea97b8a099821153bd65756895ac0a06e3",
+    "prototipo/assets/innervision-original.jpg": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f",
+    "prototipo/assets/lightning.png": "c52317be4598ee13a75010ef2753a17b7efcabe347d49953448cc64e99077cb7",
+    "prototipo/assets/line-geometry.json": "74499fb4551a652a477d0e54ff0951dfa7ba68b636f76759fd13948a0ac21b5c",
+    "prototipo/assets/reveal-field.png": "6bd902f16c2a7b432623a1c82350b70bbf747c92e6275810c5dcc1fb6da79e87",
+    "prototipo/assets/space.png": "78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369",
+    "prototipo/assets/stars.png": "0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9",
+    "prototipo/assets/symbol.png": "96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a",
+    "prototipo/assets/thunder-original.jpg": "347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29",
+    "prototipo/assets/thunder-scene.png": "62c74f058590d0906c42f68667a9a06383a45180d018ffb698c2acd874e77b57",
+    "prototipo/index.html": "37af7959cd818bca0d7187d9fc1814bf014a215d542c968eead892efd0b485ee",
+    "prototipo/motif.js": "193d6f14dcb4d52ba988dfbadf3980cee1d25c237f982192c9c584ce54eeab1f",
+    "prototipo/scene.frag": "2199397f080c6b1954d762a94cbe711738b84396acd1c5de829fea1a55317bb5",
+    "prototipo/server.py": "0ac5dd78fb2058b532b7907653459deb1b23e0c608cc0074ea69bd6ebd6ce82f",
+    "prototipo/style.css": "36fdf2d4320be27cd6ab62d43165bff678de43da0d90f11b2e7af68e4920490d"
+  },
+  "derivation": "CSS, módulo de motivo, shader, geometría y ocho imágenes embebidos; solo se adapta la carga, se conserva el algoritmo aprobado. Validar píxeles con verificar_cierre.py.",
+  "python": "3.12.14"
+}
