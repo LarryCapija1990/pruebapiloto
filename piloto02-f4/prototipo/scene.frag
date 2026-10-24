@@ -41,18 +41,25 @@ void main(){
  vec3 ground=at(uThunder,terrain).rgb;
  vec3 color=mix(sky,mix(ground,space,reveal),terrainInside);
  vec4 ray=at(uRay,terrain);
- float rayAlpha=(1.-ramp(.10,.22,p))*terrainInside;
+ // A slight scroll-bound charge keeps the retained photographic bolt alive.
+ // No flicker or time-based pulsing; reduced motion keeps CP01 pixel-identical.
+ float charge=1.+.30*clamp((p-.10)/.18,0.,1.)*(1.-uReduced);
+ ray.rgb*=charge;ray.a*=charge;
+ float rayAlpha=mix(1.-ramp(.28,.46,p),1.-ramp(.10,.22,p),uReduced)*terrainInside;
  color=over(color,ray,rayAlpha);
  float earlySky=mix(fields.g,1.,ramp(.25,.55,p));
  float starVisibility=ramp(.12,.65,p)*mix(1.,reveal*earlySky,terrainInside);
  color=over(color,at(uStars,q),starVisibility);
- float lineAlpha=ramp(.10,.23,p)*(1.-ramp(.72,.89,p))*(1.-uReduced);
+ float lineAlpha=ramp(.25,.43,p)*(1.-ramp(.82,.90,p))*(1.-uReduced);
  color=over(color,at(uLineTexture,q),lineAlpha);
  // The master is never warped. Reveal axis and arc separately.
  float axis=1.-smoothstep(11.,25.,abs(q.x-524.));
  float arcProgress=ramp(.54,.84,p);
  float arcReveal=ramp(440.-170.*arcProgress-18.,440.-170.*arcProgress+18.,q.y)*arcProgress;
- float symbolReveal=mix(arcReveal,ramp(.65,.84,p),axis);
+ float axisReveal=mix(ramp(.82,.90,p),ramp(.65,.84,p),uReduced);
+ // The arc's lower crossing is not part of the delayed vertical-axis mask.
+ float junction=ramp(390.,405.,q.y)*(1.-ramp(425.,440.,q.y))*(1.-uReduced);
+ float symbolReveal=mix(arcReveal,axisReveal,axis*(1.-junction));
  color=over(color,at(uSymbol,q),symbolReveal);
  float sceneInside=box(q,vec2(0.),vec2(1066.,600.));
  color=mix(dark,color,sceneInside);

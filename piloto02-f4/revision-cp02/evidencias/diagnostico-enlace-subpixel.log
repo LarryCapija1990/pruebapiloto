@@ -1,0 +1,46 @@
+PASS escritorio: original/escena al 0% conserva sus píxeles
+PASS escritorio 25%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 35%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 50%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 50%: sigue curvo, no una recta
+PASS escritorio 60%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 62%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 75%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 75%: sigue curvo, no una recta
+PASS escritorio 82%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio 86%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS escritorio: original/escena al 90% conserva sus píxeles
+FAIL escritorio 90%: converge al eje final
+PASS escritorio: original/escena al 100% conserva sus píxeles
+PASS escritorio: 0→60→30→60→100 reversible, mismo 60%
+PASS escritorio: pausa sin pulsaciones, movimiento ni nuevos renders
+PASS escritorio reducido 0%: imagen idéntica a CP01
+PASS escritorio reducido 25%: imagen idéntica a CP01
+PASS escritorio reducido 50%: imagen idéntica a CP01
+PASS escritorio reducido 75%: imagen idéntica a CP01
+PASS escritorio reducido 90%: imagen idéntica a CP01
+PASS escritorio reducido 100%: imagen idéntica a CP01
+PASS movil: original/escena al 0% conserva sus píxeles
+PASS movil 25%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 35%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 50%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 50%: sigue curvo, no una recta
+PASS movil 60%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 62%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 75%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 75%: sigue curvo, no una recta
+PASS movil 82%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil 86%: fondo/cámara/estrellas fuera del motivo idénticos
+PASS movil: original/escena al 90% conserva sus píxeles
+FAIL movil 90%: converge al eje final
+PASS movil: original/escena al 100% conserva sus píxeles
+PASS movil: 0→60→30→60→100 reversible, mismo 60%
+PASS movil: pausa sin pulsaciones, movimiento ni nuevos renders
+PASS movil reducido 0%: imagen idéntica a CP01
+PASS movil reducido 25%: imagen idéntica a CP01
+PASS movil reducido 50%: imagen idéntica a CP01
+PASS movil reducido 75%: imagen idéntica a CP01
+PASS movil reducido 90%: imagen idéntica a CP01
+PASS movil reducido 100%: imagen idéntica a CP01
+PASS Sin errores de consola, JS o carga en comparativas
+{"passed": 43, "failed": 2, "visual_approval": false}

@@ -1,0 +1,19 @@
+{
+  "version": "F4 CP02 v1.1",
+  "base_commit": "81a9dfbb757c5cc2b1011c0314587cb9b9d661ee",
+  "tag": "piloto02-f4-cp02-v1.1",
+  "prototype_zip": {
+    "path": "descargas/NV_SCOTT_PILOTO02_F4_CP02_v1.1_PROTOTIPO.zip",
+    "bytes": 3231477,
+    "sha256": "d97aada5c3047649dcccc73629c37e2c557b6c38d5c5046503d494284e451221"
+  },
+  "cumulative_zip": "https://github.com/LarryCapija1990/pruebapiloto/archive/refs/tags/piloto02-f4-cp02-v1.1.zip",
+  "approval": "Pendiente de revisión visual del ajuste",
+  "tests": {
+    "focused": 47,
+    "general_consolidated": 104,
+    "touch_emulation": 2,
+    "fresh_zip_extraction": true
+  },
+  "sources_cp05_unchanged": true
+}

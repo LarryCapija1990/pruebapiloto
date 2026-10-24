@@ -41,5 +41,6 @@ with TemporaryDirectory(prefix='f4-entrega-') as tmp:
    b.close();assert result['same_pixels_at_60'] and result['distinct_endpoints'] and not errors and result['assets_loaded']==8
  finally:
   proc.terminate();proc.wait(timeout=10)
-(root/'evidencias/validacion-entrega.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
+out=Path(os.environ.get('F4_OUT',root/'evidencias'));out.mkdir(exist_ok=True,parents=True)
+(out/'validacion-entrega.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
 print(json.dumps(result,ensure_ascii=False))

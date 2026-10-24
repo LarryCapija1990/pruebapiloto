@@ -10,5 +10,5 @@ parser.add_argument('--port',type=int,default=4173)
 parser.add_argument('--host',default='127.0.0.1')
 args = parser.parse_args()
 root = Path(__file__).resolve().parent
-print(f'F4 CP01: sirviendo {root} en puerto {args.port}',flush=True)
+print(f'F4 CP02: sirviendo {root} en puerto {args.port}',flush=True)
 ThreadingHTTPServer((args.host,args.port),partial(SimpleHTTPRequestHandler,directory=str(root))).serve_forever()

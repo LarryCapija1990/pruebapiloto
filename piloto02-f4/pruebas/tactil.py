@@ -4,6 +4,7 @@ from playwright.sync_api import sync_playwright
 import json,os
 
 root=Path(__file__).resolve().parents[1]
+out=Path(os.environ.get('F4_OUT',root/'evidencias'));out.mkdir(exist_ok=True,parents=True)
 with sync_playwright() as pw:
  b=pw.chromium.launch(executable_path=os.environ.get('F4_CHROMIUM','/usr/bin/chromium'),headless=True,args=['--no-sandbox','--enable-unsafe-swiftshader','--use-gl=angle','--use-angle=swiftshader'])
  ctx=b.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True,device_scale_factor=2)
@@ -22,8 +23,8 @@ with sync_playwright() as pw:
  page.wait_for_function('Math.abs(window.__F4.state.progress-.62)<.04')
  actual=page.evaluate('window.__F4.state.progress')
  checks.append({'name':'Toque en control de recorrido alcanza posición','passed':abs(actual-.62)<.04,'actual':actual})
- page.screenshot(path=str(root/'evidencias/movil-control-tactil.png'))
+ page.screenshot(path=str(out/'movil-control-tactil.png'))
  b.close()
 result={'checks':checks,'scope':'Input.dispatchTouchEvent y touchscreen.tap en Chromium emulado; no teléfono físico.'}
-(root/'evidencias/resultados-tactiles.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
+(out/'resultados-tactiles.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
 print(json.dumps(result,ensure_ascii=False));raise SystemExit(0 if all(x['passed'] for x in checks) else 1)

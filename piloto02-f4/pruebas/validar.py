@@ -7,10 +7,10 @@ import numpy as np
 import base64, hashlib, io, json, time, os
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT/'evidencias'
+OUT = Path(os.environ.get('F4_OUT',ROOT/'evidencias'))
 OUT.mkdir(exist_ok=True)
 URL = os.environ.get('F4_URL','http://127.0.0.1:4173')
-report = {'checkpoint':'F4 CP01 v1.0','checks':[], 'profiles':{}, 'console':[], 'page_errors':[], 'load_failures':[], 'http_errors':[]}
+report = {'checkpoint':os.environ.get('F4_CHECKPOINT','F4 CP02 v1.1'),'checks':[], 'profiles':{}, 'console':[], 'page_errors':[], 'load_failures':[], 'http_errors':[]}
 def check(name,ok,details=None):
     report['checks'].append({'name':name,'passed':bool(ok),'details':details})
     print(('PASS ' if ok else 'FAIL ')+name, flush=True)

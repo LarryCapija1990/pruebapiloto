@@ -1,4 +1,6 @@
-# Piloto 02 · F4 CP01 v1.0
+# Piloto 02 · F4 CP02 v1.1
+
+Versión vigente: **CP02**, corrección puntual del rayo. Ver [informe y comparativa CP02](revision-cp02/INFORME_CP02.md). Las evidencias y métricas CP01 indicadas en los apartados históricos se conservan para el antes/después; los archivos de `prototipo/` ejecutan CP02.
 
 Prototipo web independiente de **Thin Lizzy — Thunder and Lightning → Phenomena — Innervision**. CP05 es la fuente visual vigente. CP04 aporta exclusivamente los JPG originales al runtime y permanece como archivo histórico. No se incorpora ningún otro álbum al prototipo ni se modifica Nero’s Vice.
 

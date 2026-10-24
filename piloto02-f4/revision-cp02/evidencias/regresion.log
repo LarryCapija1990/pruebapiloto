@@ -1,0 +1,105 @@
+PASS escritorio: 8 imágenes cargadas
+PASS escritorio: pantalla completa y sin desbordamiento horizontal
+PASS escritorio 0%: controles visibles y accesibles
+PASS escritorio 25%: controles visibles y accesibles
+PASS escritorio 40%: controles visibles y accesibles
+PASS escritorio 45%: controles visibles y accesibles
+PASS escritorio 50%: controles visibles y accesibles
+PASS escritorio 55%: controles visibles y accesibles
+PASS escritorio 60%: controles visibles y accesibles
+PASS escritorio 65%: controles visibles y accesibles
+PASS escritorio 70%: controles visibles y accesibles
+PASS escritorio 75%: controles visibles y accesibles
+PASS escritorio 90%: controles visibles y accesibles
+PASS escritorio 92.5%: controles visibles y accesibles
+PASS escritorio 95%: controles visibles y accesibles
+PASS escritorio 97.5%: controles visibles y accesibles
+PASS escritorio 99%: controles visibles y accesibles
+PASS escritorio 100%: controles visibles y accesibles
+PASS escritorio: 0→60→30→60→100, píxeles idénticos al volver al 60%
+PASS escritorio: pausa en 53.7% sin cambio ni renders nuevos
+PASS escritorio: rueda cambia scroll y composición
+PASS escritorio: teclado End alcanza 100%
+PASS escritorio: teclado Home alcanza 0%
+PASS escritorio: teclado flecha incrementa
+PASS escritorio: botón Innervision
+PASS escritorio: botón Thunder
+PASS escritorio: ascenso coincide con CP05 ±0.25 px
+PASS escritorio: movimiento reducido manual fija terreno
+PASS escritorio: movimiento reducido estable en pausa
+PASS escritorio: modo normal recupera composición exacta
+FAIL Continuidad: 201 estados distintos en todo el recorrido
+PASS Continuidad: ningún salto >15/255 en promedio a pasos de 0.5%
+PASS Empalmes: sin discontinuidad >5/255 a ambos lados ±0.1%
+PASS movil: 8 imágenes cargadas
+PASS movil: pantalla completa y sin desbordamiento horizontal
+PASS movil 0%: controles visibles y accesibles
+PASS movil 25%: controles visibles y accesibles
+PASS movil 40%: controles visibles y accesibles
+PASS movil 45%: controles visibles y accesibles
+PASS movil 50%: controles visibles y accesibles
+PASS movil 55%: controles visibles y accesibles
+PASS movil 60%: controles visibles y accesibles
+PASS movil 65%: controles visibles y accesibles
+PASS movil 70%: controles visibles y accesibles
+PASS movil 75%: controles visibles y accesibles
+PASS movil 90%: controles visibles y accesibles
+PASS movil 92.5%: controles visibles y accesibles
+PASS movil 95%: controles visibles y accesibles
+PASS movil 97.5%: controles visibles y accesibles
+PASS movil 99%: controles visibles y accesibles
+PASS movil 100%: controles visibles y accesibles
+PASS movil: 0→60→30→60→100, píxeles idénticos al volver al 60%
+PASS movil: pausa en 53.7% sin cambio ni renders nuevos
+PASS movil: rueda cambia scroll y composición
+PASS movil: teclado End alcanza 100%
+PASS movil: teclado Home alcanza 0%
+PASS movil: teclado flecha incrementa
+PASS movil: botón Innervision
+PASS movil: botón Thunder
+PASS movil: ascenso coincide con CP05 ±0.25 px
+PASS movil: movimiento reducido manual fija terreno
+PASS movil: movimiento reducido estable en pausa
+PASS movil: modo normal recupera composición exacta
+PASS movil-pequeno: 8 imágenes cargadas
+PASS movil-pequeno: pantalla completa y sin desbordamiento horizontal
+PASS movil-pequeno 0%: controles visibles y accesibles
+PASS movil-pequeno 50%: controles visibles y accesibles
+PASS movil-pequeno 100%: controles visibles y accesibles
+PASS movil-pequeno: 0→60→30→60→100, píxeles idénticos al volver al 60%
+PASS movil-pequeno: pausa en 53.7% sin cambio ni renders nuevos
+PASS movil-pequeno: rueda cambia scroll y composición
+PASS movil-pequeno: teclado End alcanza 100%
+PASS movil-pequeno: teclado Home alcanza 0%
+PASS movil-pequeno: teclado flecha incrementa
+PASS movil-pequeno: botón Innervision
+PASS movil-pequeno: botón Thunder
+PASS movil-pequeno: ascenso coincide con CP05 ±0.25 px
+PASS movil-pequeno: movimiento reducido manual fija terreno
+PASS movil-pequeno: movimiento reducido estable en pausa
+PASS movil-pequeno: modo normal recupera composición exacta
+PASS horizontal: 8 imágenes cargadas
+PASS horizontal: pantalla completa y sin desbordamiento horizontal
+PASS horizontal 0%: controles visibles y accesibles
+PASS horizontal 50%: controles visibles y accesibles
+PASS horizontal 100%: controles visibles y accesibles
+PASS horizontal: 0→60→30→60→100, píxeles idénticos al volver al 60%
+PASS horizontal: pausa en 53.7% sin cambio ni renders nuevos
+PASS horizontal: rueda cambia scroll y composición
+PASS horizontal: teclado End alcanza 100%
+PASS horizontal: teclado Home alcanza 0%
+PASS horizontal: teclado flecha incrementa
+PASS horizontal: botón Innervision
+PASS horizontal: botón Thunder
+PASS horizontal: ascenso coincide con CP05 ±0.25 px
+PASS horizontal: movimiento reducido manual fija terreno
+PASS horizontal: movimiento reducido estable en pausa
+PASS horizontal: modo normal recupera composición exacta
+PASS prefers-reduced-motion activa la alternativa desde el inicio
+PASS Alternativa reducida alcanza portada final sin ascenso
+PASS Fallo de carga informa del recurso y ofrece reintento
+PASS Sin WebGL: mensaje y enlaces a ambos originales
+PASS Sin errores de JavaScript en flujos normales
+PASS Sin errores de consola en flujos normales
+PASS Sin peticiones fallidas ni HTTP 4xx/5xx en flujos normales
+{"passed": 103, "failed": 1, "visual_approval": false, "mobile_scope": "Emulación Chromium; no dispositivo físico ni Safari iOS."}

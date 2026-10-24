@@ -1,3 +1,5 @@
+import { createMotif } from './motif.js';
+
 const $ = id => document.getElementById(id);
 const canvas = $('scene');
 const media = matchMedia('(prefers-reduced-motion: reduce)');
@@ -10,6 +12,7 @@ const clamp = x => Math.max(0, Math.min(1, x));
 const smooth = (a, b, x) => { const t = clamp((x-a)/(b-a)); return t*t*(3-2*t); };
 // Correspondences start at the bottom of Thunder's discharge and end in the cloud.
 const irregular = [[460,245],[458,234],[460,225],[462,214],[464,201],[464,191],[476,180],[482,176],[485,165],[497,160],[510,150],[516,144],[539,139],[554,133],[574,126],[596,112]];
+const motifShape = createMotif(irregular);
 const assetNames = ['thunder-scene.png','space.png','stars.png','symbol.png','reveal-field.png','lightning.png','thunder-original.jpg','innervision-original.jpg'];
 const uniforms = ['uThunder','uSpace','uStars','uSymbol','uField','uRay','uOriginalAtlas','uLineTexture'];
 
@@ -20,14 +23,21 @@ function linePoints(progress) {
   return b.flatMap((point,j)=>point.map((v,k)=>.5*(2*v+(-a[j][k]+c[j][k])*t+(2*a[j][k]-5*v+4*c[j][k]-d[j][k])*t*t+(-a[j][k]+3*v-3*c[j][k]+d[j][k])*t*t*t)));
 }
 function updateLine(progress) {
-  const ctx=lineContext, points=linePoints(progress),t=smooth(.22,.65,progress);
+  const ctx=lineContext;
   ctx.clearRect(0,0,1066,600);
-  if (!reduced && progress>.10 && progress<.90) {
-    ctx.strokeStyle=`rgb(${255*(.66+.34*t)},${255*(.79-.12*t)},${255*(1-.72*t)})`;
-    ctx.lineWidth=1+1.5*smooth(.26,.68,progress);ctx.lineCap='round';ctx.lineJoin='round';
-    ctx.beginPath();ctx.moveTo(points[0],points[1]);
-    for(let i=2;i<points.length;i+=2)ctx.lineTo(points[i],points[i+1]);
-    ctx.stroke();
+  if (!reduced && progress>.25 && progress<.90) {
+    const {points,colorProgress:t,bodyWidth,coreWidth}=motifShape(progress,linePoints(progress),280*smooth(.30,.80,progress));
+    const energy=`rgb(${255*(.45+.55*t)},${255*(.72-.10*t)},${255*(1-.82*t)})`;
+    ctx.save();ctx.lineCap='round';ctx.lineJoin='round';
+    ctx.beginPath();ctx.moveTo(...points[0]);
+    for(let i=1;i<points.length;i++)ctx.lineTo(...points[i]);
+    // Local halo, substantial colored body and bright core, all on this motif.
+    ctx.strokeStyle=energy;ctx.shadowColor=energy;ctx.shadowBlur=10;
+    ctx.globalAlpha=.18;ctx.lineWidth=bodyWidth+6;ctx.stroke();
+    ctx.shadowBlur=4;ctx.globalAlpha=.92;ctx.lineWidth=bodyWidth;ctx.stroke();
+    ctx.shadowBlur=0;ctx.globalAlpha=.96;ctx.lineWidth=coreWidth;
+    ctx.strokeStyle=`rgb(${235+20*t},${248-9*t},${255-81*t})`;ctx.stroke();
+    ctx.restore();
   }
   gl.activeTexture(gl.TEXTURE7);gl.bindTexture(gl.TEXTURE_2D,lineTexture);
   gl.texSubImage2D(gl.TEXTURE_2D,0,0,0,gl.RGBA,gl.UNSIGNED_BYTE,ctx.canvas);
@@ -135,6 +145,7 @@ async function init() {
   const error=gl.getError();if(error!==gl.NO_ERROR)throw new Error(`WebGL error ${error}`);
   ready=true;resize();mode();draw();$('loading').hidden=true;
   window.__F4={
+    motif(progress=p){return motifShape(progress,linePoints(progress),280*smooth(.30,.80,progress));},
     go, metrics, get state(){return {progress:p,reduced,ready,width,height,buffer:[canvas.width,canvas.height],terrainShift:280*smooth(.3,.8,p)*(reduced?0:1)};},
     // Manual GPU timing for the validation script; no continuous animation loop.
     benchmark(){const start=performance.now();draw();gl.finish();return performance.now()-start;}

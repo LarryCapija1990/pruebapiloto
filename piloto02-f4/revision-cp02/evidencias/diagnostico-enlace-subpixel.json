@@ -1,0 +1,423 @@
+{
+  "base_commit": "81a9dfbb757c5cc2b1011c0314587cb9b9d661ee",
+  "checks": [
+    {
+      "name": "escritorio: original/escena al 0% conserva sus píxeles",
+      "passed": true,
+      "details": {
+        "changed_pixels": 0
+      }
+    },
+    {
+      "name": "escritorio 25%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 15843
+      }
+    },
+    {
+      "name": "escritorio 35%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 20847
+      }
+    },
+    {
+      "name": "escritorio 50%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 26558
+      }
+    },
+    {
+      "name": "escritorio 50%: sigue curvo, no una recta",
+      "passed": true,
+      "details": {
+        "max_deviation_px": 51.81725649884668
+      }
+    },
+    {
+      "name": "escritorio 60%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 35737
+      }
+    },
+    {
+      "name": "escritorio 62%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 38035
+      }
+    },
+    {
+      "name": "escritorio 75%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 51554
+      }
+    },
+    {
+      "name": "escritorio 75%: sigue curvo, no una recta",
+      "passed": true,
+      "details": {
+        "max_deviation_px": 33.60960573084875
+      }
+    },
+    {
+      "name": "escritorio 82%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 43133
+      }
+    },
+    {
+      "name": "escritorio 86%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 37327
+      }
+    },
+    {
+      "name": "escritorio: original/escena al 90% conserva sus píxeles",
+      "passed": true,
+      "details": {
+        "changed_pixels": 0
+      }
+    },
+    {
+      "name": "escritorio 90%: converge al eje final",
+      "passed": false,
+      "details": {
+        "max_deviation_px": 0.6603626834703581
+      }
+    },
+    {
+      "name": "escritorio: original/escena al 100% conserva sus píxeles",
+      "passed": true,
+      "details": {
+        "changed_pixels": 0
+      }
+    },
+    {
+      "name": "escritorio: 0→60→30→60→100 reversible, mismo 60%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: pausa sin pulsaciones, movimiento ni nuevos renders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 0%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 25%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 50%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 75%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 90%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio reducido 100%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: original/escena al 0% conserva sus píxeles",
+      "passed": true,
+      "details": {
+        "changed_pixels": 0
+      }
+    },
+    {
+      "name": "movil 25%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 31256
+      }
+    },
+    {
+      "name": "movil 35%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 41187
+      }
+    },
+    {
+      "name": "movil 50%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 52424
+      }
+    },
+    {
+      "name": "movil 50%: sigue curvo, no una recta",
+      "passed": true,
+      "details": {
+        "max_deviation_px": 51.81725649884668
+      }
+    },
+    {
+      "name": "movil 60%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 70518
+      }
+    },
+    {
+      "name": "movil 62%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 75033
+      }
+    },
+    {
+      "name": "movil 75%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 101847
+      }
+    },
+    {
+      "name": "movil 75%: sigue curvo, no una recta",
+      "passed": true,
+      "details": {
+        "max_deviation_px": 33.6073366775763
+      }
+    },
+    {
+      "name": "movil 82%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 85234
+      }
+    },
+    {
+      "name": "movil 86%: fondo/cámara/estrellas fuera del motivo idénticos",
+      "passed": true,
+      "details": {
+        "changed_outside": 0,
+        "changed_inside": 73927
+      }
+    },
+    {
+      "name": "movil: original/escena al 90% conserva sus píxeles",
+      "passed": true,
+      "details": {
+        "changed_pixels": 0
+      }
+    },
+    {
+      "name": "movil 90%: converge al eje final",
+      "passed": false,
+      "details": {
+        "max_deviation_px": 0.6603626834703581
+      }
+    },
+    {
+      "name": "movil: original/escena al 100% conserva sus píxeles",
+      "passed": true,
+      "details": {
+        "changed_pixels": 0
+      }
+    },
+    {
+      "name": "movil: 0→60→30→60→100 reversible, mismo 60%",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: pausa sin pulsaciones, movimiento ni nuevos renders",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 0%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 25%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 50%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 75%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 90%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil reducido 100%: imagen idéntica a CP01",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sin errores de consola, JS o carga en comparativas",
+      "passed": true,
+      "details": {
+        "console": [],
+        "js": [],
+        "requests": []
+      }
+    }
+  ],
+  "geometry": [
+    {
+      "profile": "escritorio",
+      "progress": 0.25,
+      "max_deviation_from_chord_px": 39.10925014102553,
+      "straightening": 0,
+      "body_width_px": 3.4,
+      "core_width_px": 1.35
+    },
+    {
+      "profile": "escritorio",
+      "progress": 0.5,
+      "max_deviation_from_chord_px": 51.81725649884668,
+      "straightening": 0,
+      "body_width_px": 4.077083333333333,
+      "core_width_px": 1.6509259259259261
+    },
+    {
+      "profile": "escritorio",
+      "progress": 0.75,
+      "max_deviation_from_chord_px": 33.60960573084875,
+      "straightening": 0.44705807179024154,
+      "body_width_px": 5.179918114588046,
+      "core_width_px": 2.1410747175946874
+    },
+    {
+      "profile": "escritorio",
+      "progress": 0.9,
+      "max_deviation_from_chord_px": 0.6603626834703581,
+      "straightening": 1,
+      "body_width_px": 5.2,
+      "core_width_px": 2.1500000000000004
+    },
+    {
+      "profile": "movil",
+      "progress": 0.25,
+      "max_deviation_from_chord_px": 39.10925014102553,
+      "straightening": 0,
+      "body_width_px": 3.4,
+      "core_width_px": 1.35
+    },
+    {
+      "profile": "movil",
+      "progress": 0.5,
+      "max_deviation_from_chord_px": 51.81725649884668,
+      "straightening": 0,
+      "body_width_px": 4.077083333333333,
+      "core_width_px": 1.6509259259259261
+    },
+    {
+      "profile": "movil",
+      "progress": 0.75,
+      "max_deviation_from_chord_px": 33.6073366775763,
+      "straightening": 0.4470937964740812,
+      "body_width_px": 5.179926921658862,
+      "core_width_px": 2.141078631848383
+    },
+    {
+      "profile": "movil",
+      "progress": 0.9,
+      "max_deviation_from_chord_px": 0.6603626834703581,
+      "straightening": 1,
+      "body_width_px": 5.2,
+      "core_width_px": 2.1500000000000004
+    }
+  ],
+  "console": [],
+  "page_errors": [],
+  "failed_requests": [],
+  "captures": [
+    "evidencias/antes/escritorio-p000.png",
+    "evidencias/despues/escritorio-p000.png",
+    "evidencias/antes/escritorio-p025.png",
+    "evidencias/despues/escritorio-p025.png",
+    "evidencias/antes/escritorio-p035.png",
+    "evidencias/despues/escritorio-p035.png",
+    "evidencias/antes/escritorio-p050.png",
+    "evidencias/despues/escritorio-p050.png",
+    "evidencias/antes/escritorio-p060.png",
+    "evidencias/despues/escritorio-p060.png",
+    "evidencias/antes/escritorio-p075.png",
+    "evidencias/despues/escritorio-p075.png",
+    "evidencias/antes/escritorio-p082.png",
+    "evidencias/despues/escritorio-p082.png",
+    "evidencias/antes/escritorio-p086.png",
+    "evidencias/despues/escritorio-p086.png",
+    "evidencias/antes/escritorio-p090.png",
+    "evidencias/despues/escritorio-p090.png",
+    "evidencias/antes/escritorio-p100.png",
+    "evidencias/despues/escritorio-p100.png",
+    "evidencias/antes/movil-p000.png",
+    "evidencias/despues/movil-p000.png",
+    "evidencias/antes/movil-p025.png",
+    "evidencias/despues/movil-p025.png",
+    "evidencias/antes/movil-p035.png",
+    "evidencias/despues/movil-p035.png",
+    "evidencias/antes/movil-p050.png",
+    "evidencias/despues/movil-p050.png",
+    "evidencias/antes/movil-p060.png",
+    "evidencias/despues/movil-p060.png",
+    "evidencias/antes/movil-p075.png",
+    "evidencias/despues/movil-p075.png",
+    "evidencias/antes/movil-p082.png",
+    "evidencias/despues/movil-p082.png",
+    "evidencias/antes/movil-p086.png",
+    "evidencias/despues/movil-p086.png",
+    "evidencias/antes/movil-p090.png",
+    "evidencias/despues/movil-p090.png",
+    "evidencias/antes/movil-p100.png",
+    "evidencias/despues/movil-p100.png"
+  ],
+  "scope": "Solo motivo central; escritorio y móvil emulado Chromium.",
+  "summary": {
+    "passed": 43,
+    "failed": 2,
+    "visual_approval": false
+  }
+}
