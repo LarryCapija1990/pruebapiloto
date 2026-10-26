@@ -1,0 +1,697 @@
+{
+  "checks": [
+    {
+      "name": "escritorio: T34 exacto 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: T34 exacto 0.2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: T34 exacto 0.4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: T34 exacto 0.6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: T34 exacto 0.8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: T34 exacto 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: enlace q0 = F4 p1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: dominio T34 conservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: ida/vuelta/directo 0.42",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.42,
+        "sha256": "00b12557303ac1d8c4902c1354b2f2adebda6b6bb1305a8b728c7118777bd7ac"
+      }
+    },
+    {
+      "name": "escritorio: ida/vuelta/directo 0.52",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.52,
+        "sha256": "2c36ed6bea4e79f16324e79b6d3209d54fdc22e418632fb4a8e03f2ace2d09a5"
+      }
+    },
+    {
+      "name": "escritorio: ida/vuelta/directo 0.64",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.64,
+        "sha256": "6a8df4e343e515373ea3a2db8e4b2183a67b32f427f03bfc31b97e6962ba233e"
+      }
+    },
+    {
+      "name": "escritorio: parada 5 segundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: resize conserva q=0.5",
+      "passed": true,
+      "detail": 0.5
+    },
+    {
+      "name": "escritorio: resize conserva q=0.8",
+      "passed": true,
+      "detail": 0.8
+    },
+    {
+      "name": "escritorio: movimiento reducido manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: teclado control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: controles visibles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: geometría cierre sin reapertura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: T34 exacto 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: T34 exacto 0.2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: T34 exacto 0.4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: T34 exacto 0.6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: T34 exacto 0.8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: T34 exacto 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: enlace q0 = F4 p1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: dominio T34 conservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: ida/vuelta/directo 0.42",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.42003367003367004,
+        "sha256": "09ff596486a7b13fab8d0a8423ad2b369638bdb63d4d0e3c4749f9bedb960958"
+      }
+    },
+    {
+      "name": "grande: ida/vuelta/directo 0.52",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.5200336700336701,
+        "sha256": "1e72add97028303a0cd40c33529f12e928709ea4a4b027a284aea59d891f7d3e"
+      }
+    },
+    {
+      "name": "grande: ida/vuelta/directo 0.64",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.6400673400673401,
+        "sha256": "8a98cfa60d3df8273ec1e5d83087d3bf463c2b20d9380b9d62ee46f0c315abb6"
+      }
+    },
+    {
+      "name": "grande: parada 5 segundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: resize conserva q=0.5",
+      "passed": true,
+      "detail": 0.5
+    },
+    {
+      "name": "grande: resize conserva q=0.8",
+      "passed": true,
+      "detail": 0.8
+    },
+    {
+      "name": "grande: movimiento reducido manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: teclado control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: controles visibles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "grande: geometría cierre sin reapertura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: T34 exacto 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: T34 exacto 0.2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: T34 exacto 0.4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: T34 exacto 0.6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: T34 exacto 0.8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: T34 exacto 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: enlace q0 = F4 p1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: dominio T34 conservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: ida/vuelta/directo 0.42",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.4199052132701422,
+        "sha256": "96a402a0020ef77e7c5c4916d210ccfb600c6fd1dd43f9735c0e721e1b7c914a"
+      }
+    },
+    {
+      "name": "movil: ida/vuelta/directo 0.52",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.5200775527789745,
+        "sha256": "6bb335b992fbe90faabe50c786757a388f143d4af45e9af2eaed2648b6cc59cb"
+      }
+    },
+    {
+      "name": "movil: ida/vuelta/directo 0.64",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.640068935803533,
+        "sha256": "f1a4dc1c131d78de7d068050fd481032d8f447f590ca13485e118625cf684932"
+      }
+    },
+    {
+      "name": "movil: parada 5 segundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: resize conserva q=0.5",
+      "passed": true,
+      "detail": 0.5000441306266549
+    },
+    {
+      "name": "movil: resize conserva q=0.8",
+      "passed": true,
+      "detail": 0.7999117387466902
+    },
+    {
+      "name": "movil: movimiento reducido manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: teclado control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: controles visibles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "movil: geometría cierre sin reapertura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: T34 exacto 0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: T34 exacto 0.2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: T34 exacto 0.4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: T34 exacto 0.6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: T34 exacto 0.8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: T34 exacto 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: enlace q0 = F4 p1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: dominio T34 conservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: ida/vuelta/directo 0.42",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.42004662004662,
+        "sha256": "e6f2d2dbee2f566b6a2396832fd15d07db51e5de738cdfd66a2ee227b77eb7bc"
+      }
+    },
+    {
+      "name": "horizontal: ida/vuelta/directo 0.52",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.5198135198135199,
+        "sha256": "3761c8068a841965ecb217d71497b46aec02ca4be358bc780966d08e0b276b4c"
+      }
+    },
+    {
+      "name": "horizontal: ida/vuelta/directo 0.64",
+      "passed": true,
+      "detail": {
+        "actual_q": 0.6400932400932401,
+        "sha256": "99af5222a9a0789899870823f3c42ddbe0082c35ea0048db3cefc900e6c85153"
+      }
+    },
+    {
+      "name": "horizontal: parada 5 segundos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: resize conserva q=0.5",
+      "passed": true,
+      "detail": 0.5002457002457003
+    },
+    {
+      "name": "horizontal: resize conserva q=0.8",
+      "passed": true,
+      "detail": 0.8
+    },
+    {
+      "name": "horizontal: movimiento reducido manual",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: teclado control",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: controles visibles",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "horizontal: geometría cierre sin reapertura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Preferencia SO reducida",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Fallo WebGL: portada y mensaje útil",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Offline: cero peticiones HTTP/HTTPS",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Sin errores JS normales",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Sin errores consola normales",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "console_errors": [],
+  "requests": [],
+  "profiles": {
+    "escritorio": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "DPR": 1,
+      "T34": [
+        {
+          "p": 0,
+          "before_sha256": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+          "after_sha256": "cc03c4e5d2fe9782d49870742ceb28b0687540dd4f0d688ae740b4ab212ee933",
+          "exact": true
+        },
+        {
+          "p": 0.2,
+          "before_sha256": "775f43884a168dac839585756ea379f761d97513f555ff6b3799c041eb4076a8",
+          "after_sha256": "775f43884a168dac839585756ea379f761d97513f555ff6b3799c041eb4076a8",
+          "exact": true
+        },
+        {
+          "p": 0.4,
+          "before_sha256": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111",
+          "after_sha256": "84e6aaba64d5941f7b09814bb087b157677ddf748f2875badb4a2cd37f346111",
+          "exact": true
+        },
+        {
+          "p": 0.6,
+          "before_sha256": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab",
+          "after_sha256": "f6579453194adb99ce40288585ae202cf55978864d00fc0bceab2e221c1ec3ab",
+          "exact": true
+        },
+        {
+          "p": 0.8,
+          "before_sha256": "d763a08dcb92c4877532cbc2cad39857c4c1cc2491c1ffde969bb09c9e70861b",
+          "after_sha256": "d763a08dcb92c4877532cbc2cad39857c4c1cc2491c1ffde969bb09c9e70861b",
+          "exact": true
+        },
+        {
+          "p": 1,
+          "before_sha256": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616",
+          "after_sha256": "ad00e6d5245f6ab0fcfac7fa1b1271360de52357ba579079582c15b60ebd0616",
+          "exact": true
+        }
+      ],
+      "timing_ms": {
+        "samples": 100,
+        "median": 15.900000005960464,
+        "p95": 353.59999999403954,
+        "max": 1782.4000000059605
+      },
+      "memory_JS_only": {
+        "usedJSHeapSize": 35100000,
+        "totalJSHeapSize": 39600000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "reversibility_hashes": {
+        "0.42": "00b12557303ac1d8c4902c1354b2f2adebda6b6bb1305a8b728c7118777bd7ac",
+        "0.52": "2c36ed6bea4e79f16324e79b6d3209d54fdc22e418632fb4a8e03f2ace2d09a5",
+        "0.64": "6a8df4e343e515373ea3a2db8e4b2183a67b32f427f03bfc31b97e6962ba233e"
+      },
+      "stats": {
+        "assets": 5,
+        "errors": []
+      }
+    },
+    "grande": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "DPR": 1,
+      "T34": [
+        {
+          "p": 0,
+          "before_sha256": "06082850b9ef8728a07b0f953e0301bfe98c8fc74f7477de76e57a185b6f8d1a",
+          "after_sha256": "06082850b9ef8728a07b0f953e0301bfe98c8fc74f7477de76e57a185b6f8d1a",
+          "exact": true
+        },
+        {
+          "p": 0.2,
+          "before_sha256": "3a1bda0db942b64c895a429380f18e50bb151496e323f51dced5ff3dc777b5c0",
+          "after_sha256": "3a1bda0db942b64c895a429380f18e50bb151496e323f51dced5ff3dc777b5c0",
+          "exact": true
+        },
+        {
+          "p": 0.4,
+          "before_sha256": "06ecf62964f65e374895a615475ed7ffe1444df31f56b0f0fe2bd69b69e7e235",
+          "after_sha256": "06ecf62964f65e374895a615475ed7ffe1444df31f56b0f0fe2bd69b69e7e235",
+          "exact": true
+        },
+        {
+          "p": 0.6,
+          "before_sha256": "131d4ee4e013ca3509d6fcd36c090228c9aa0e3df51e9f373e2d4e50d21264cf",
+          "after_sha256": "131d4ee4e013ca3509d6fcd36c090228c9aa0e3df51e9f373e2d4e50d21264cf",
+          "exact": true
+        },
+        {
+          "p": 0.8,
+          "before_sha256": "151429d8d98093394de1065f8f9ff279e3009fde31beda795b0f44e178f0bd2e",
+          "after_sha256": "151429d8d98093394de1065f8f9ff279e3009fde31beda795b0f44e178f0bd2e",
+          "exact": true
+        },
+        {
+          "p": 1,
+          "before_sha256": "ea73869bf3e0f8ce8c9d7da858b93da0f6f00d2d2a8e93466451515950abd71b",
+          "after_sha256": "ea73869bf3e0f8ce8c9d7da858b93da0f6f00d2d2a8e93466451515950abd71b",
+          "exact": true
+        }
+      ],
+      "timing_ms": {
+        "samples": 100,
+        "median": 29.549999997019768,
+        "p95": 972.5999999940395,
+        "max": 3962.2999999821186
+      },
+      "memory_JS_only": {
+        "usedJSHeapSize": 35100000,
+        "totalJSHeapSize": 37300000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "reversibility_hashes": {
+        "0.42": "09ff596486a7b13fab8d0a8423ad2b369638bdb63d4d0e3c4749f9bedb960958",
+        "0.52": "1e72add97028303a0cd40c33529f12e928709ea4a4b027a284aea59d891f7d3e",
+        "0.64": "8a98cfa60d3df8273ec1e5d83087d3bf463c2b20d9380b9d62ee46f0c315abb6"
+      },
+      "stats": {
+        "assets": 5,
+        "errors": []
+      }
+    },
+    "movil": {
+      "viewport": [
+        390,
+        844
+      ],
+      "DPR": 2,
+      "T34": [
+        {
+          "p": 0,
+          "before_sha256": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+          "after_sha256": "f5e337476dc59ba1bc4acac42109759f2b36616af67e9374f6f1c4adb80b79ac",
+          "exact": true
+        },
+        {
+          "p": 0.2,
+          "before_sha256": "0b9d472096c69936886108f02f372c71b53d914b6783d9c8c42ee0f39f5145a0",
+          "after_sha256": "0b9d472096c69936886108f02f372c71b53d914b6783d9c8c42ee0f39f5145a0",
+          "exact": true
+        },
+        {
+          "p": 0.4,
+          "before_sha256": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d",
+          "after_sha256": "080c3b8bee804e9c923adb69f626b9a0085ba5097f085c6d24ceb6b1d6a3cd9d",
+          "exact": true
+        },
+        {
+          "p": 0.6,
+          "before_sha256": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4",
+          "after_sha256": "4e85bf05a2d17126d5bb6438d74abaeb7d9f102f1a34c7f1f2bbaa93139856a4",
+          "exact": true
+        },
+        {
+          "p": 0.8,
+          "before_sha256": "678011cd60336680062ee3a58b95bee617137e7d369bf2005a77646518ee96a7",
+          "after_sha256": "678011cd60336680062ee3a58b95bee617137e7d369bf2005a77646518ee96a7",
+          "exact": true
+        },
+        {
+          "p": 1,
+          "before_sha256": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763",
+          "after_sha256": "8cf788f0d037611989b41edf209037c198b86ac8de517d12bc2aec9dc870d763",
+          "exact": true
+        }
+      ],
+      "timing_ms": {
+        "samples": 100,
+        "median": 11.200000017881393,
+        "p95": 305.09999999403954,
+        "max": 523.5
+      },
+      "memory_JS_only": {
+        "usedJSHeapSize": 17100000,
+        "totalJSHeapSize": 20500000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "reversibility_hashes": {
+        "0.42": "96a402a0020ef77e7c5c4916d210ccfb600c6fd1dd43f9735c0e721e1b7c914a",
+        "0.52": "6bb335b992fbe90faabe50c786757a388f143d4af45e9af2eaed2648b6cc59cb",
+        "0.64": "f1a4dc1c131d78de7d068050fd481032d8f447f590ca13485e118625cf684932"
+      },
+      "stats": {
+        "assets": 5,
+        "errors": []
+      }
+    },
+    "horizontal": {
+      "viewport": [
+        844,
+        390
+      ],
+      "DPR": 1,
+      "T34": [
+        {
+          "p": 0,
+          "before_sha256": "19b678cfed955545b83c996b4b3f0506d551ab661aa6e024f6ae2e180028b580",
+          "after_sha256": "19b678cfed955545b83c996b4b3f0506d551ab661aa6e024f6ae2e180028b580",
+          "exact": true
+        },
+        {
+          "p": 0.2,
+          "before_sha256": "fcee257170a5e916eb6d4ca48f5e4ca188b389ce6f55ee1d82e92b10824e3c7a",
+          "after_sha256": "fcee257170a5e916eb6d4ca48f5e4ca188b389ce6f55ee1d82e92b10824e3c7a",
+          "exact": true
+        },
+        {
+          "p": 0.4,
+          "before_sha256": "badb97dd483f06ca4ca6b3779c88e15ccb8be90919db6da11b6fd662ac1b0c58",
+          "after_sha256": "badb97dd483f06ca4ca6b3779c88e15ccb8be90919db6da11b6fd662ac1b0c58",
+          "exact": true
+        },
+        {
+          "p": 0.6,
+          "before_sha256": "282038b252c64bdce2dde26ef619d79d6fc3ccf9ebe1ff6e6ab137bcc5a67e4a",
+          "after_sha256": "282038b252c64bdce2dde26ef619d79d6fc3ccf9ebe1ff6e6ab137bcc5a67e4a",
+          "exact": true
+        },
+        {
+          "p": 0.8,
+          "before_sha256": "8da4bf2455a731a658e4ba9fa84c927c706b8e3c3171b077ba08b979745b4f54",
+          "after_sha256": "8da4bf2455a731a658e4ba9fa84c927c706b8e3c3171b077ba08b979745b4f54",
+          "exact": true
+        },
+        {
+          "p": 1,
+          "before_sha256": "674cab62e684b4a28b6cbb3880e10ff5820ed7f01a540a82bbabfbdfbf3d286f",
+          "after_sha256": "674cab62e684b4a28b6cbb3880e10ff5820ed7f01a540a82bbabfbdfbf3d286f",
+          "exact": true
+        }
+      ],
+      "timing_ms": {
+        "samples": 100,
+        "median": 3.4500000029802322,
+        "p95": 102.40000000596046,
+        "max": 393.39999997615814
+      },
+      "memory_JS_only": {
+        "usedJSHeapSize": 35100000,
+        "totalJSHeapSize": 39600000,
+        "jsHeapSizeLimit": 3760000000
+      },
+      "reversibility_hashes": {
+        "0.42": "e6f2d2dbee2f566b6a2396832fd15d07db51e5de738cdfd66a2ee227b77eb7bc",
+        "0.52": "3761c8068a841965ecb217d71497b46aec02ca4be358bc780966d08e0b276b4c",
+        "0.64": "99af5222a9a0789899870823f3c42ddbe0082c35ea0048db3cefc900e6c85153"
+      },
+      "stats": {
+        "assets": 5,
+        "errors": []
+      }
+    }
+  },
+  "native_file": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/pruebapiloto/t45-cp10/ABRIR_T34_T45_CP11.html",
+  "creative_approval": false,
+  "device": "Headless Chromium / Linux / SwiftShader; mobile emulated",
+  "passed": 77,
+  "failed": 0,
+  "html_sha256_tested": "9a9762560e52457d1eed3006d41c018ce39efa128ffc6d965fd921b0b1ea6b44",
+  "post_regression_UI_patch": "Focus exclusion of covered F4 plus reused photo-mask buffer; final HTML pixel equivalence, input and timing verified by INTERACCION.json; see REVISION_ACCESIBILIDAD.json for exact reversible patch chain."
+}

@@ -1,0 +1,25 @@
+{
+  "full_regression_html_sha256": "9a9762560e52457d1eed3006d41c018ce39efa128ffc6d965fd921b0b1ea6b44",
+  "before_module_sha256": "e1e5e7041e4b14716858ebcb15d663cf289b746907c3fa46f3fc240991c4de06",
+  "change": "Only iframe inert and aria-hidden during T45; excludes covered F4 controls from focus and accessibility tree. T34 source and T45 render untouched.",
+  "replace_before": "C.hidden=!ext;$('head').hidden=!ext;",
+  "replace_after": "frame.inert=ext;frame.setAttribute('aria-hidden',String(ext));C.hidden=!ext;$('head').hidden=!ext;",
+  "targeted_verification": "INTERACCION.json",
+  "performance_patch": {
+    "reason": "Reuse one photo mask buffer and draw JPG directly into it; remove two temporary canvases and readbacks from main canvas per frame at q .64\u2013.70. Geometry/camera/material unchanged.",
+    "replacements": [
+      {
+        "before": "const stats={renders:0,frameMs:[],errors:[],assets:0};const images={};",
+        "after": "const stats={renders:0,frameMs:[],errors:[],assets:0};const images={};\nconst photoLayer=document.createElement('canvas'),photoContext=photoLayer.getContext('2d');"
+      },
+      {
+        "before": "function drawPhoto(v){const a=camera(v);ctx.save();ctx.translate(w/2,a.cy);ctx.scale(a.photoScale,a.photoScale);ctx.translate(-a.center[0],-a.center[1]);ctx.drawImage(images.salute,0,0);ctx.restore()}",
+        "after": "function drawPhoto(v,dc=ctx){const a=camera(v);dc.save();dc.translate(w/2,a.cy);dc.scale(a.photoScale,a.photoScale);dc.translate(-a.center[0],-a.center[1]);dc.drawImage(images.salute,0,0);dc.restore()}"
+      },
+      {
+        "before": "const surface=document.createElement('canvas');surface.width=C.width;surface.height=C.height;const sc=surface.getContext('2d');sc.drawImage(C,0,0);\n   drawPhoto(v);const photo=document.createElement('canvas');photo.width=C.width;photo.height=C.height;photo.getContext('2d').drawImage(C,0,0);\n   ctx.drawImage(surface,0,0,w,h);const pc=photo.getContext('2d');pc.globalCompositeOperation='destination-in';const factor=C.width/w;const grad=pc.createRadialGradient(cx*factor,cy*factor,Math.max(0,r-w*.20)*factor,cx*factor,cy*factor,Math.max(1,r)*factor);grad.addColorStop(0,'#fff');grad.addColorStop(1,'#fff0');pc.fillStyle=grad;pc.fillRect(0,0,photo.width,photo.height);ctx.drawImage(photo,0,0,w,h);",
+        "after": "if(photoLayer.width!==C.width||photoLayer.height!==C.height){photoLayer.width=C.width;photoLayer.height=C.height}\n   const pc=photoContext;pc.setTransform(1,0,0,1,0,0);pc.globalCompositeOperation='source-over';pc.clearRect(0,0,photoLayer.width,photoLayer.height);pc.setTransform(C.width/w,0,0,C.height/h,0,0);drawPhoto(v,pc);pc.setTransform(1,0,0,1,0,0);\n   pc.globalCompositeOperation='destination-in';const factor=C.width/w;const grad=pc.createRadialGradient(cx*factor,cy*factor,Math.max(0,r-w*.20)*factor,cx*factor,cy*factor,Math.max(1,r)*factor);grad.addColorStop(0,'#fff');grad.addColorStop(1,'#fff0');pc.fillStyle=grad;pc.fillRect(0,0,photoLayer.width,photoLayer.height);ctx.drawImage(photoLayer,0,0,w,h);"
+      }
+    ]
+  }
+}

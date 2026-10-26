@@ -1,0 +1,283 @@
+{
+  "html_sha256_tested": "842d2a80122ef3c207fdf3883b35076fadd8cecbcf1d71146914ee76435a96b8",
+  "checks": [
+    {
+      "name": "Gesto táctil up",
+      "passed": true,
+      "detail": {
+        "before": 0.4199052132701422,
+        "after": 0.4856096510124946
+      }
+    },
+    {
+      "name": "Gesto táctil down",
+      "passed": true,
+      "detail": {
+        "before": 0.4856096510124946,
+        "after": 0.4199052132701422
+      }
+    },
+    {
+      "name": "Rueda dentro iframe se propaga al recorrido",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Contorno sin auto-intersecciones, 101 poses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Salute final = JPG intacto en matriz de cámara",
+      "passed": true,
+      "detail": {
+        "sha256_png": "48a09e843d57017c6f4601fa88ca38cd6e3704dd2ea4378e1838fd6f8e4583c8"
+      }
+    },
+    {
+      "name": "F4 cubierto queda fuera del foco en T45",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "F4 recupera controles en su tramo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reconstrucción exacta de versión de regresión",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "escritorio: equivalencia final q=0.42",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "escritorio: equivalencia final q=0.52",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "escritorio: equivalencia final q=0.64",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "escritorio: equivalencia final q=0.65",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "escritorio: equivalencia final q=0.67",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "escritorio: equivalencia final q=0.69",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "escritorio: equivalencia final q=1",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=0.42",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=0.52",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=0.64",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=0.65",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=0.67",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=0.69",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "grande: equivalencia final q=1",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=0.42",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=0.52",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=0.64",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=0.65",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=0.67",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=0.69",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "movil: equivalencia final q=1",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=0.42",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=0.52",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=0.64",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=0.65",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=0.67",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 1
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=0.69",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    },
+    {
+      "name": "horizontal: equivalencia final q=1",
+      "passed": true,
+      "detail": {
+        "max_channel_delta": 0
+      }
+    }
+  ],
+  "source": "same self-contained HTML, offline",
+  "device": "Chromium CDP mobile emulation",
+  "final_performance": {
+    "escritorio": {
+      "samples": 100,
+      "median_ms": 19.799999997019768,
+      "p95_ms": 287.2999999821186,
+      "max_ms": 1103.699999988079,
+      "JS_heap_only_approximate": 37300000
+    },
+    "grande": {
+      "samples": 100,
+      "median_ms": 26.149999991059303,
+      "p95_ms": 364.80000001192093,
+      "max_ms": 527.6999999880791,
+      "JS_heap_only_approximate": 35100000
+    },
+    "movil": {
+      "samples": 100,
+      "median_ms": 8.849999994039536,
+      "p95_ms": 230.19999998807907,
+      "max_ms": 2467.100000023842,
+      "JS_heap_only_approximate": 35100000
+    },
+    "horizontal": {
+      "samples": 100,
+      "median_ms": 5.25,
+      "p95_ms": 78.40000000596046,
+      "max_ms": 189,
+      "JS_heap_only_approximate": 37300000
+    }
+  },
+  "passed": 36,
+  "failed": 0
+}

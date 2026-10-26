@@ -1,0 +1,36 @@
+PASS Gesto táctil up
+PASS Gesto táctil down
+PASS Rueda dentro iframe se propaga al recorrido
+PASS Contorno sin auto-intersecciones, 101 poses
+PASS Salute final = JPG intacto en matriz de cámara
+PASS F4 cubierto queda fuera del foco en T45
+PASS F4 recupera controles en su tramo
+PASS Reconstrucción exacta de versión de regresión
+PASS escritorio: equivalencia final q=0.42
+PASS escritorio: equivalencia final q=0.52
+PASS escritorio: equivalencia final q=0.64
+PASS escritorio: equivalencia final q=0.65
+PASS escritorio: equivalencia final q=0.67
+PASS escritorio: equivalencia final q=0.69
+PASS escritorio: equivalencia final q=1
+PASS grande: equivalencia final q=0.42
+PASS grande: equivalencia final q=0.52
+PASS grande: equivalencia final q=0.64
+PASS grande: equivalencia final q=0.65
+PASS grande: equivalencia final q=0.67
+PASS grande: equivalencia final q=0.69
+PASS grande: equivalencia final q=1
+PASS movil: equivalencia final q=0.42
+PASS movil: equivalencia final q=0.52
+PASS movil: equivalencia final q=0.64
+PASS movil: equivalencia final q=0.65
+PASS movil: equivalencia final q=0.67
+PASS movil: equivalencia final q=0.69
+PASS movil: equivalencia final q=1
+PASS horizontal: equivalencia final q=0.42
+PASS horizontal: equivalencia final q=0.52
+PASS horizontal: equivalencia final q=0.64
+PASS horizontal: equivalencia final q=0.65
+PASS horizontal: equivalencia final q=0.67
+PASS horizontal: equivalencia final q=0.69
+PASS horizontal: equivalencia final q=1

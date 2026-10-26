@@ -1,0 +1,12 @@
+{
+  "checkpoint": "CP11 v1.0",
+  "status": "review candidate, not creatively approved",
+  "functional_checks_passed": 119,
+  "functional_checks_failed": 0,
+  "F4_files_unchanged": 403,
+  "evidence_images": 139,
+  "html_sha256": "842d2a80122ef3c207fdf3883b35076fadd8cecbcf1d71146914ee76435a96b8",
+  "performance_approved": false,
+  "visual_limitations_open": true,
+  "native_file_policy_blocked": true
+}

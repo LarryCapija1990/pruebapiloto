@@ -1,0 +1,50 @@
+{
+  "html_sha256_tested": "842d2a80122ef3c207fdf3883b35076fadd8cecbcf1d71146914ee76435a96b8",
+  "method": "Fresh browser context and new document per progress; first requested T45 pose after resource readiness, compared against forward/reverse PNG hash. Offline.",
+  "checks": [
+    {
+      "profile": "escritorio",
+      "q": 0.42,
+      "passed": true,
+      "sha256": "00b12557303ac1d8c4902c1354b2f2adebda6b6bb1305a8b728c7118777bd7ac",
+      "expected": "00b12557303ac1d8c4902c1354b2f2adebda6b6bb1305a8b728c7118777bd7ac"
+    },
+    {
+      "profile": "escritorio",
+      "q": 0.52,
+      "passed": true,
+      "sha256": "2c36ed6bea4e79f16324e79b6d3209d54fdc22e418632fb4a8e03f2ace2d09a5",
+      "expected": "2c36ed6bea4e79f16324e79b6d3209d54fdc22e418632fb4a8e03f2ace2d09a5"
+    },
+    {
+      "profile": "escritorio",
+      "q": 0.64,
+      "passed": true,
+      "sha256": "6a8df4e343e515373ea3a2db8e4b2183a67b32f427f03bfc31b97e6962ba233e",
+      "expected": "6a8df4e343e515373ea3a2db8e4b2183a67b32f427f03bfc31b97e6962ba233e"
+    },
+    {
+      "profile": "movil",
+      "q": 0.42,
+      "passed": true,
+      "sha256": "96a402a0020ef77e7c5c4916d210ccfb600c6fd1dd43f9735c0e721e1b7c914a",
+      "expected": "96a402a0020ef77e7c5c4916d210ccfb600c6fd1dd43f9735c0e721e1b7c914a"
+    },
+    {
+      "profile": "movil",
+      "q": 0.52,
+      "passed": true,
+      "sha256": "6bb335b992fbe90faabe50c786757a388f143d4af45e9af2eaed2648b6cc59cb",
+      "expected": "6bb335b992fbe90faabe50c786757a388f143d4af45e9af2eaed2648b6cc59cb"
+    },
+    {
+      "profile": "movil",
+      "q": 0.64,
+      "passed": true,
+      "sha256": "f1a4dc1c131d78de7d068050fd481032d8f447f590ca13485e118625cf684932",
+      "expected": "f1a4dc1c131d78de7d068050fd481032d8f447f590ca13485e118625cf684932"
+    }
+  ],
+  "passed": 6,
+  "failed": 0
+}

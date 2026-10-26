@@ -1,0 +1,30 @@
+{
+  "status": "Manual construction guides, not exact source masks; different path topology requires explicit morph correspondence",
+  "coordinates": "1024x720; independent of F4 UV",
+  "poses": [
+    {
+      "id": "01_origen",
+      "q": 0,
+      "outline": "M 400 320 C 280 345 260 410 330 460 C 420 525 600 525 690 460 C 760 410 735 345 620 320",
+      "axis_or_stem": "M 510 95 L 510 650"
+    },
+    {
+      "id": "02_ascenso",
+      "q": 0.28,
+      "outline": "M 455 220 C 340 280 260 390 330 460 C 420 525 600 525 690 460 C 760 390 680 280 565 220",
+      "axis_or_stem": "M 510 150 L 510 620"
+    },
+    {
+      "id": "03_cierre",
+      "q": 0.42,
+      "outline": "M 510 160 C 455 235 280 350 330 440 C 375 515 475 490 510 450 C 545 490 645 515 690 440 C 740 350 565 235 510 160",
+      "axis_or_stem": "M 510 160 L 510 580"
+    },
+    {
+      "id": "04_pica",
+      "q": 0.52,
+      "outline": "M 510 160 C 455 235 280 350 330 440 C 375 515 475 490 510 450 C 545 490 645 515 690 440 C 740 350 565 235 510 160 Z",
+      "axis_or_stem": "M 510 450 C 510 495 495 535 465 555 L 555 555 C 525 535 510 495 510 450 Z"
+    }
+  ]
+}

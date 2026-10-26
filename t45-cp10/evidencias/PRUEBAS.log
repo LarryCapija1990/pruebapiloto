@@ -1,0 +1,78 @@
+PASS escritorio: T34 exacto 0
+PASS escritorio: T34 exacto 0.2
+PASS escritorio: T34 exacto 0.4
+PASS escritorio: T34 exacto 0.6
+PASS escritorio: T34 exacto 0.8
+PASS escritorio: T34 exacto 1
+PASS escritorio: enlace q0 = F4 p1
+PASS escritorio: dominio T34 conservado
+PASS escritorio: ida/vuelta/directo 0.42
+PASS escritorio: ida/vuelta/directo 0.52
+PASS escritorio: ida/vuelta/directo 0.64
+PASS escritorio: parada 5 segundos
+PASS escritorio: resize conserva q=0.5
+PASS escritorio: resize conserva q=0.8
+PASS escritorio: movimiento reducido manual
+PASS escritorio: teclado control
+PASS escritorio: controles visibles
+PASS escritorio: geometría cierre sin reapertura
+PASS grande: T34 exacto 0
+PASS grande: T34 exacto 0.2
+PASS grande: T34 exacto 0.4
+PASS grande: T34 exacto 0.6
+PASS grande: T34 exacto 0.8
+PASS grande: T34 exacto 1
+PASS grande: enlace q0 = F4 p1
+PASS grande: dominio T34 conservado
+PASS grande: ida/vuelta/directo 0.42
+PASS grande: ida/vuelta/directo 0.52
+PASS grande: ida/vuelta/directo 0.64
+PASS grande: parada 5 segundos
+PASS grande: resize conserva q=0.5
+PASS grande: resize conserva q=0.8
+PASS grande: movimiento reducido manual
+PASS grande: teclado control
+PASS grande: controles visibles
+PASS grande: geometría cierre sin reapertura
+PASS movil: T34 exacto 0
+PASS movil: T34 exacto 0.2
+PASS movil: T34 exacto 0.4
+PASS movil: T34 exacto 0.6
+PASS movil: T34 exacto 0.8
+PASS movil: T34 exacto 1
+PASS movil: enlace q0 = F4 p1
+PASS movil: dominio T34 conservado
+PASS movil: ida/vuelta/directo 0.42
+PASS movil: ida/vuelta/directo 0.52
+PASS movil: ida/vuelta/directo 0.64
+PASS movil: parada 5 segundos
+PASS movil: resize conserva q=0.5
+PASS movil: resize conserva q=0.8
+PASS movil: movimiento reducido manual
+PASS movil: teclado control
+PASS movil: controles visibles
+PASS movil: geometría cierre sin reapertura
+PASS horizontal: T34 exacto 0
+PASS horizontal: T34 exacto 0.2
+PASS horizontal: T34 exacto 0.4
+PASS horizontal: T34 exacto 0.6
+PASS horizontal: T34 exacto 0.8
+PASS horizontal: T34 exacto 1
+PASS horizontal: enlace q0 = F4 p1
+PASS horizontal: dominio T34 conservado
+PASS horizontal: ida/vuelta/directo 0.42
+PASS horizontal: ida/vuelta/directo 0.52
+PASS horizontal: ida/vuelta/directo 0.64
+PASS horizontal: parada 5 segundos
+PASS horizontal: resize conserva q=0.5
+PASS horizontal: resize conserva q=0.8
+PASS horizontal: movimiento reducido manual
+PASS horizontal: teclado control
+PASS horizontal: controles visibles
+PASS horizontal: geometría cierre sin reapertura
+PASS Preferencia SO reducida
+PASS Fallo WebGL: portada y mensaje útil
+PASS Offline: cero peticiones HTTP/HTTPS
+PASS Sin errores JS normales
+PASS Sin errores consola normales
+TOTAL 77 passed 0 failed

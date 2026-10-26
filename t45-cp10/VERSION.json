@@ -1,0 +1,13 @@
+{
+  "checkpoint": "CP11",
+  "version": "1.0",
+  "date": "2026-10-26",
+  "transition": "Innervision → Salute",
+  "mechanism": "M2, signo → pica",
+  "status": "implemented for review, creative approval pending",
+  "F4_original_tag": "piloto02-f4-cierre-v1.2",
+  "F4_unchanged": true,
+  "source_package": "Scott_Gorham_CP10_Codex.zip",
+  "CP10_manifest_verified": 22,
+  "new_albums_beyond_Salute": false
+}
