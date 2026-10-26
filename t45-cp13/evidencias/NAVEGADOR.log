@@ -1,0 +1,127 @@
+PASS Renderer y cámara CP12 idénticos byte a byte
+PASS Shader de cuerpo CP12 idéntico byte a byte
+PASS Máscaras y campos CP12 idénticos
+PASS escritorio: recorrido total reducido
+PASS escritorio: navegación T34 0
+PASS escritorio: imagen T34 sin cambios 0
+PASS escritorio: navegación T34 0.1
+PASS escritorio: imagen T34 sin cambios 0.1
+PASS escritorio: navegación T34 0.35
+PASS escritorio: imagen T34 sin cambios 0.35
+PASS escritorio: navegación T34 0.65
+PASS escritorio: imagen T34 sin cambios 0.65
+PASS escritorio: navegación T34 0.9
+PASS escritorio: imagen T34 sin cambios 0.9
+PASS escritorio: navegación T34 1
+PASS escritorio: imagen T34 sin cambios 1
+PASS escritorio: imagen T45 sin cambios 0.18
+PASS escritorio: imagen T45 sin cambios 0.32
+PASS escritorio: imagen T45 sin cambios 0.35
+PASS escritorio: imagen T45 sin cambios 0.39
+PASS escritorio: imagen T45 sin cambios 0.64
+PASS escritorio: imagen T45 sin cambios 0.8
+PASS escritorio: imagen T45 sin cambios 1
+PASS escritorio: scroll reversible T34 0.35
+PASS escritorio: scroll reversible T34 0.86
+PASS escritorio: scroll reversible T45 0.351
+PASS escritorio: scroll reversible T45 0.66
+PASS escritorio: pausa sin deriva
+PASS escritorio: parada Innervision
+PASS escritorio: resize conserva T34
+PASS escritorio: resize conserva T45
+PASS escritorio: control por teclado
+PASS escritorio: movimiento reducido
+PASS grande: recorrido total reducido
+PASS grande: navegación T34 0
+PASS grande: imagen T34 sin cambios 0
+PASS grande: navegación T34 0.1
+PASS grande: imagen T34 sin cambios 0.1
+PASS grande: navegación T34 0.35
+PASS grande: imagen T34 sin cambios 0.35
+PASS grande: navegación T34 0.65
+PASS grande: imagen T34 sin cambios 0.65
+PASS grande: navegación T34 0.9
+PASS grande: imagen T34 sin cambios 0.9
+PASS grande: navegación T34 1
+PASS grande: imagen T34 sin cambios 1
+PASS grande: imagen T45 sin cambios 0.18
+PASS grande: imagen T45 sin cambios 0.32
+PASS grande: imagen T45 sin cambios 0.35
+PASS grande: imagen T45 sin cambios 0.39
+PASS grande: imagen T45 sin cambios 0.64
+PASS grande: imagen T45 sin cambios 0.8
+PASS grande: imagen T45 sin cambios 1
+PASS grande: scroll reversible T34 0.35
+PASS grande: scroll reversible T34 0.86
+PASS grande: scroll reversible T45 0.351
+PASS grande: scroll reversible T45 0.66
+PASS grande: pausa sin deriva
+PASS grande: parada Innervision
+PASS grande: resize conserva T34
+PASS grande: resize conserva T45
+PASS grande: control por teclado
+PASS grande: movimiento reducido
+PASS movil: recorrido total reducido
+PASS movil: navegación T34 0
+PASS movil: imagen T34 sin cambios 0
+PASS movil: navegación T34 0.1
+PASS movil: imagen T34 sin cambios 0.1
+PASS movil: navegación T34 0.35
+PASS movil: imagen T34 sin cambios 0.35
+PASS movil: navegación T34 0.65
+PASS movil: imagen T34 sin cambios 0.65
+PASS movil: navegación T34 0.9
+PASS movil: imagen T34 sin cambios 0.9
+PASS movil: navegación T34 1
+PASS movil: imagen T34 sin cambios 1
+PASS movil: imagen T45 sin cambios 0.18
+PASS movil: imagen T45 sin cambios 0.32
+PASS movil: imagen T45 sin cambios 0.35
+PASS movil: imagen T45 sin cambios 0.39
+PASS movil: imagen T45 sin cambios 0.64
+PASS movil: imagen T45 sin cambios 0.8
+PASS movil: imagen T45 sin cambios 1
+PASS movil: scroll reversible T34 0.35
+PASS movil: scroll reversible T34 0.86
+PASS movil: scroll reversible T45 0.351
+PASS movil: scroll reversible T45 0.66
+PASS movil: pausa sin deriva
+PASS movil: parada Innervision
+PASS movil: resize conserva T34
+PASS movil: resize conserva T45
+PASS movil: control por teclado
+PASS movil: movimiento reducido
+PASS horizontal: recorrido total reducido
+PASS horizontal: navegación T34 0
+PASS horizontal: imagen T34 sin cambios 0
+PASS horizontal: navegación T34 0.1
+PASS horizontal: imagen T34 sin cambios 0.1
+PASS horizontal: navegación T34 0.35
+PASS horizontal: imagen T34 sin cambios 0.35
+PASS horizontal: navegación T34 0.65
+PASS horizontal: imagen T34 sin cambios 0.65
+PASS horizontal: navegación T34 0.9
+PASS horizontal: imagen T34 sin cambios 0.9
+PASS horizontal: navegación T34 1
+PASS horizontal: imagen T34 sin cambios 1
+PASS horizontal: imagen T45 sin cambios 0.18
+PASS horizontal: imagen T45 sin cambios 0.32
+PASS horizontal: imagen T45 sin cambios 0.35
+PASS horizontal: imagen T45 sin cambios 0.39
+PASS horizontal: imagen T45 sin cambios 0.64
+PASS horizontal: imagen T45 sin cambios 0.8
+PASS horizontal: imagen T45 sin cambios 1
+PASS horizontal: scroll reversible T34 0.35
+PASS horizontal: scroll reversible T34 0.86
+PASS horizontal: scroll reversible T45 0.351
+PASS horizontal: scroll reversible T45 0.66
+PASS horizontal: pausa sin deriva
+PASS horizontal: parada Innervision
+PASS horizontal: resize conserva T34
+PASS horizontal: resize conserva T45
+PASS horizontal: control por teclado
+PASS horizontal: movimiento reducido
+PASS Offline sin HTTP
+PASS Sin errores JavaScript
+PASS Sin errores consola
+TOTAL 126 PASS 0 FAIL

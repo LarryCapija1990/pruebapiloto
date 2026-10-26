@@ -1,0 +1,116 @@
+{
+  "checkpoint": "CP10 v1.0",
+  "direction": "M2 third visual sheet",
+  "files": [
+    {
+      "path": "00_LEEME.md",
+      "bytes": 1313,
+      "sha256": "0832bcd9bd8f14d0920d47b1bbca36119829f439b27ed5c5a3e7dcaa3df2dda0"
+    },
+    {
+      "path": "REVISION_VISUAL.html",
+      "bytes": 1732,
+      "sha256": "4b5144b36fd6fc59470dae7d6d6539b95c66d5be7a3e07bfe8d22603c63d18d8"
+    },
+    {
+      "path": "base_F4/F4_CP03_v1.2_INTACTO.zip",
+      "bytes": 3261269,
+      "sha256": "3e0acf7712198662c291b29bb9ee7edd08c11e111d6814249506dbd0126cb112"
+    },
+    {
+      "path": "documentos/01_ENCARGO_CODEX.md",
+      "bytes": 2303,
+      "sha256": "088fe9d4f20035656721cbe0726e0b8ed06d75eaed3da745133ce18cd5ae1d1e"
+    },
+    {
+      "path": "documentos/02_DIRECCION.md",
+      "bytes": 3149,
+      "sha256": "b5baacc0b3edb5ef16415d7074c60177d375bf720a74f258ae50061ee63cbde5"
+    },
+    {
+      "path": "documentos/03_TIMELINE.md",
+      "bytes": 2236,
+      "sha256": "e33e5832e4dc94a51ea93cfce49b84ddf2aa64d4d0400b800c99e824daf452c6"
+    },
+    {
+      "path": "documentos/04_INTEGRACION.md",
+      "bytes": 2186,
+      "sha256": "480118a9b785b2f0ede7672654fdd6371b3975c1b53bc98debf1c53af168ee26"
+    },
+    {
+      "path": "documentos/05_QA.md",
+      "bytes": 2103,
+      "sha256": "8818143816d748e6c6589be60ad4be5865bb7645f9ce15e5f0057750f36d75ef"
+    },
+    {
+      "path": "geometria/01_origen.svg",
+      "bytes": 338,
+      "sha256": "489eb6d9e3c3c8356274a7939da03092f8cc6796b718518d9b284f2ea9cd1196"
+    },
+    {
+      "path": "geometria/02_ascenso.svg",
+      "bytes": 339,
+      "sha256": "0efa6e016eeb5e07ec52d0699ae551efa05f839af368418e005a2c2d6f9e9542"
+    },
+    {
+      "path": "geometria/03_cierre.svg",
+      "bytes": 365,
+      "sha256": "68cf7092fea7cdab0815ca909549f73293abbfc58f9140c79a9997702d98dc69"
+    },
+    {
+      "path": "geometria/04_pica.svg",
+      "bytes": 427,
+      "sha256": "c2029b789ce2e12c6640bd5f0813f1bff5bafc7df2cb50c99880dcda39682456"
+    },
+    {
+      "path": "geometria/LEEME.md",
+      "bytes": 1065,
+      "sha256": "471291477d2a6e52fe19f962f5571a5e87e66dd4101bbc7a27f02af24db20d96"
+    },
+    {
+      "path": "geometria/POSES.json",
+      "bytes": 1131,
+      "sha256": "58b4ecd7de2fde93acb8c77359f3c3043d1c1e4c7780c73017ac25e3412f426f"
+    },
+    {
+      "path": "originales/innervision.jpg",
+      "bytes": 105728,
+      "sha256": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f"
+    },
+    {
+      "path": "originales/salute.jpg",
+      "bytes": 139497,
+      "sha256": "3fd2521b1de8323cf15e531f8cba1f10a63b57fe74986ce803f786e395df74bf"
+    },
+    {
+      "path": "recursos_F4/innervision-original.jpg",
+      "bytes": 105728,
+      "sha256": "8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f"
+    },
+    {
+      "path": "recursos_F4/space.png",
+      "bytes": 378598,
+      "sha256": "78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369"
+    },
+    {
+      "path": "recursos_F4/stars.png",
+      "bytes": 614664,
+      "sha256": "0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9"
+    },
+    {
+      "path": "recursos_F4/symbol.png",
+      "bytes": 120672,
+      "sha256": "96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a"
+    },
+    {
+      "path": "referencias/CP09_REVISION_HISTORICA.md",
+      "bytes": 21428,
+      "sha256": "fc820f7822ddf53e7e9fdbd9111f2bc433d1aab0f07efa105596adf1cb23dbb6"
+    },
+    {
+      "path": "referencias/M2_BOCETO_DIRECCION_APROBADA.png",
+      "bytes": 3453757,
+      "sha256": "83c5d04a9659318537c965b81c51c1fa631deeba53cfa904379f64bcf192db97"
+    }
+  ]
+}

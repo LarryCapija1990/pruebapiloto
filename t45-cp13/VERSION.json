@@ -1,0 +1,25 @@
+{
+  "checkpoint": "CP13",
+  "version": "1.0",
+  "type": "scroll rhythm adjustment only",
+  "visual_baseline": "CP12 v1.0 accepted by user",
+  "visual_render_unchanged": true,
+  "rhythm_pending_review": true,
+  "abstract_ranges": {
+    "T34": [
+      0.1,
+      0.9
+    ],
+    "T45": [
+      0.18,
+      0.7
+    ]
+  },
+  "abstract_distance_factor": 0.5,
+  "effective_vh_before": 1120,
+  "effective_vh_after": 757,
+  "hold_vh": 20,
+  "checks_passed": 143,
+  "checks_failed": 0,
+  "html_sha256": "7de81e83034fa8f17b3c02859d9f77ed998036a9ec8658e534e4b71c12636be7"
+}

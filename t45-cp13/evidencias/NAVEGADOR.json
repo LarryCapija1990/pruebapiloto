@@ -1,0 +1,715 @@
+{
+  "html_sha256": "7de81e83034fa8f17b3c02859d9f77ed998036a9ec8658e534e4b71c12636be7",
+  "checks": [
+    {
+      "name": "Renderer y cámara CP12 idénticos byte a byte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Shader de cuerpo CP12 idéntico byte a byte",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Máscaras y campos CP12 idénticos",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: recorrido total reducido",
+      "passed": true,
+      "details": {
+        "first": 2970,
+        "second": 3663,
+        "total": 6813,
+        "actual": 6813
+      }
+    },
+    {
+      "name": "escritorio: navegación T34 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T34 sin cambios 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: navegación T34 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T34 sin cambios 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: navegación T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T34 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: navegación T34 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T34 sin cambios 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: navegación T34 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T34 sin cambios 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: navegación T34 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T34 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 0.18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 0.32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 0.39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 0.64",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: imagen T45 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: scroll reversible T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: scroll reversible T34 0.86",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: scroll reversible T45 0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: scroll reversible T45 0.66",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: pausa sin deriva",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: parada Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: resize conserva T34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: resize conserva T45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: control por teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: movimiento reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: recorrido total reducido",
+      "passed": true,
+      "details": {
+        "first": 3564,
+        "second": 4395.6,
+        "total": 8175.6,
+        "actual": 8176
+      }
+    },
+    {
+      "name": "grande: navegación T34 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T34 sin cambios 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: navegación T34 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T34 sin cambios 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: navegación T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T34 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: navegación T34 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T34 sin cambios 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: navegación T34 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T34 sin cambios 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: navegación T34 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T34 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 0.18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 0.32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 0.39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 0.64",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: imagen T45 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: scroll reversible T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: scroll reversible T34 0.86",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: scroll reversible T45 0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: scroll reversible T45 0.66",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: pausa sin deriva",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: parada Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: resize conserva T34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: resize conserva T45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: control por teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: movimiento reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: recorrido total reducido",
+      "passed": true,
+      "details": {
+        "first": 2785.2,
+        "second": 3435.08,
+        "total": 6389.08,
+        "actual": 6389
+      }
+    },
+    {
+      "name": "movil: navegación T34 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T34 sin cambios 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: navegación T34 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T34 sin cambios 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: navegación T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T34 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: navegación T34 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T34 sin cambios 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: navegación T34 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T34 sin cambios 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: navegación T34 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T34 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 0.18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 0.32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 0.39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 0.64",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: imagen T45 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: scroll reversible T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: scroll reversible T34 0.86",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: scroll reversible T45 0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: scroll reversible T45 0.66",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: pausa sin deriva",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: parada Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: resize conserva T34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: resize conserva T45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: control por teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: movimiento reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: recorrido total reducido",
+      "passed": true,
+      "details": {
+        "first": 1287,
+        "second": 1587.3,
+        "total": 2952.3,
+        "actual": 2952
+      }
+    },
+    {
+      "name": "horizontal: navegación T34 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T34 sin cambios 0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: navegación T34 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T34 sin cambios 0.1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: navegación T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T34 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: navegación T34 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T34 sin cambios 0.65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: navegación T34 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T34 sin cambios 0.9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: navegación T34 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T34 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 0.18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 0.32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 0.39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 0.64",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: imagen T45 sin cambios 1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: scroll reversible T34 0.35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: scroll reversible T34 0.86",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: scroll reversible T45 0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: scroll reversible T45 0.66",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: pausa sin deriva",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: parada Innervision",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: resize conserva T34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: resize conserva T45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: control por teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: movimiento reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Offline sin HTTP",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Sin errores consola",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "network": [],
+  "profiles": {
+    "escritorio": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "DPR": 1,
+      "lengths": {
+        "first": 2970,
+        "second": 3663,
+        "total": 6813,
+        "actual": 6813
+      }
+    },
+    "grande": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "DPR": 1,
+      "lengths": {
+        "first": 3564,
+        "second": 4395.6,
+        "total": 8175.6,
+        "actual": 8176
+      }
+    },
+    "movil": {
+      "viewport": [
+        390,
+        844
+      ],
+      "DPR": 2,
+      "lengths": {
+        "first": 2785.2,
+        "second": 3435.08,
+        "total": 6389.08,
+        "actual": 6389
+      }
+    },
+    "horizontal": {
+      "viewport": [
+        844,
+        390
+      ],
+      "DPR": 1,
+      "lengths": {
+        "first": 1287,
+        "second": 1587.3,
+        "total": 2952.3,
+        "actual": 2952
+      }
+    }
+  },
+  "visual_status": "CP12 appearance accepted by user; CP13 scroll rhythm awaiting review",
+  "passed": 126,
+  "failed": 0
+}

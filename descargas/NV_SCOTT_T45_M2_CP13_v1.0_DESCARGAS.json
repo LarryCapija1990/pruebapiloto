@@ -1,0 +1,17 @@
+{
+  "checkpoint": "NV_SCOTT_T45_M2_CP13_v1.0",
+  "max_file_bytes": 7176301,
+  "manifest_entries": 59,
+  "packages": [
+    {
+      "file": "NV_SCOTT_T45_M2_CP13_v1.0_LOCAL.zip",
+      "bytes": 5403396,
+      "sha256": "af84e9356a9c7e3f0e4ecad68fb611757e080db63e8d05f70fb6c2a2711318e6"
+    },
+    {
+      "file": "NV_SCOTT_T45_M2_CP13_v1.0_FUENTES_Y_EVIDENCIAS.zip",
+      "bytes": 20454394,
+      "sha256": "4073dec16673e56b3a835d20f2cd6e89c1c520d56d09213e1291c69bc38b8b8b"
+    }
+  ]
+}

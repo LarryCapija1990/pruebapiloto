@@ -1,0 +1,100 @@
+{
+  "checks": [
+    {
+      "name": "T34 abstracto exactamente mitad",
+      "passed": true
+    },
+    {
+      "name": "T34 acercamiento conserva distancia",
+      "passed": true
+    },
+    {
+      "name": "T34 revelación conserva distancia",
+      "passed": true
+    },
+    {
+      "name": "T34 monótono, sin pausas insertadas",
+      "passed": true
+    },
+    {
+      "name": "T34 ida/vuelta analítica",
+      "passed": true,
+      "details": 1.1368683772161603e-13
+    },
+    {
+      "name": "T34 velocidad acotada",
+      "passed": true,
+      "details": 2.250000000007742
+    },
+    {
+      "name": "T34 empalme suave 0.1",
+      "passed": true,
+      "details": {
+        "left": 1.000000000001,
+        "right": 0.9999999999177334
+      }
+    },
+    {
+      "name": "T34 empalme suave 0.9",
+      "passed": true,
+      "details": {
+        "left": 0.9999999999177334,
+        "right": 1.0000000000287557
+      }
+    },
+    {
+      "name": "T45 abstracto exactamente mitad",
+      "passed": true
+    },
+    {
+      "name": "T45 acercamiento conserva distancia",
+      "passed": true
+    },
+    {
+      "name": "T45 revelación conserva distancia",
+      "passed": true
+    },
+    {
+      "name": "T45 monótono, sin pausas insertadas",
+      "passed": true
+    },
+    {
+      "name": "T45 ida/vuelta analítica",
+      "passed": true,
+      "details": 1.1368683772161603e-13
+    },
+    {
+      "name": "T45 velocidad acotada",
+      "passed": true,
+      "details": 2.2500000000049316
+    },
+    {
+      "name": "T45 empalme suave 0.18",
+      "passed": true,
+      "details": {
+        "left": 1.000000000001,
+        "right": 0.9999999998067111
+      }
+    },
+    {
+      "name": "T45 empalme suave 0.7",
+      "passed": true,
+      "details": {
+        "left": 0.9999999999177334,
+        "right": 1.0000000000287557
+      }
+    },
+    {
+      "name": "Total reducido sin añadir pausas",
+      "passed": true,
+      "details": {
+        "before": 11.2,
+        "after": 7.569999999999999,
+        "reduction": 0.3241071428571428,
+        "hold": 0.2
+      }
+    }
+  ],
+  "passed": 17,
+  "failed": 0
+}

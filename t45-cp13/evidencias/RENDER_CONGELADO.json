@@ -1,0 +1,22 @@
+{
+  "accepted_visual_baseline": "CP12 v1.0",
+  "frozen": [
+    {
+      "path": "implementacion/cuerpo.js",
+      "sha256": "2b85749221584fba74519f34ed0e3c6e5e2b3463ff2f8d888d63d9bb55fdb302"
+    },
+    {
+      "path": "assets/campos-cuerpo.png",
+      "sha256": "35af73077ccbd3fc037cdc320e1b5d3f202505c0875543f026e9638e1067e31c"
+    },
+    {
+      "path": "assets/pica-mascara-original.png",
+      "sha256": "fd73f40dcffdd738bd9654e2d557df3fb20ef20c8f9f3fc7ae83019c599af578"
+    },
+    {
+      "path": "t45.js rendering prefix through finish()",
+      "sha256": "31f278c7cd82220d6dd26b1c64e61617ac79d3f470b5eece94e50515920b35a5"
+    }
+  ],
+  "F4_embedded_byte_identical": true
+}
