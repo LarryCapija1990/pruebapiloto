@@ -1,0 +1,83 @@
+PASS escritorio: T34 idéntico p=0
+PASS escritorio: T34 idéntico p=0.2
+PASS escritorio: T34 idéntico p=0.4
+PASS escritorio: T34 idéntico p=0.6
+PASS escritorio: T34 idéntico p=0.8
+PASS escritorio: T34 idéntico p=1
+PASS escritorio: q0 idéntico F4 p1
+PASS escritorio: encendido no ilumina fondo de pantalla
+PASS escritorio: inversión dentro del tramo q=0.333
+PASS escritorio: inversión dentro del tramo q=0.351
+PASS escritorio: inversión dentro del tramo q=0.378
+PASS escritorio: pausa 5s dentro del cambio
+PASS escritorio: pica sólida y sin eje residual
+PASS escritorio: GL sin error
+PASS escritorio: resize q=0.351
+PASS escritorio: resize q=0.8
+PASS escritorio: modo reducido
+PASS escritorio: teclado
+PASS escritorio: controles a la vista
+PASS grande: T34 idéntico p=0
+PASS grande: T34 idéntico p=0.2
+PASS grande: T34 idéntico p=0.4
+PASS grande: T34 idéntico p=0.6
+PASS grande: T34 idéntico p=0.8
+PASS grande: T34 idéntico p=1
+PASS grande: q0 idéntico F4 p1
+PASS grande: encendido no ilumina fondo de pantalla
+PASS grande: inversión dentro del tramo q=0.333
+PASS grande: inversión dentro del tramo q=0.351
+PASS grande: inversión dentro del tramo q=0.378
+PASS grande: pausa 5s dentro del cambio
+PASS grande: pica sólida y sin eje residual
+PASS grande: GL sin error
+PASS grande: resize q=0.351
+PASS grande: resize q=0.8
+PASS grande: modo reducido
+PASS grande: teclado
+PASS grande: controles a la vista
+PASS movil: T34 idéntico p=0
+PASS movil: T34 idéntico p=0.2
+PASS movil: T34 idéntico p=0.4
+PASS movil: T34 idéntico p=0.6
+PASS movil: T34 idéntico p=0.8
+PASS movil: T34 idéntico p=1
+PASS movil: q0 idéntico F4 p1
+PASS movil: encendido no ilumina fondo de pantalla
+PASS movil: inversión dentro del tramo q=0.333
+PASS movil: inversión dentro del tramo q=0.351
+PASS movil: inversión dentro del tramo q=0.378
+PASS movil: pausa 5s dentro del cambio
+PASS movil: pica sólida y sin eje residual
+PASS movil: GL sin error
+PASS movil: resize q=0.351
+PASS movil: resize q=0.8
+PASS movil: modo reducido
+PASS movil: teclado
+PASS movil: controles a la vista
+PASS horizontal: T34 idéntico p=0
+PASS horizontal: T34 idéntico p=0.2
+PASS horizontal: T34 idéntico p=0.4
+PASS horizontal: T34 idéntico p=0.6
+PASS horizontal: T34 idéntico p=0.8
+PASS horizontal: T34 idéntico p=1
+PASS horizontal: q0 idéntico F4 p1
+PASS horizontal: encendido no ilumina fondo de pantalla
+PASS horizontal: inversión dentro del tramo q=0.333
+PASS horizontal: inversión dentro del tramo q=0.351
+PASS horizontal: inversión dentro del tramo q=0.378
+PASS horizontal: pausa 5s dentro del cambio
+PASS horizontal: pica sólida y sin eje residual
+PASS horizontal: GL sin error
+PASS horizontal: resize q=0.351
+PASS horizontal: resize q=0.8
+PASS horizontal: modo reducido
+PASS horizontal: teclado
+PASS horizontal: controles a la vista
+PASS Arranque nuevo/interior 0.333
+PASS Arranque nuevo/interior 0.351
+PASS Arranque nuevo/interior 0.378
+PASS Sin errores JavaScript
+PASS Sin errores de consola
+PASS Offline sin peticiones HTTP
+TOTAL 82 PASS 0 FAIL

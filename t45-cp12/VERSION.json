@@ -1,0 +1,13 @@
+{
+  "checkpoint": "CP12",
+  "version": "1.0",
+  "morph_interval": [
+    0.32,
+    0.39
+  ],
+  "interval_percentage_points": 7,
+  "withdrawal_start": 0.35,
+  "F4_unchanged": true,
+  "creative_approval": false,
+  "html_sha256": "ca6ee6e57f2f1ebc5a877edc4985be5272f2829db0c120dee121cd7e3707632e"
+}

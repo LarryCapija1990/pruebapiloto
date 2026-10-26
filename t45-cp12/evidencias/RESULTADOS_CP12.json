@@ -1,0 +1,572 @@
+{
+  "html_sha256": "ca6ee6e57f2f1ebc5a877edc4985be5272f2829db0c120dee121cd7e3707632e",
+  "checks": [
+    {
+      "name": "escritorio: T34 idéntico p=0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: T34 idéntico p=0.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: T34 idéntico p=0.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: T34 idéntico p=0.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: T34 idéntico p=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: T34 idéntico p=1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: q0 idéntico F4 p1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: encendido no ilumina fondo de pantalla",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: inversión dentro del tramo q=0.333",
+      "passed": true,
+      "details": "7de2ef800b7c6aa758b102f5d402fc1d3fcc5a9251ec3a4167fb7f752072aea7"
+    },
+    {
+      "name": "escritorio: inversión dentro del tramo q=0.351",
+      "passed": true,
+      "details": "49743f15dec5373135cf220e5a69ec8d7c1642ce87c1c41e4f5739ea2a6e92a8"
+    },
+    {
+      "name": "escritorio: inversión dentro del tramo q=0.378",
+      "passed": true,
+      "details": "bfdf0a4ed80609baaf22132c300023efeca1423112c1d0e3939252493a795439"
+    },
+    {
+      "name": "escritorio: pausa 5s dentro del cambio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: pica sólida y sin eje residual",
+      "passed": true,
+      "details": {
+        "center": [
+          48,
+          51,
+          38,
+          255
+        ],
+        "upperAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "lowerAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "error": 0
+      }
+    },
+    {
+      "name": "escritorio: GL sin error",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: resize q=0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: resize q=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: modo reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "escritorio: controles a la vista",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: T34 idéntico p=0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: T34 idéntico p=0.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: T34 idéntico p=0.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: T34 idéntico p=0.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: T34 idéntico p=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: T34 idéntico p=1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: q0 idéntico F4 p1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: encendido no ilumina fondo de pantalla",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: inversión dentro del tramo q=0.333",
+      "passed": true,
+      "details": "91f13eddfa708c3e6bd6bf895dc974524e1e9d76dd89f56ca030b8529b1f7a91"
+    },
+    {
+      "name": "grande: inversión dentro del tramo q=0.351",
+      "passed": true,
+      "details": "43d71d567c3002135d28eb64bcc7190143fb351f761d2167a7c678e6f80e09b2"
+    },
+    {
+      "name": "grande: inversión dentro del tramo q=0.378",
+      "passed": true,
+      "details": "a12007c01c7d95a54fd16a7b2cf2b6280589b4195de64021b95f77ad19d19dbe"
+    },
+    {
+      "name": "grande: pausa 5s dentro del cambio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: pica sólida y sin eje residual",
+      "passed": true,
+      "details": {
+        "center": [
+          48,
+          51,
+          38,
+          255
+        ],
+        "upperAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "lowerAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "error": 0
+      }
+    },
+    {
+      "name": "grande: GL sin error",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: resize q=0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: resize q=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: modo reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "grande: controles a la vista",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: T34 idéntico p=0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: T34 idéntico p=0.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: T34 idéntico p=0.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: T34 idéntico p=0.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: T34 idéntico p=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: T34 idéntico p=1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: q0 idéntico F4 p1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: encendido no ilumina fondo de pantalla",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: inversión dentro del tramo q=0.333",
+      "passed": true,
+      "details": "00b4e90e1a1b9e4bbda9ba85643590cbfc12bbdcc4d2d9e97bcf8ec2832c2844"
+    },
+    {
+      "name": "movil: inversión dentro del tramo q=0.351",
+      "passed": true,
+      "details": "fdd34080343914fddb7a5f7f29191d4f8c1e1c84e2b283cfef37b3e281523d8f"
+    },
+    {
+      "name": "movil: inversión dentro del tramo q=0.378",
+      "passed": true,
+      "details": "b2415061c577b9384742dfc78631e34c4d5c5de37b292312cd3727ddb76a19f8"
+    },
+    {
+      "name": "movil: pausa 5s dentro del cambio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: pica sólida y sin eje residual",
+      "passed": true,
+      "details": {
+        "center": [
+          48,
+          51,
+          38,
+          255
+        ],
+        "upperAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "lowerAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "error": 0
+      }
+    },
+    {
+      "name": "movil: GL sin error",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: resize q=0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: resize q=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: modo reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "movil: controles a la vista",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: T34 idéntico p=0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: T34 idéntico p=0.2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: T34 idéntico p=0.4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: T34 idéntico p=0.6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: T34 idéntico p=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: T34 idéntico p=1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: q0 idéntico F4 p1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: encendido no ilumina fondo de pantalla",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: inversión dentro del tramo q=0.333",
+      "passed": true,
+      "details": "139763ed46039a075fa5fcece27d7c26db5c382ca3d31ce174b29f63067b8c73"
+    },
+    {
+      "name": "horizontal: inversión dentro del tramo q=0.351",
+      "passed": true,
+      "details": "59a950ad0b3763b7c977f431ad75dd7fac4c1e7b21df75017719b77294666814"
+    },
+    {
+      "name": "horizontal: inversión dentro del tramo q=0.378",
+      "passed": true,
+      "details": "3da513212afb7dd54e60b6f1efaac658285f8964290748260bdc04c073039fb7"
+    },
+    {
+      "name": "horizontal: pausa 5s dentro del cambio",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: pica sólida y sin eje residual",
+      "passed": true,
+      "details": {
+        "center": [
+          48,
+          51,
+          38,
+          255
+        ],
+        "upperAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "lowerAxis": [
+          48,
+          51,
+          38,
+          0
+        ],
+        "error": 0
+      }
+    },
+    {
+      "name": "horizontal: GL sin error",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: resize q=0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: resize q=0.8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: modo reducido",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: teclado",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "horizontal: controles a la vista",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Arranque nuevo/interior 0.333",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Arranque nuevo/interior 0.351",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Arranque nuevo/interior 0.378",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "Sin errores JavaScript",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Sin errores de consola",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "Offline sin peticiones HTTP",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "errors": [],
+  "console": [],
+  "network": [],
+  "profiles": {
+    "escritorio": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "dpr": 1,
+      "rapid_segment_ms": {
+        "samples": 60,
+        "median": 119.45000000298023,
+        "p95": 227.40000000596046,
+        "max": 299.80000001192093
+      },
+      "texture_entry": {
+        "q": 0.6280000000000002,
+        "source_pixel_css_size": 2.7978692225560415
+      }
+    },
+    "grande": {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "dpr": 1,
+      "rapid_segment_ms": {
+        "samples": 60,
+        "median": 196.70000000298023,
+        "p95": 359.5,
+        "max": 2680.9000000059605
+      },
+      "texture_entry": {
+        "q": 0.6790000000000003,
+        "source_pixel_css_size": 2.796893255937335
+      }
+    },
+    "movil": {
+      "viewport": [
+        390,
+        844
+      ],
+      "dpr": 2,
+      "rapid_segment_ms": {
+        "samples": 60,
+        "median": 88.19999998807907,
+        "p95": 143.09999999403954,
+        "max": 174
+      },
+      "texture_entry": {
+        "q": 0.5390000000000001,
+        "source_pixel_css_size": 2.784437927854749
+      }
+    },
+    "horizontal": {
+      "viewport": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "rapid_segment_ms": {
+        "samples": 60,
+        "median": 58.349999994039536,
+        "p95": 142,
+        "max": 211.19999998807907
+      },
+      "texture_entry": {
+        "q": 0.44700000000000006,
+        "source_pixel_css_size": 2.7863857325121018
+      }
+    }
+  },
+  "native_file": "Not tested in CP12: managed browser blocked file:// in CP11. Offline DOM loading used; not a claim of native file navigation.",
+  "creative_approval": false,
+  "passed": 82,
+  "failed": 0
+}
