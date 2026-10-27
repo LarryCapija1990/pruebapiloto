@@ -1,0 +1,17 @@
+[
+  {
+    "checkpoint": "piloto02-f4",
+    "files_verified": 403,
+    "mismatches": []
+  },
+  {
+    "checkpoint": "t45-cp12",
+    "files_verified": 144,
+    "mismatches": []
+  },
+  {
+    "checkpoint": "t45-cp13",
+    "files_verified": 59,
+    "mismatches": []
+  }
+]

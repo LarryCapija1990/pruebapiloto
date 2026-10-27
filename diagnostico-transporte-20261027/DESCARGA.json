@@ -1,0 +1,18 @@
+{
+  "parts": [
+    {
+      "file": "NV_SCOTT_CP13_VISTA_HTTP_PARTE_01_v1.0.zip",
+      "bytes": 2093384,
+      "base64_size_if_encoded_bytes": 2791180,
+      "sha256": "4f3c65a295aceb6bf2a7b9665b3d780212681ba8f4ec65e138654c8d7d20de2b"
+    },
+    {
+      "file": "NV_SCOTT_CP13_VISTA_HTTP_PARTE_02_v1.0.zip",
+      "bytes": 2040903,
+      "base64_size_if_encoded_bytes": 2721204,
+      "sha256": "292d2c4ba1865bb14d77a0f3d4b21fddcbcd481269baa8c46eef77143cad84c0"
+    }
+  ],
+  "extract_both_into_same_root": true,
+  "image_reencoding": false
+}

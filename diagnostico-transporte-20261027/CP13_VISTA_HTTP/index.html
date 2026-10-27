@@ -1,0 +1,128 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Piloto 02 · T34 + T45 M2 · revisión CP13</title><link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#080a0f;color:#f2eee7;font:14px Arial,sans-serif}#route{height:857svh}#base,#t45{position:fixed;inset:0;width:100%;height:100%;border:0}#t45{pointer-events:none}header,footer{position:fixed;z-index:3;left:0;right:0;padding:20px 34px;background:linear-gradient(#080a0fe8,transparent);display:flex;align-items:center;justify-content:space-between;gap:12px}footer{bottom:0;display:block;background:linear-gradient(transparent,#080a0ff2 30%);padding-top:26px}header{top:0}small{color:#c5b8a5}button,a{color:inherit;font:inherit;background:#14151bcc;border:1px solid #ffffff45;border-radius:18px;padding:10px 14px;min-height:44px;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #f6bd75;outline-offset:3px}input{width:100%;height:30px;accent-color:#e8b87e}.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.review{text-align:center;font-size:11px;color:#c5b8a5;margin:7px 0}#continue{position:fixed;z-index:5;top:92px;right:24px}#status{position:fixed;z-index:6;left:10%;right:10%;top:25%;background:#17171a;padding:24px;line-height:1.8}#fallback{max-width:100%;max-height:50vh;display:block;margin:auto}.sr{position:absolute;top:0;left:0;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}[hidden]{display:none!important}@media(max-width:680px){header,footer{padding-left:18px;padding-right:18px}header{font-size:11px}button{font-size:11px;padding:8px 10px}#continue{top:76px;right:18px}small{font-size:10px}}@media(max-height:500px){header{padding:5px 18px}footer{padding:12px 18px 4px}.review{display:none}button{min-height:30px;padding:5px 10px}}
+</style>
+<div id="route"></div><iframe id="base" title="F4 original intacto — Thunder a Innervision"></iframe><canvas id="t45" hidden aria-label="Transformación reversible Innervision a Salute"></canvas>
+<button id="continue" hidden>Continuar a Salute ↓</button>
+<header hidden id="head"><div>CP13 · T45 / M2<br><small>Innervision → Salute · Para revisión</small></div><button id="motion" aria-pressed="false">Reducir movimiento</button></header>
+<footer hidden id="foot"><div class="row"><span id="phase">Innervision</span><output id="percent">0 %</output></div><label class="sr" for="scrub">Progreso local de Innervision a Salute</label><input id="scrub" type="range" min="0" max="1000" value="0"><div class="row"><button id="back">← Innervision</button><button id="next">Siguiente hito →</button><button id="end">Salute →</button></div><p class="review">Scroll reversible · sin movimiento autónomo · imagen aceptada · ajuste de ritmo para revisión</p></footer>
+<div id="status">Cargando recursos locales…</div><div id="live" class="sr" role="status" aria-live="polite"></div><noscript>Activa JavaScript para recorrer la transición. Las portadas se conservan en originales/.</noscript>
+<script>const PACKAGE={"f4": "", "images": {"salute": "assets/3fd2521b1de8323cf15e531f8cba1f10a63b57fe74986ce803f786e395df74bf.jpg", "innervision": "assets/8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f.jpg", "space": "assets/78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369.png", "stars": "assets/0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9.png", "symbol": "assets/96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a.png", "field": "assets/35af73077ccbd3fc037cdc320e1b5d3f202505c0875543f026e9638e1067e31c.png"}};</script><script>// CP13: scroll distance only. Rendering always receives the accepted CP12 progress.
+const rhythm = (()=>{
+ const ranges={T34:[.10,.90],T45:[.18,.70]},edge=.10,floor=4/9;
+ const clip=x=>Math.max(0,Math.min(1,x));
+ const integral=t=>t*t*t-.5*t*t*t*t;
+ // Integral of a positive C1 density: 1 at both ends, 4/9 at the center.
+ // Its total is exactly .5. Inverse speed is bounded by 2.25, never infinite.
+ function compressed(u){
+  u=clip(u);if(u>1-edge)return .5-compressed(1-u);
+  const ramp=edge*(1-(1-floor)*.5);
+  if(u<edge)return u-(1-floor)*edge*integral(u/edge);
+  return ramp+floor*(u-edge);
+ }
+ function distance(p,id){p=clip(p);const [a,b]=ranges[id];if(p<=a)return p;if(p>=b)return p-(b-a)/2;return a+(b-a)*compressed((p-a)/(b-a))}
+ function progress(s,id){const end=distance(1,id);s=Math.max(0,Math.min(end,s));if(s===0)return 0;if(s===end)return 1;let a=0,b=1;for(let i=0;i<42;i++){const m=(a+b)/2;if(distance(m,id)<s)a=m;else b=m}return (a+b)/2}
+ return {ranges,distance,progress,compressed,edge,floor};
+})();
+
+// Local-body SDF morph: no screen-sized flash and no independent axis/outline layer.
+let bodyCanvas,bodyGL,bodyUniforms;
+function initBody(){
+ bodyCanvas=document.createElement('canvas');bodyCanvas.width=1066;bodyCanvas.height=600;
+ const gl=bodyGL=bodyCanvas.getContext('webgl',{alpha:true,premultipliedAlpha:false,preserveDrawingBuffer:true,antialias:false});if(!gl)throw Error('WebGL del cuerpo M2 no disponible');
+ function sh(type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(s));return s}
+ const vs='attribute vec2 pos;varying vec2 uv;void main(){uv=vec2((pos.x+1.)*.5,(1.-pos.y)*.5);gl_Position=vec4(pos,0.,1.);}';
+ const fs=`precision highp float;varying vec2 uv;uniform sampler2D field,original;uniform float q;
+ float ramp(float a,float b,float x){float t=clamp((x-a)/(b-a),0.,1.);return t*t*(3.-2.*t);}
+ void main(){vec4 f=texture2D(field,vec2(uv.x,uv.y*.5));vec4 ft=texture2D(field,vec2(uv.x,uv.y*.5+.5));float ds=(f.r*65280.+f.g*255.)/65535.*1024.-512.;float dt=(ft.r*65280.+ft.g*255.)/65535.*1024.-512.;
+ float m=ramp(.325,.365,q),ink=ramp(.350,.390,q);float d=mix(ds,dt,m)+10.*sin(3.14159265*m);
+ float body=smoothstep(-.85,.85,d);float pulse=ramp(.320,.335,q)*(1.-ramp(.335,.390,q));
+ float halo=exp(-max(0.,-d)*max(0.,-d)/45.)*.30*(1.-ink);float a=max(body,halo);
+ vec3 orange=mix(vec3(1.,.40,.06),vec3(1.,.74,.22),pulse*.7);vec3 color=mix(orange,vec3(.19,.20,.15),ink);
+ vec4 orig=texture2D(original,uv);orig.rgb=1.-(1.-orig.rgb)*(1.-orig.rgb*.45*pulse);float enter=ramp(.325,.338,q);vec4 fresh=vec4(color,a);gl_FragColor=mix(orig,fresh,enter);
+ }`;
+ const pr=gl.createProgram();gl.attachShader(pr,sh(gl.VERTEX_SHADER,vs));gl.attachShader(pr,sh(gl.FRAGMENT_SHADER,fs));gl.linkProgram(pr);if(!gl.getProgramParameter(pr,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(pr));gl.useProgram(pr);
+ const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);const loc=gl.getAttribLocation(pr,'pos');gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,2,gl.FLOAT,false,0,0);
+ [images.field,images.symbol].forEach((im,i)=>{gl.activeTexture(gl.TEXTURE0+i);const t=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,t);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,im);gl.uniform1i(gl.getUniformLocation(pr,i?'original':'field'),i)});
+ bodyUniforms={q:gl.getUniformLocation(pr,'q')};gl.viewport(0,0,1066,600);
+}
+function renderBody(v){bodyGL.uniform1f(bodyUniforms.q,v);bodyGL.drawArrays(bodyGL.TRIANGLE_STRIP,0,4)}
+
+/* CP12: isolated T45 module. No edits to embedded F4. Absolute progress only. */
+const $=id=>document.getElementById(id), C=$('t45'),ctx=C.getContext('2d',{alpha:false}),frame=$('base');
+const clamp=x=>Math.max(0,Math.min(1,x)),mix=(a,b,t)=>a+(b-a)*t;
+const S=(a,b,x)=>{const t=clamp((x-a)/(b-a));return t*t*(3-2*t)};
+const media=matchMedia('(prefers-reduced-motion: reduce)');let reduced=media.matches,override=false,ready=false,queued=false,syncing=false,w=0,h=0,q=0,p=0,lastY=0,snap;
+const stats={renders:0,frameMs:[],errors:[],assets:0};const images={};
+const photoLayer=document.createElement('canvas'),photoContext=photoLayer.getContext('2d');
+const milestones=[0,.18,.30,.32,.33,.34,.35,.36,.365,.375,.39,.42,.50,.60,.70,.80,1];
+// CP12: seven percent for the complete local ignition/body morph/extinction.
+function geometry(v){return {morph:S(.325,.365,v),ink:S(.350,.390,v),pulse:S(.320,.335,v)*(1-S(.335,.390,v)),paper:S(.335,.410,v),closed:v>=.365,axisLayer:false,hollowPhase:false}}
+function dims(){return {cy:h/2-(h<500?0:12),fit:Math.min((w-40)/600,Math.max(100,h-(h<500?120:220))/594)}}
+function camera(v){
+ const {cy,fit}=dims(),zoom=Math.min((w-48)/350,Math.max(110,h-(h<500?130:230))*.70/350);
+ const scale=mix(fit,zoom,S(.04,.18,v));
+ // A long, nearly stationary geometric phase, then smooth monotone withdrawal.
+ const start=zoom*8,finish=Math.min((w-40)/600,Math.max(100,h-(h<500?120:220))/593);
+ const u=S(.350,.94,v)**.65,photoScale=Math.exp(mix(Math.log(start),Math.log(finish),u));
+ const center=[mix(295,300,S(.72,.94,v)),mix(297,296.5,S(.72,.94,v))];
+ return {scale:v<.350?scale:photoScale/8,photoScale,center,cy};
+}
+function path(points,close){ctx.beginPath();ctx.moveTo(...points[0]);for(const a of points.slice(1))ctx.lineTo(...a);if(close)ctx.closePath()}
+function transformed(v,fn){const a=camera(v);ctx.save();ctx.translate(w/2+(295-a.center[0])*a.photoScale,a.cy+(297-a.center[1])*a.photoScale);ctx.scale(a.scale,a.scale);ctx.translate(-524,-350);fn(a);ctx.restore()}
+function drawPhoto(v,dc=ctx){const a=camera(v);dc.save();dc.translate(w/2,a.cy);dc.scale(a.photoScale,a.photoScale);dc.translate(-a.center[0],-a.center[1]);dc.drawImage(images.salute,0,0);dc.restore()}
+function draw(v){
+ const begin=performance.now();ctx.setTransform(C.width/w,0,0,C.height/h,0,0);ctx.fillStyle='#080a0f';ctx.fillRect(0,0,w,h);
+ if(v<=.04||(reduced&&v<.52)){ctx.drawImage(snap,0,0,w,h);finish(begin);return}
+ if(reduced){const {cy}=dims(),im=images.salute,s=Math.min((w-40)/600,Math.max(100,h-(h<500?120:220))/im.height);ctx.drawImage(im,w/2-300*s,cy-im.height*s/2,600*s,im.height*s);finish(begin);return}
+ const g=geometry(v),a=camera(v),texture=S(2.8,2.0,a.photoScale),context=S(2.25,1.85,a.photoScale);
+ if(context>=1){drawPhoto(v);finish(begin);return}
+ if(v<.18){const {fit,cy}=dims(),z=a.scale/fit;ctx.save();ctx.translate(w/2,a.cy);ctx.scale(z,z);ctx.translate(-w/2+9*fit,-cy-50*fit*S(.04,.18,v));ctx.drawImage(snap,0,0,w,h);ctx.restore()}
+ ctx.globalAlpha=S(.12,.18,v);transformed(v,()=>{ctx.drawImage(images.space,0,0);ctx.drawImage(images.stars,0,0)});ctx.globalAlpha=1;
+ if(g.paper>0){const t=g.paper;ctx.fillStyle=`rgba(${Math.round(mix(70,181,t))},${Math.round(mix(65,174,t))},${Math.round(mix(66,186,t))},${t})`;ctx.fillRect(0,0,w,h);ctx.globalAlpha=.075*t;ctx.fillStyle='#504851';for(let i=0;i<620;i++)ctx.fillRect(((i*109.37)%997)/997*w,((i*67.19)%991)/991*h,1.4,1.4);ctx.globalAlpha=1}
+ // The authentic symbol remains intact until ignition. Gain is confined to its own pixels.
+ if(v<.320){ctx.globalAlpha=S(.12,.18,v);transformed(v,()=>{ctx.drawImage(images.symbol,0,0);if(g.pulse>0){ctx.globalCompositeOperation='screen';ctx.globalAlpha=.45*g.pulse;ctx.drawImage(images.symbol,0,0)}});ctx.globalAlpha=1}
+ else{renderBody(v);transformed(v,()=>ctx.drawImage(bodyCanvas,0,0))}
+ // Original ornament is withheld until its source pixels are <=2.8 CSS px each.
+ if(texture>0){
+  if(photoLayer.width!==C.width||photoLayer.height!==C.height){photoLayer.width=C.width;photoLayer.height=C.height}
+  const pc=photoContext;pc.setTransform(1,0,0,1,0,0);pc.globalCompositeOperation='source-over';pc.clearRect(0,0,photoLayer.width,photoLayer.height);pc.setTransform(C.width/w,0,0,C.height/h,0,0);drawPhoto(v,pc);pc.globalCompositeOperation='destination-in';pc.save();pc.translate(w/2+(295-a.center[0])*a.photoScale,a.cy+(297-a.center[1])*a.photoScale);pc.scale(a.scale,a.scale);pc.translate(-524,-350);pc.drawImage(bodyCanvas,0,0);pc.restore();ctx.globalAlpha=texture;ctx.drawImage(photoLayer,0,0,w,h);ctx.globalAlpha=1;
+ }
+ if(context>0){
+  const pc=photoContext;pc.setTransform(1,0,0,1,0,0);pc.globalCompositeOperation='source-over';pc.clearRect(0,0,photoLayer.width,photoLayer.height);pc.setTransform(C.width/w,0,0,C.height/h,0,0);drawPhoto(v,pc);pc.setTransform(1,0,0,1,0,0);pc.globalCompositeOperation='destination-in';const factor=C.width/w,r=context*Math.hypot(w,h),grad=pc.createRadialGradient(w/2*factor,a.cy*factor,Math.max(0,r-w*.2)*factor,w/2*factor,a.cy*factor,Math.max(1,r)*factor);grad.addColorStop(0,'#fff');grad.addColorStop(1,'#fff0');pc.fillStyle=grad;pc.fillRect(0,0,photoLayer.width,photoLayer.height);ctx.drawImage(photoLayer,0,0,w,h);
+ }
+ finish(begin);
+}
+function finish(start){stats.renders++;stats.frameMs.push(performance.now()-start);if(stats.frameMs.length>2000)stats.frameMs.shift();C.dataset.q=q.toFixed(6)}
+function lengths(){return {first:5.5*h*rhythm.distance(1,'T34'),hold:.2*h,second:5.5*h*rhythm.distance(1,'T45')}}
+function go(v){const a=lengths();scrollTo({top:a.first+a.hold+5.5*h*rhythm.distance(v,'T45'),behavior:'instant'});schedule()}
+function goT34(v){scrollTo({top:5.5*h*rhythm.distance(v,'T34'),behavior:'instant'});schedule()}
+function schedule(){if(!queued){queued=true;requestAnimationFrame(update)}}
+function update(){queued=false;if(!ready)return;const a=lengths(),y=scrollY;p=rhythm.progress(y/(5.5*h),'T34');q=rhythm.progress((y-a.first-a.hold)/(5.5*h),'T45');
+ const ext=y>a.first+a.hold+.01;
+ if(!ext){syncing=true;frame.contentWindow.__F4.go(p);syncing=false}
+ frame.inert=ext;frame.setAttribute('aria-hidden',String(ext));C.hidden=!ext;$('head').hidden=!ext;$('foot').hidden=!ext;$('continue').hidden=ext||p<.999;
+ if(ext){draw(q);$('scrub').value=Math.round(q*1000);$('percent').textContent=Math.round(q*100)+' %';const text=q<.18?'Innervision · acercamiento':q<.32?'Símbolo original':q<.39?'Encendido · cuerpo → pica · tinta':q<.60?'Tinta · retirada':q<.80?'Pica original · retirada':'Salute · cubierta original';$('phase').textContent=text;$('live').textContent=text;$('scrub').setAttribute('aria-valuetext',Math.round(q*100)+' por ciento — '+text)}
+ lastY=y;
+}
+function resize(){const oldh=h||innerHeight,oldY=scrollY;w=innerWidth;h=innerHeight;const d=Math.min(devicePixelRatio||1,1.5,Math.sqrt(2500000/(w*h)));C.width=Math.round(w*d);C.height=Math.round(h*d);if(ready){refreshSnap();scrollTo({top:oldY/oldh*h,behavior:'instant'})}schedule()}
+function refreshSnap(){const f=frame.contentWindow;f.dispatchEvent(new f.Event('resize'));f.__F4.go(1);f.__F4.benchmark();capture();f.__F4.go(p);f.__F4.benchmark()}
+function capture(){const src=frame.contentDocument.getElementById('scene');snap=document.createElement('canvas');snap.width=src.width;snap.height=src.height;snap.getContext('2d').drawImage(src,0,0)}
+function mode(){if(frame.contentWindow.__F4&&frame.contentWindow.__F4.state.reduced!==reduced)frame.contentDocument.getElementById('motion').click();$('motion').textContent=reduced?'Movimiento reducido ✓':'Reducir movimiento';$('motion').setAttribute('aria-pressed',reduced);if(ready)requestAnimationFrame(()=>{refreshSnap();schedule()});schedule()}
+async function init(){for(const [name,data]of Object.entries(PACKAGE.images)){const im=new Image();im.src=data;await im.decode();images[name]=im;stats.assets++}
+ initBody();frame.src='f4/index.html';
+ await new Promise((resolve,reject)=>{let tries=0;const id=setInterval(()=>{if(frame.contentWindow.__F4?.state.ready){clearInterval(id);resolve()}else if(++tries>400){clearInterval(id);reject(Error('WebGL no disponible o F4 no pudo cargar'))}},50)});
+ w=innerWidth;h=innerHeight;frame.contentWindow.__F4.go(1);await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));refreshSnap();ready=true;resize();mode();$('status').hidden=true;
+ const doc=frame.contentDocument;
+ doc.addEventListener('keydown',e=>{if(e.target.matches('input,button,a'))return;const delta={ArrowDown:40,ArrowUp:-40,PageDown:h*.85,PageUp:-h*.85,' ':h*.85}[e.key];if(delta){e.preventDefault();scrollBy(0,delta)}});
+ doc.addEventListener('wheel',e=>{e.preventDefault();scrollBy({top:e.deltaY,behavior:'instant'})},{passive:false});
+ let touchY;doc.addEventListener('touchstart',e=>touchY=e.touches[0].clientY,{passive:true});doc.addEventListener('touchmove',e=>{if(e.target.closest('input,button,a'))return;e.preventDefault();const y=e.touches[0].clientY;scrollBy(0,touchY-y);touchY=y},{passive:false});
+ // CP13: controls request original visual progress; only outer scroll distance changes.
+ for(const id of ['scrub','begin','end'])doc.getElementById(id).addEventListener(id==='scrub'?'input':'click',()=>requestAnimationFrame(()=>{goT34(frame.contentWindow.__F4.state.progress)}));
+ doc.getElementById('motion').addEventListener('click',()=>{reduced=frame.contentWindow.__F4.state.reduced;override=true;mode()});
+ window.__T45={rhythm,go,goT34,geometry,camera,stats,get state(){return {q,p,reduced,ready,width:w,height:h,scrollY,firstLength:lengths().first,secondLength:lengths().second,totalLength:lengths().first+lengths().hold+lengths().second}},render(v){q=clamp(v);draw(q)},benchmark(v){const t=performance.now();draw(v);ctx.getImageData(0,0,1,1);return performance.now()-t}};schedule()
+}
+$('scrub').oninput=e=>go(e.target.value/1000);$('back').onclick=()=>go(0);$('end').onclick=()=>go(1);$('next').onclick=()=>go(milestones.find(v=>v>q+.002)??1);$('continue').onclick=()=>go(.0005);$('motion').onclick=()=>{override=true;reduced=!reduced;mode()};media.onchange=e=>{if(!override){reduced=e.matches;mode()}};
+addEventListener('scroll',schedule,{passive:true});addEventListener('resize',resize);addEventListener('keydown',e=>{if(e.target.matches('input,button'))return;if(e.key==='Home'){e.preventDefault();goT34(0)}if(e.key==='End'){e.preventDefault();go(1)}});
+if(location.protocol==='file:'){$('status').textContent='Esta copia necesita un servidor local. Ejecuta INICIAR_WINDOWS.bat o INICIAR_MAC_LINUX.command; también puedes usar Live Server de Visual Studio Code.';}else init().catch(e=>{stats.errors.push(e.message);$('status').textContent='No pudo iniciarse la composición: '+e.message+'. Puedes consultar las portadas originales y reintentar en un navegador con WebGL.';const img=new Image();img.id='fallback';img.src=PACKAGE.images.innervision;$('status').append(img);const a=document.createElement('a');a.href=PACKAGE.images.salute;a.textContent='Abrir Salute original';$('status').append(a)});
+</script></html>

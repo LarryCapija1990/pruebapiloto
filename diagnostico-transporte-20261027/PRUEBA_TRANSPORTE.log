@@ -1,0 +1,24 @@
+PASS desktop HTTP /index.html
+PASS desktop HTTP /accepted/index.html
+PASS desktop same pixels T34 0
+PASS desktop same pixels T34 0.5
+PASS desktop same pixels T34 1
+PASS desktop same pixels T45 0.35
+PASS desktop same pixels T45 0.64
+PASS desktop same pixels T45 1
+PASS desktop reversible
+PASS desktop paused
+PASS mobile_emulated HTTP /index.html
+PASS mobile_emulated HTTP /accepted/index.html
+PASS mobile_emulated same pixels T34 0
+PASS mobile_emulated same pixels T34 0.5
+PASS mobile_emulated same pixels T34 1
+PASS mobile_emulated same pixels T45 0.35
+PASS mobile_emulated same pixels T45 0.64
+PASS mobile_emulated same pixels T45 1
+PASS mobile_emulated reversible
+PASS mobile_emulated paused
+PASS No setContent or screenshot wire calls
+PASS No browser JS errors
+PASS No HTTP errors
+{"passed": 23, "failed": 0, "max_send_bytes": 824, "max_receive_bytes": 808}

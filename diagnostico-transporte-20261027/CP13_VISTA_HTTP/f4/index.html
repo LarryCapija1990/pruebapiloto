@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080a0f">
+  <meta name="description" content="Piloto 02: Thunder and Lightning a Innervision. Cierre F4 estable; versión CP02 aprobada creativamente para este piloto.">
+  <title>Thunder → Innervision · Piloto 02</title>
+  <link rel="icon" href="data:,">
+  <style>
+:root{color-scheme:dark;font-family:Arial,Helvetica,sans-serif;background:#080a0f;color:#f2eee7;--accent:#e4c6a0}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button{color:inherit;cursor:pointer}button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid #f4cc95;outline-offset:6px}button{border:0;background:transparent;padding:10px 0;min-height:44px}button:hover{color:#efc17d}#journey{height:650vh;height:650svh}#stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:#080a0f}canvas{position:absolute;inset:0;width:100%;height:100%;display:block}header,footer,.caption{position:absolute;z-index:2}header{top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:center;padding:22px 34px 25px;background:linear-gradient(#080a0fbb,transparent);gap:16px}.edition{display:flex;align-items:center;gap:14px;font-size:12px;letter-spacing:.21em}.mark{font-family:Georgia,serif;font-size:30px;font-weight:normal;color:var(--accent);letter-spacing:-.12em;border-right:1px solid #ffffff30;padding-right:17px}.edition small{display:block;font-size:9px;letter-spacing:.14em;color:#bcb7b1;margin-top:7px}#motion{font-size:11px;letter-spacing:.02em;border:1px solid #ffffff38;border-radius:30px;padding:10px 15px;flex-shrink:0}#motion[aria-pressed=true]{background:#e4c6a020;border-color:var(--accent)}.caption{left:34px;bottom:180px;max-width:270px;pointer-events:none;text-shadow:0 2px 18px #000}.eyebrow{font-size:9px;font-weight:normal;letter-spacing:.15em;color:var(--accent);line-height:1.5}h1{font:normal 39px/1.08 Georgia,'Times New Roman',serif;margin:14px 0}#description{font-size:11px;color:#bcb7b1;line-height:1.6}footer{bottom:0;left:0;right:0;padding:28px 34px max(14px,env(safe-area-inset-bottom));background:linear-gradient(transparent,#080a0fd9 32%,#080a0ff5)}.progress-top{display:flex;justify-content:space-between;align-items:baseline;font-size:9px;letter-spacing:.17em}output{font:normal 22px Georgia,serif;letter-spacing:0;font-variant-numeric:tabular-nums}input[type=range]{display:block;width:100%;height:32px;margin:0;cursor:ew-resize;accent-color:var(--accent);background:transparent}input[type=range]::-webkit-slider-runnable-track{height:2px;background:#ffffff40}input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:14px;height:14px;border-radius:50%;background:var(--accent);margin-top:-6px;border:2px solid #171519}input[type=range]{-webkit-appearance:none;appearance:none}input[type=range]::-moz-range-track{height:2px;background:#ffffff40}input[type=range]::-moz-range-thumb{width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid #171519}.navigation{display:flex;justify-content:space-between;align-items:center;font-size:11px;gap:12px}.navigation button{min-width:90px;text-align:left;white-space:nowrap}.navigation button:last-child{text-align:right}#hint{color:#bcb7b1;text-align:center;font-size:10px}.review{font-size:9px;color:#bcb7b1;margin:3px 0 0;letter-spacing:.05em;text-align:center}#loading,#error{position:absolute;z-index:4;left:50%;top:45%;transform:translate(-50%,-50%);width:min(90%,500px);padding:20px;text-align:center;background:#080a0fe8;font-size:14px;line-height:1.7;border:1px solid #ffffff20}#error a{color:var(--accent)}[hidden]{display:none!important}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip{position:fixed;z-index:10;top:12px;left:12px;background:#080a0f;padding:12px;color:white;transform:translateY(-200%)}.skip:focus{transform:none}.noscript{position:fixed;inset:30% 10%;z-index:20;background:#111;padding:24px}
+@media(max-width:1000px){.caption{bottom:175px;max-width:190px}h1{font-size:30px}}
+@media(max-width:680px){header{padding:14px 18px;gap:8px}.edition{font-size:10px;gap:9px;letter-spacing:.12em}.edition small{font-size:7px;letter-spacing:.07em}.mark{font-size:24px;padding-right:10px}#motion{font-size:9px;padding:8px 10px;max-width:125px}footer{padding:20px 18px max(10px,env(safe-area-inset-bottom))}.caption{left:18px;bottom:174px;max-width:none}.caption h1{display:none}.eyebrow{font-size:8px;margin-bottom:4px}#description{font-size:10px;margin:0}#hint{font-size:9px;max-width:135px;line-height:1.5}.navigation{gap:5px;font-size:10px}.navigation button{min-width:73px}.review{font-size:8px}output{font-size:20px}}
+@media(max-height:500px){header{padding:6px 20px}.edition small{display:none}.caption{display:none}footer{padding:10px 20px 4px}.review{display:none}.navigation button{min-height:30px;padding:4px 0}.progress-top{font-size:8px}output{font-size:16px}input[type=range]{height:24px}#motion{min-height:32px}}
+@supports(padding:max(0px)){header{padding-top:max(22px,env(safe-area-inset-top))}@media(max-width:680px){header{padding-top:max(14px,env(safe-area-inset-top))}}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+</style>
+  <script type="module">
+const createMotif=(()=>{
+// CP02: only the central discharge changes. Every value depends on absolute scroll.
+const clamp = x => Math.max(0, Math.min(1, x));
+function smooth(a, b, x) { const t=clamp((x-a)/(b-a)); return t*t*(3-2*t); }
+const mix = (a,b,t) => a+(b-a)*t;
+const jag = [0,.55,-.7,.3,-.25,.85,-.5,.15,-.8,.45,-.1,.65];
+
+function createMotif(source) {
+  const start=source[0],end=source[source.length-1];
+  const dx=end[0]-start[0],dy=end[1]-start[1],chord=Math.hypot(dx,dy);
+  const normal=[-dy/chord,dx/chord],lengths=[0];
+  for(let i=1;i<source.length;i++) lengths.push(lengths[i-1]+Math.hypot(source[i][0]-source[i-1][0],source[i][1]-source[i-1][1]));
+  // Resample the original irregular contour by arc length, preserving its bends.
+  const profile=Array.from({length:48},(_,i)=>{
+    const u=i/47,d=u*lengths[lengths.length-1];
+    let k=0;while(k<source.length-2&&lengths[k+1]<d)k++;
+    const t=(d-lengths[k])/(lengths[k+1]-lengths[k]);
+    const pt=[mix(source[k][0],source[k+1][0],t),mix(source[k][1],source[k+1][1],t)];
+    return {u,lateral:(pt[0]-mix(start[0],end[0],u))*normal[0]+(pt[1]-mix(start[1],end[1],u))*normal[1]};
+  });
+  return function shape(progress,tracking,terrainShift) {
+    const align=smooth(.28,.52,progress),straightening=smooth(.62,.90,progress);
+    const bottom=[mix(start[0],tracking[0],align),mix(start[1]+terrainShift,tracking[1],align)];
+    const top=[mix(end[0],tracking[tracking.length-2],align),mix(end[1]+terrainShift,tracking[tracking.length-1],align)];
+    const vx=top[0]-bottom[0],vy=top[1]-bottom[1],len=Math.hypot(vx,vy);
+    const nx=-vy/len,ny=vx/len,scale=Math.sqrt(len/chord),retain=1-straightening;
+    const points=profile.map(({u,lateral},i)=>{
+      // Fixed spatial irregularity, no animated noise or temporal flicker.
+      const detail=jag[i%jag.length]*4*smooth(.28,.48,progress)*Math.sin(Math.PI*u);
+      const offset=(lateral*scale+detail)*retain;
+      const y=mix(bottom[1],top[1],u)+ny*offset;
+      const x=mix(mix(bottom[0],top[0],u),524,smooth(.82,.90,progress))+nx*offset;
+      // Join the existing arc locally while the rest of the bolt remains bent.
+      const join=smooth(.62,.82,progress)*Math.exp(-Math.pow((y-418)/38,2));
+      return [mix(x,524,join),y];
+    });
+    return {points,straightening,colorProgress:smooth(.35,.82,progress),
+      bodyWidth:3.4+1.8*smooth(.30,.78,progress),coreWidth:1.35+.8*smooth(.30,.78,progress)};
+  };
+}
+
+return createMotif;})();
+const EMBEDDED_IMAGES={"thunder-scene.png":"../assets/62c74f058590d0906c42f68667a9a06383a45180d018ffb698c2acd874e77b57.png","space.png":"../assets/78f9ba5055a3096d7f08bffb6031da42be3708f0479cf089b1d097bee8d31369.png","stars.png":"../assets/0774de75423e08a172cfc7a2810a086c0a5baa52d81fc5c127a4bfe5722705a9.png","symbol.png":"../assets/96a7d98751fe4085e12a66a235af8ad964c80180393a681f647b83449b41f10a.png","reveal-field.png":"../assets/6bd902f16c2a7b432623a1c82350b70bbf747c92e6275810c5dcc1fb6da79e87.png","lightning.png":"../assets/c52317be4598ee13a75010ef2753a17b7efcabe347d49953448cc64e99077cb7.png","thunder-original.jpg":"../assets/347dbb54e31fcc1e8190bb8e0768e0985ed9238a9811310832c2027f1ce93b29.jpg","innervision-original.jpg":"../assets/8d641eb29bec274ceb40fb0bb1a675af7a621e9ae9485bd07cc754f88bb5b98f.jpg"};
+
+
+const $ = id => document.getElementById(id);
+const canvas = $('scene');
+const media = matchMedia('(prefers-reduced-motion: reduce)');
+const metrics = { renders: 0, frameMs: [], loadErrors: [], contextLosses: 0, assets: 0 };
+let reduced = media.matches, override = false, gl, locations, program, p = 0, queued = false, ready = false;
+let width = 0, height = 0, lastPhase = -1;
+let geometry = [];
+let lineContext, lineTexture;
+const clamp = x => Math.max(0, Math.min(1, x));
+const smooth = (a, b, x) => { const t = clamp((x-a)/(b-a)); return t*t*(3-2*t); };
+// Correspondences start at the bottom of Thunder's discharge and end in the cloud.
+const irregular = [[460,245],[458,234],[460,225],[462,214],[464,201],[464,191],[476,180],[482,176],[485,165],[497,160],[510,150],[516,144],[539,139],[554,133],[574,126],[596,112]];
+const motifShape = createMotif(irregular);
+const assetNames = ['thunder-scene.png','space.png','stars.png','symbol.png','reveal-field.png','lightning.png','thunder-original.jpg','innervision-original.jpg'];
+const uniforms = ['uThunder','uSpace','uStars','uSymbol','uField','uRay','uOriginalAtlas','uLineTexture'];
+
+function linePoints(progress) {
+  const x=clamp((progress-.1)/.7)*(geometry.length-1),i=Math.min(geometry.length-2,Math.floor(x)),t=x-i;
+  const a=geometry[Math.max(0,i-1)],b=geometry[i],c=geometry[i+1],d=geometry[Math.min(geometry.length-1,i+2)];
+  // Catmull–Rom interpolates point correspondences, never rendered frames.
+  return b.flatMap((point,j)=>point.map((v,k)=>.5*(2*v+(-a[j][k]+c[j][k])*t+(2*a[j][k]-5*v+4*c[j][k]-d[j][k])*t*t+(-a[j][k]+3*v-3*c[j][k]+d[j][k])*t*t*t)));
+}
+function updateLine(progress) {
+  const ctx=lineContext;
+  ctx.clearRect(0,0,1066,600);
+  if (!reduced && progress>.25 && progress<.90) {
+    const {points,colorProgress:t,bodyWidth,coreWidth}=motifShape(progress,linePoints(progress),280*smooth(.30,.80,progress));
+    const energy=`rgb(${255*(.45+.55*t)},${255*(.72-.10*t)},${255*(1-.82*t)})`;
+    ctx.save();ctx.lineCap='round';ctx.lineJoin='round';
+    ctx.beginPath();ctx.moveTo(...points[0]);
+    for(let i=1;i<points.length;i++)ctx.lineTo(...points[i]);
+    // Local halo, substantial colored body and bright core, all on this motif.
+    ctx.strokeStyle=energy;ctx.shadowColor=energy;ctx.shadowBlur=10;
+    ctx.globalAlpha=.18;ctx.lineWidth=bodyWidth+6;ctx.stroke();
+    ctx.shadowBlur=4;ctx.globalAlpha=.92;ctx.lineWidth=bodyWidth;ctx.stroke();
+    ctx.shadowBlur=0;ctx.globalAlpha=.96;ctx.lineWidth=coreWidth;
+    ctx.strokeStyle=`rgb(${235+20*t},${248-9*t},${255-81*t})`;ctx.stroke();
+    ctx.restore();
+  }
+  gl.activeTexture(gl.TEXTURE7);gl.bindTexture(gl.TEXTURE_2D,lineTexture);
+  gl.texSubImage2D(gl.TEXTURE_2D,0,0,0,gl.RGBA,gl.UNSIGNED_BYTE,ctx.canvas);
+}
+
+function fail(error) {
+  console.error(error);
+  $('loading').hidden = true;
+  const node = $('error'); node.hidden = false;
+  node.replaceChildren(document.createTextNode(`No se ha podido iniciar la composición: ${error.message}. `));
+  const retry = document.createElement('button'); retry.textContent = 'Reintentar'; retry.onclick = () => location.reload();
+  node.append(retry, document.createElement('br'));
+  for (const [label, src] of [['Ver Thunder','thunder-original.jpg'],['Ver Innervision','innervision-original.jpg']]) {
+    const a = document.createElement('a'); a.href = EMBEDDED_IMAGES[src]; a.download=src; a.textContent = label; node.append(a, document.createTextNode(' · '));
+  }
+  $('scrub').disabled = true;
+}
+function shader(type, source) {
+  const s = gl.createShader(type); gl.shaderSource(s, source); gl.compileShader(s);
+  if (!gl.getShaderParameter(s,gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s));
+  return s;
+}
+async function loadImage(name) {
+  const img = new Image(); img.src = EMBEDDED_IMAGES[name];
+  try { await img.decode(); metrics.assets++; return img; }
+  catch { metrics.loadErrors.push(name); throw new Error(`falló la carga de ${name}`); }
+}
+function mode() {
+  $('motion').setAttribute('aria-pressed', String(reduced));
+  $('motion').textContent = reduced ? 'Movimiento reducido ✓' : 'Reducir movimiento';
+  $('hint').textContent = reduced ? 'Cámara fija · scroll o control de recorrido' : 'Desliza para transformar · vuelve para regresar';
+  schedule();
+}
+function extent() { return Math.max(1,$('journey').offsetHeight-$('stage').clientHeight); }
+function scrollProgress() { return clamp((scrollY-$('journey').offsetTop)/extent()); }
+function go(value) { window.scrollTo({top:$('journey').offsetTop+clamp(value)*extent(),behavior:'instant'}); schedule(); }
+function schedule() { if (!queued) { queued = true; requestAnimationFrame(draw); } }
+function resize() {
+  width = $('stage').clientWidth; height = $('stage').clientHeight;
+  // Limit mobile memory and fill rate; source images do not support macro detail.
+  const dpr = Math.min(devicePixelRatio || 1, 1.5, Math.sqrt(2500000/(width*height)));
+  canvas.width = Math.round(width*dpr); canvas.height = Math.round(height*dpr);
+  if (gl) gl.viewport(0,0,canvas.width,canvas.height);
+  schedule();
+}
+function draw() {
+  queued = false;
+  if (!ready || gl.isContextLost()) return;
+  const begin = performance.now(); p = scrollProgress();
+  gl.uniform2f(locations.uSize,width,height);
+  gl.uniform1f(locations.uP,p); gl.uniform1f(locations.uReduced,reduced ? 1 : 0);
+  updateLine(p);
+  gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+  $('scrub').value = String(Math.round(p*1000));
+  const percent = Math.round(p*100); $('percent').textContent = `${percent} %`;
+  $('scrub').setAttribute('aria-valuetext',`${percent} por ciento`);
+  const phase = p<.1?0:p<.4?1:p<.7?2:p<.9?3:4;
+  if (phase !== lastPhase) {
+    lastPhase = phase;
+    const text = [
+      ['01 / THUNDER AND LIGHTNING','Del trueno<br>al espacio.','Thin Lizzy → Phenomena','Portada original de Thunder and Lightning, Thin Lizzy.'],
+      ['02 / EL CIELO SE ABRE','Dentro<br>del cielo.','Las primeras estrellas.','El cielo oscuro se convierte en espacio; aparecen estrellas.'],
+      ['03 / ASCENSO','La luz<br>cambia de forma.','De la descarga al eje.','El terreno se retira y el rayo se alinea hacia el signo.'],
+      ['04 / INNERVISION','Otro<br>universo.','Phenomena · Innervision','El símbolo original se revela sobre el campo estrellado.'],
+      ['05 / PORTADA ORIGINAL','Innervision.','Phenomena','Reencuadre hacia la portada original completa de Innervision, Phenomena.']
+    ][phase];
+    $('phase').textContent=text[0]; $('title').innerHTML=text[1]; $('description').textContent=text[2]; $('accessible-state').textContent=text[3];
+  }
+  // Editorial captions step out of the artwork during the intermediate view.
+  document.querySelector('.caption').style.opacity = (width>680 && width<1250 && p>.04&&p<.97) ? '0' : '1';
+  metrics.renders++; metrics.frameMs.push(performance.now()-begin);
+  if (metrics.frameMs.length>2000) metrics.frameMs.shift();
+  canvas.dataset.progress=p.toFixed(6);
+}
+
+async function init() {
+  gl = canvas.getContext('webgl',{alpha:false,antialias:false,depth:false,stencil:false,preserveDrawingBuffer:true,powerPreference:'low-power'});
+  if (!gl) throw new Error('WebGL no está disponible; abre este prototipo en un navegador con WebGL habilitado');
+  const [response, geometryResponse, ...images] = await Promise.all([Promise.resolve(new Response("precision highp float;\nuniform vec2 uSize;\nuniform float uP;\nuniform float uReduced;\nuniform sampler2D uThunder;\nuniform sampler2D uSpace;\nuniform sampler2D uStars;\nuniform sampler2D uSymbol;\nuniform sampler2D uField;\nuniform sampler2D uRay;\nuniform sampler2D uOriginalAtlas;\nuniform sampler2D uLineTexture;\nvarying vec2 vUv;\nfloat ramp(float a,float b,float p){return smoothstep(a,b,p);}\nfloat box(vec2 p,vec2 lo,vec2 hi){return step(lo.x,p.x)*step(lo.y,p.y)*step(p.x,hi.x)*step(p.y,hi.y);}\nvec4 at(sampler2D tex,vec2 p){return texture2D(tex,p/vec2(1066.,600.));}\nvec3 over(vec3 bg,vec4 fg,float a){return mix(bg,fg.rgb,clamp(fg.a*a,0.,1.));}\nvoid main(){\n float p=uP;\n float opening=ramp(0.,.10,p),closing=ramp(.90,1.,p);\n float docH=mix(593.,594.,closing);\n float fit=min((uSize.x-40.)/600.,max(100.,uSize.y-(uSize.y\u003c500.?120.:220.))/docH);\n float fill=max(uSize.x/1066.,uSize.y/600.);\n float reducedFit=min((uSize.x-24.)/1066.,max(100.,uSize.y-220.)/600.);\n float scale=mix(mix(fit,fill,opening),fit,closing);\n scale=mix(scale,reducedFit,uReduced);\n // A common, uniformly scaled camera registers both documentary originals.\n vec2 center=vec2(uSize.x*.5,uSize.y*.5-(uSize.y\u003c500.?0.:12.));\n vec2 q=(vUv*uSize-center)/scale+vec2(533.,300.);\n vec3 dark=vec3(8.,10.,15.)/255.;\n float shift=280.*ramp(.30,.80,p)*(1.-uReduced);\n vec2 terrain=q-vec2(0.,shift);\n float terrainInside=box(terrain,vec2(0.),vec2(1066.,600.));\n vec3 space=at(uSpace,q).rgb;\n vec2 fields=at(uField,terrain).rg;\n // CP05 masks after undoing their terrain displacement give threshold \u2248 p\u2212.115.\n float threshold=p-.115;\n float reveal=ramp(fields.r-.13,fields.r+.13,threshold);\n // Never clamp the exposed top to a row of cloud pixels.\n vec3 sky=space;\n vec3 ground=at(uThunder,terrain).rgb;\n vec3 color=mix(sky,mix(ground,space,reveal),terrainInside);\n vec4 ray=at(uRay,terrain);\n // A slight scroll-bound charge keeps the retained photographic bolt alive.\n // No flicker or time-based pulsing; reduced motion keeps CP01 pixel-identical.\n float charge=1.+.30*clamp((p-.10)/.18,0.,1.)*(1.-uReduced);\n ray.rgb*=charge;ray.a*=charge;\n float rayAlpha=mix(1.-ramp(.28,.46,p),1.-ramp(.10,.22,p),uReduced)*terrainInside;\n color=over(color,ray,rayAlpha);\n float earlySky=mix(fields.g,1.,ramp(.25,.55,p));\n float starVisibility=ramp(.12,.65,p)*mix(1.,reveal*earlySky,terrainInside);\n color=over(color,at(uStars,q),starVisibility);\n float lineAlpha=ramp(.25,.43,p)*(1.-ramp(.82,.90,p))*(1.-uReduced);\n color=over(color,at(uLineTexture,q),lineAlpha);\n // The master is never warped. Reveal axis and arc separately.\n float axis=1.-smoothstep(11.,25.,abs(q.x-524.));\n float arcProgress=ramp(.54,.84,p);\n float arcReveal=ramp(440.-170.*arcProgress-18.,440.-170.*arcProgress+18.,q.y)*arcProgress;\n float axisReveal=mix(ramp(.82,.90,p),ramp(.65,.84,p),uReduced);\n // The arc's lower crossing is not part of the delayed vertical-axis mask.\n float junction=ramp(390.,405.,q.y)*(1.-ramp(425.,440.,q.y))*(1.-uReduced);\n float symbolReveal=mix(arcReveal,axisReveal,axis*(1.-junction));\n color=over(color,at(uSymbol,q),symbolReveal);\n float sceneInside=box(q,vec2(0.),vec2(1066.,600.));\n color=mix(dark,color,sceneInside);\n // Local documentary restoration in the original's registered footprint.\n vec2 docUV=(q-vec2(233.,3.))/vec2(600.,docH);\n float insideDoc=box(docUV,vec2(0.),vec2(1.));\n vec2 atlasUV=vec2((docUV.x+step(.5,p))*.5,docUV.y*docH/594.);\n vec3 documentary=texture2D(uOriginalAtlas,atlasUV).rgb;\n float docAmount=(1.-opening)+closing;\n color=mix(dark,color,1.-docAmount*(1.-insideDoc));\n // Delay restoration of scanned perimeter marks until the extensions withdraw.\n vec2 edge=min(docUV,1.-docUV)*vec2(600.,docH);\n float interior=smoothstep(0.,5.,min(edge.x,edge.y));\n float perimeter=mix(interior,1.,ramp(.9,1.,docAmount));\n color=mix(color,documentary,insideDoc*docAmount*perimeter);\n gl_FragColor=vec4(color,1.);\n}\n")),Promise.resolve(new Response("[\n  {\n    \"progress\": 0.2,\n    \"points\": [\n      [\n        458.8039,\n        239.0\n      ],\n      [\n        460.8089,\n        231.3333\n      ],\n      [\n        462.7488,\n        223.6667\n      ],\n      [\n        465.0366,\n        216.0\n      ],\n      [\n        468.4161,\n        208.3333\n      ],\n      [\n        472.0778,\n        200.6667\n      ],\n      [\n        476.3124,\n        193.0\n      ],\n      [\n        482.3619,\n        185.3333\n      ],\n      [\n        495.6642,\n        177.6667\n      ],\n      [\n        511.167,\n        170.0\n      ],\n      [\n        526.5,\n        162.3333\n      ],\n      [\n        540.1855,\n        154.6667\n      ],\n      [\n        553.7722,\n        147.0\n      ],\n      [\n        568.1838,\n        139.3333\n      ],\n      [\n        581.0,\n        131.6667\n      ],\n      [\n        594.875,\n        124.0\n      ]\n    ]\n  },\n  {\n    \"progress\": 0.3,\n    \"points\": [\n      [\n        464.2112,\n        263.0\n      ],\n      [\n        465.7158,\n        253.6\n      ],\n      [\n        467.8621,\n        244.2\n      ],\n      [\n        469.9024,\n        234.8\n      ],\n      [\n        473.9024,\n        225.4\n      ],\n      [\n        477.4459,\n        216.0\n      ],\n      [\n        481.2312,\n        206.6\n      ],\n      [\n        491.006,\n        197.2\n      ],\n      [\n        502.8769,\n        187.8\n      ],\n      [\n        516.5029,\n        178.4\n      ],\n      [\n        529.4351,\n        169.0\n      ],\n      [\n        541.182,\n        159.6\n      ],\n      [\n        552.6942,\n        150.2\n      ],\n      [\n        563.6936,\n        140.8\n      ],\n      [\n        577.5134,\n        131.4\n      ],\n      [\n        589.2286,\n        122.0\n      ]\n    ]\n  },\n  {\n    \"progress\": 0.4,\n    \"points\": [\n      [\n        477.0,\n        323.0\n      ],\n      [\n        478.6011,\n        309.2\n      ],\n      [\n        480.124,\n        295.4\n      ],\n      [\n        482.2918,\n        281.6\n      ],\n      [\n        485.7998,\n        267.8\n      ],\n      [\n        489.3617,\n        254.0\n      ],\n      [\n        494.3333,\n        240.2\n      ],\n      [\n        503.1792,\n        226.4\n      ],\n      [\n        511.6332,\n        212.6\n      ],\n      [\n        521.6989,\n        198.8\n      ],\n      [\n        532.0088,\n        185.0\n      ],\n      [\n        540.3103,\n        171.2\n      ],\n      [\n        547.9213,\n        157.4\n      ],\n      [\n        555.8539,\n        143.6\n      ],\n      [\n        566.139,\n        129.8\n      ],\n      [\n        574.7355,\n        116.0\n      ]\n    ]\n  },\n  {\n    \"progress\": 0.5,\n    \"points\": [\n      [\n        493.3598,\n        400.0\n      ],\n      [\n        494.3636,\n        380.6\n      ],\n      [\n        495.641,\n        361.2\n      ],\n      [\n        497.3761,\n        341.8\n      ],\n      [\n        499.9568,\n        322.4\n      ],\n      [\n        502.3598,\n        303.0\n      ],\n      [\n        506.5935,\n        283.6\n      ],\n      [\n        512.2756,\n        264.2\n      ],\n      [\n        517.7876,\n        244.8\n      ],\n      [\n        524.3555,\n        225.4\n      ],\n      [\n        530.5147,\n        206.0\n      ],\n      [\n        535.3008,\n        186.6\n      ],\n      [\n        539.8654,\n        167.2\n      ],\n      [\n        545.1502,\n        147.8\n      ],\n      [\n        551.7888,\n        128.4\n      ],\n      [\n        556.3575,\n        109.0\n      ]\n    ]\n  },\n  {\n    \"progress\": 0.6,\n    \"points\": [\n      [\n        509.5,\n        475.0\n      ],\n      [\n        510.1981,\n        450.1333\n      ],\n      [\n        510.8019,\n        425.2667\n      ],\n      [\n        511.7383,\n        400.4\n      ],\n      [\n        513.0,\n        375.5333\n      ],\n      [\n        514.1981,\n        350.6667\n      ],\n      [\n        516.6636,\n        325.8\n      ],\n      [\n        519.0355,\n        300.9333\n      ],\n      [\n        521.7868,\n        276.0667\n      ],\n      [\n        524.8225,\n        251.2\n      ],\n      [\n        527.8844,\n        226.3333\n      ],\n      [\n        530.1984,\n        201.4667\n      ],\n      [\n        532.1979,\n        176.6\n      ],\n      [\n        534.7434,\n        151.7333\n      ],\n      [\n        537.8102,\n        126.8667\n      ],\n      [\n        540.1016,\n        102.0\n      ]\n    ]\n  },\n  {\n    \"progress\": 0.7,\n    \"points\": [\n      [\n        521.0,\n        530.0\n      ],\n      [\n        521.304,\n        501.1333\n      ],\n      [\n        521.304,\n        472.2667\n      ],\n      [\n        521.696,\n        443.4\n      ],\n      [\n        522.0,\n        414.5333\n      ],\n      [\n        522.0021,\n        385.6667\n      ],\n      [\n        522.696,\n        356.8\n      ],\n      [\n        523.304,\n        327.9333\n      ],\n      [\n        524.0,\n        299.0667\n      ],\n      [\n        524.696,\n        270.2\n      ],\n      [\n        525.304,\n        241.3333\n      ],\n      [\n        525.696,\n        212.4667\n      ],\n      [\n        526.304,\n        183.6\n      ],\n      [\n        526.7426,\n        154.7333\n      ],\n      [\n        527.7119,\n        125.8667\n      ],\n      [\n        527.521,\n        97.0\n      ]\n    ]\n  },\n  {\n    \"progress\": 0.8,\n    \"points\": [\n      [\n        524.6656,\n        546.0\n      ],\n      [\n        524.6615,\n        516.0\n      ],\n      [\n        524.6615,\n        486.0\n      ],\n      [\n        524.6615,\n        456.0\n      ],\n      [\n        524.6615,\n        426.0\n      ],\n      [\n        524.6615,\n        396.0\n      ],\n      [\n        524.6615,\n        366.0\n      ],\n      [\n        524.6615,\n        336.0\n      ],\n      [\n        524.6615,\n        306.0\n      ],\n      [\n        524.6615,\n        276.0\n      ],\n      [\n        524.6615,\n        246.0\n      ],\n      [\n        524.6615,\n        216.0\n      ],\n      [\n        524.6615,\n        186.0\n      ],\n      [\n        524.6615,\n        156.0\n      ],\n      [\n        524.6615,\n        126.0\n      ],\n      [\n        524.6674,\n        96.0\n      ]\n    ]\n  }\n]\n")),...assetNames.map(loadImage)]);
+  if (!response.ok) throw new Error(`shader HTTP ${response.status}`);
+  if (!geometryResponse.ok) throw new Error(`geometría HTTP ${geometryResponse.status}`);
+  geometry=[irregular,...(await geometryResponse.json()).map(s=>s.points)];
+  const frag = await response.text();
+  program = gl.createProgram();
+  gl.attachShader(program,shader(gl.VERTEX_SHADER,'attribute vec2 aPos; varying vec2 vUv; void main(){vUv=vec2((aPos.x+1.)*.5,(1.-aPos.y)*.5);gl_Position=vec4(aPos,0.,1.);}'));
+  gl.attachShader(program,shader(gl.FRAGMENT_SHADER,frag)); gl.linkProgram(program);
+  if (!gl.getProgramParameter(program,gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(program));
+  gl.useProgram(program);
+  const buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+  const attribute=gl.getAttribLocation(program,'aPos');gl.enableVertexAttribArray(attribute);gl.vertexAttribPointer(attribute,2,gl.FLOAT,false,0,0);
+  locations=Object.fromEntries(['uSize','uP','uReduced',...uniforms].map(n=>[n,gl.getUniformLocation(program,n)]));
+  // Pack documentary originals at native size: 8 samplers suffice even on WebGL1.
+  const atlas=document.createElement('canvas');atlas.width=1200;atlas.height=594;
+  const atlasContext=atlas.getContext('2d');atlasContext.drawImage(images[6],0,0);atlasContext.drawImage(images[7],600,0);
+  const lineCanvas=document.createElement('canvas');lineCanvas.width=1066;lineCanvas.height=600;
+  lineContext=lineCanvas.getContext('2d');
+  [...images.slice(0,6),atlas,lineCanvas].forEach((img,i)=>{
+    gl.activeTexture(gl.TEXTURE0+i);const texture=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,texture);
+    gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,false);gl.pixelStorei(gl.UNPACK_PREMULTIPLY_ALPHA_WEBGL,false);
+    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);
+    gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
+    gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,img);gl.uniform1i(locations[uniforms[i]],i);
+    if(i===7)lineTexture=texture;
+  });
+  const error=gl.getError();if(error!==gl.NO_ERROR)throw new Error(`WebGL error ${error}`);
+  ready=true;resize();mode();draw();$('loading').hidden=true;
+  window.__F4={
+    motif(progress=p){return motifShape(progress,linePoints(progress),280*smooth(.30,.80,progress));},
+    go, metrics, get state(){return {progress:p,reduced,ready,width,height,buffer:[canvas.width,canvas.height],terrainShift:280*smooth(.3,.8,p)*(reduced?0:1)};},
+    // Manual GPU timing for the validation script; no continuous animation loop.
+    benchmark(){const start=performance.now();draw();gl.finish();return performance.now()-start;}
+  };
+}
+$('scrub').addEventListener('input',e=>go(Number(e.target.value)/1000));
+$('begin').addEventListener('click',()=>go(0));$('end').addEventListener('click',()=>go(1));
+$('motion').addEventListener('click',()=>{override=true;reduced=!reduced;mode();});
+media.addEventListener('change',e=>{if(!override){reduced=e.matches;mode();}});
+window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',resize);
+new ResizeObserver(resize).observe($('stage'));
+canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();metrics.contextLosses++;ready=false;fail(new Error('se perdió el contexto gráfico; recarga para continuar'));});
+mode();init().catch(fail);
+
+</script>
+</head>
+<body>
+  <a class="skip" href="#scrub">Ir al control de progreso</a>
+  <main id="journey" aria-label="Recorrido de Thunder and Lightning a Innervision">
+    <div id="stage">
+      <canvas id="scene" role="img" aria-label="Transformación de cielo de tormenta en espacio estrellado"></canvas>
+      <header>
+        <div class="edition"><span class="mark" aria-hidden="true">Ⅱ</span><span>PILOTO 02 <small>F4 / CP03 · CIERRE ESTABLE</small></span></div>
+        <button id="motion" type="button" aria-pressed="false">Reducir movimiento</button>
+      </header>
+      <div id="loading" role="status">Preparando las capas de CP05…</div>
+      <div id="error" role="alert" hidden></div>
+      <section class="caption" aria-label="Estado del recorrido">
+        <p class="eyebrow" id="phase">01 / THUNDER AND LIGHTNING</p>
+        <h1 id="title">Del trueno<br>al espacio.</h1>
+        <p id="description">Thin Lizzy → Phenomena</p>
+      </section>
+      <footer>
+        <div class="progress-top"><label for="scrub">RECORRIDO</label><output id="percent" for="scrub">0 %</output></div>
+        <input id="scrub" type="range" min="0" max="1000" value="0" step="1" aria-label="Progreso de la transformación" aria-valuetext="0 por ciento">
+        <div class="navigation">
+          <button id="begin" type="button" title="Ir a la portada completa de Thunder and Lightning">← Thunder</button>
+          <span id="hint">Desliza para transformar · vuelve para regresar</span>
+          <button id="end" type="button" title="Ir a la portada completa de Innervision">Innervision →</button>
+        </div>
+        <p class="review">Aprobada creativamente · Piloto 02</p>
+      </footer>
+      <p class="sr-only" id="accessible-state" aria-live="polite">Portada original de Thunder and Lightning, Thin Lizzy.</p>
+    </div>
+  </main>
+  <noscript><div class="noscript">Activa JavaScript en Chrome o Edge para visualizar el piloto local. No requiere servidor ni Python.</div></noscript>
+</body>
+</html>

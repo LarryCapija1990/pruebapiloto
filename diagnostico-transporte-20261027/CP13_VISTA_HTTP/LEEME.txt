@@ -1,0 +1,11 @@
+CP13 — VISTA HTTP LIGERA
+
+1. Extrae ambas partes ZIP en la misma carpeta. No separes index.html de assets/ y f4/.
+2. Si tienes Python: ejecuta INICIAR_WINDOWS.bat (Windows) o python3 INICIAR.py (macOS/Linux).
+3. O abre la carpeta con Visual Studio Code y usa Live Server en index.html.
+4. Mantén el servidor abierto. Cierra con Ctrl+C.
+
+No requiere instalar paquetes de Python. No abras index.html directamente mediante file://: esta copia usa páginas separadas que necesitan un mismo origen HTTP.
+
+No se ha reducido, recomprimido ni regenerado ninguna imagen. La apariencia, la cámara y la distribución de scroll son las de CP13.
+Los originales aprobados y los checkpoints CP12/CP13 permanecen intactos.

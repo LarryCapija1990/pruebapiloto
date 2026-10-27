@@ -1,0 +1,6 @@
+{
+  "launcher": "INICIAR.py --sin-abrir",
+  "status": 200,
+  "prefix_bytes_read": 64,
+  "passed": true
+}

@@ -1,0 +1,3699 @@
+{
+  "original_error": {
+    "message": "decoded message length too large: found 4554464 bytes, limit 4194304",
+    "source": "reported by user when opening chat or preview",
+    "exact_original_call": "not observable: client trace not available",
+    "reproduced": false
+  },
+  "retry": "Page.goto(local HTTP URL), browser-side PNG digest; no large data returned",
+  "wire_scope": "Playwright Python\u2013Node connection after initialization; not the Codex client/API transport",
+  "budget_bytes": 262144,
+  "messages": [
+    {
+      "direction": "send",
+      "method": "launch",
+      "bytes": 478,
+      "parameter_names": [
+        "executablePath",
+        "args"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 1,
+      "bytes": 54
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 241
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 2,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "newContext",
+      "bytes": 442,
+      "parameter_names": [
+        "viewport",
+        "deviceScaleFactor",
+        "isMobile",
+        "selectorEngines"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 170
+    },
+    {
+      "direction": "receive",
+      "method": "pausedStateChanged",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 168
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 247
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 141
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 523
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 149
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 141
+    },
+    {
+      "direction": "receive",
+      "method": "context",
+      "reply_to": null,
+      "bytes": 151
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 3,
+      "bytes": 89
+    },
+    {
+      "direction": "send",
+      "method": "newPage",
+      "bytes": 343,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 251
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 291
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 128
+    },
+    {
+      "direction": "receive",
+      "method": "page",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 4,
+      "bytes": 75
+    },
+    {
+      "direction": "send",
+      "method": "goto",
+      "bytes": 362,
+      "parameter_names": [
+        "url"
+      ],
+      "url": "http://127.0.0.1:45255/index.html"
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 706
+    },
+    {
+      "direction": "receive",
+      "method": "request",
+      "reply_to": null,
+      "bytes": 207
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 797
+    },
+    {
+      "direction": "receive",
+      "method": "response",
+      "reply_to": null,
+      "bytes": 210
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 211
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 267
+    },
+    {
+      "direction": "receive",
+      "method": "frameAttached",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 132
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "requestFinished",
+      "reply_to": null,
+      "bytes": 306
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 5,
+      "bytes": 83
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 433,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 772
+    },
+    {
+      "direction": "receive",
+      "method": "request",
+      "reply_to": null,
+      "bytes": 207
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 799
+    },
+    {
+      "direction": "receive",
+      "method": "response",
+      "reply_to": null,
+      "bytes": 210
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 218
+    },
+    {
+      "direction": "receive",
+      "method": "requestFinished",
+      "reply_to": null,
+      "bytes": 305
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 6,
+      "bytes": 79
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 469,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 7,
+      "bytes": 40
+    },
+    {
+      "direction": "send",
+      "method": "newPage",
+      "bytes": 343,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 251
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 291
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 128
+    },
+    {
+      "direction": "receive",
+      "method": "page",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 8,
+      "bytes": 75
+    },
+    {
+      "direction": "send",
+      "method": "goto",
+      "bytes": 371,
+      "parameter_names": [
+        "url"
+      ],
+      "url": "http://127.0.0.1:45255/accepted/index.html"
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 715
+    },
+    {
+      "direction": "receive",
+      "method": "request",
+      "reply_to": null,
+      "bytes": 207
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 808
+    },
+    {
+      "direction": "receive",
+      "method": "response",
+      "reply_to": null,
+      "bytes": 210
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 220
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 267
+    },
+    {
+      "direction": "receive",
+      "method": "frameAttached",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 132
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "requestFinished",
+      "reply_to": null,
+      "bytes": 307
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 9,
+      "bytes": 83
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 434,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 133
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 10,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 11,
+      "bytes": 41
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 12,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 13,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 14,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 15,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 16,
+      "bytes": 41
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 17,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 485,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 18,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 19,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 20,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 485,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 21,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 22,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 23,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 24,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 25,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 26,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 27,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 28,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 29,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 415,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 30,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 442,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 31,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 32,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 417,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 33,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 34,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 415,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 35,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 442,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 36,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 37,
+      "bytes": 40
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 417,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 38,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 39,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 415,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 40,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 442,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 41,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 42,
+      "bytes": 40
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 417,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 43,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 44,
+      "bytes": 227
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 415,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 45,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 442,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 46,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 47,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 417,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 48,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 49,
+      "bytes": 227
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 412,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 50,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 439,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 51,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 52,
+      "bytes": 40
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 414,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 53,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 54,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 412,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 55,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 439,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 56,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 57,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 414,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 58,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 59,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 413,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 60,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 442,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 61,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 62,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 63,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 411,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 64,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 65,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 413,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 66,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 67,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 68,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 69,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "waitForTimeout",
+      "bytes": 358,
+      "parameter_names": [
+        "waitTimeout"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 70,
+      "bytes": 9
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 71,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "dispose",
+      "bytes": 341,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 72,
+      "bytes": 9
+    },
+    {
+      "direction": "send",
+      "method": "close",
+      "bytes": 318,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 65
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 83
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 65
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 83
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 76
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 73,
+      "bytes": 9
+    },
+    {
+      "direction": "send",
+      "method": "newContext",
+      "bytes": 441,
+      "parameter_names": [
+        "viewport",
+        "deviceScaleFactor",
+        "isMobile",
+        "selectorEngines"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 170
+    },
+    {
+      "direction": "receive",
+      "method": "pausedStateChanged",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 168
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 247
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 141
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 521
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 149
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 141
+    },
+    {
+      "direction": "receive",
+      "method": "context",
+      "reply_to": null,
+      "bytes": 151
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 74,
+      "bytes": 90
+    },
+    {
+      "direction": "send",
+      "method": "newPage",
+      "bytes": 344,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 251
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 290
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 128
+    },
+    {
+      "direction": "receive",
+      "method": "page",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 75,
+      "bytes": 76
+    },
+    {
+      "direction": "send",
+      "method": "goto",
+      "bytes": 363,
+      "parameter_names": [
+        "url"
+      ],
+      "url": "http://127.0.0.1:45255/index.html"
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 706
+    },
+    {
+      "direction": "receive",
+      "method": "request",
+      "reply_to": null,
+      "bytes": 207
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 794
+    },
+    {
+      "direction": "receive",
+      "method": "response",
+      "reply_to": null,
+      "bytes": 210
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 211
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 267
+    },
+    {
+      "direction": "receive",
+      "method": "frameAttached",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 132
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "requestFinished",
+      "reply_to": null,
+      "bytes": 306
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 76,
+      "bytes": 84
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 434,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 772
+    },
+    {
+      "direction": "receive",
+      "method": "request",
+      "reply_to": null,
+      "bytes": 207
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 800
+    },
+    {
+      "direction": "receive",
+      "method": "response",
+      "reply_to": null,
+      "bytes": 210
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 218
+    },
+    {
+      "direction": "receive",
+      "method": "requestFinished",
+      "reply_to": null,
+      "bytes": 305
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 77,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 78,
+      "bytes": 41
+    },
+    {
+      "direction": "send",
+      "method": "newPage",
+      "bytes": 344,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 251
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 290
+    },
+    {
+      "direction": "receive",
+      "method": "__adopt__",
+      "reply_to": null,
+      "bytes": 128
+    },
+    {
+      "direction": "receive",
+      "method": "page",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 79,
+      "bytes": 76
+    },
+    {
+      "direction": "send",
+      "method": "goto",
+      "bytes": 372,
+      "parameter_names": [
+        "url"
+      ],
+      "url": "http://127.0.0.1:45255/accepted/index.html"
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 715
+    },
+    {
+      "direction": "receive",
+      "method": "request",
+      "reply_to": null,
+      "bytes": 207
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 808
+    },
+    {
+      "direction": "receive",
+      "method": "response",
+      "reply_to": null,
+      "bytes": 210
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 220
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 267
+    },
+    {
+      "direction": "receive",
+      "method": "frameAttached",
+      "reply_to": null,
+      "bytes": 142
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 132
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "requestFinished",
+      "reply_to": null,
+      "bytes": 307
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 80,
+      "bytes": 84
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 434,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 99
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 109
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 97
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 104
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 96
+    },
+    {
+      "direction": "receive",
+      "method": "navigated",
+      "reply_to": null,
+      "bytes": 133
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 101
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 106
+    },
+    {
+      "direction": "receive",
+      "method": "loadstate",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 81,
+      "bytes": 80
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 82,
+      "bytes": 41
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 83,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 84,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 85,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 86,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 87,
+      "bytes": 41
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 88,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 485,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 89,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 90,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 91,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 485,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 92,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 93,
+      "bytes": 39
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 94,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 95,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 96,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 823,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 97,
+      "bytes": 228
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 483,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 98,
+      "bytes": 46
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 470,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 99,
+      "bytes": 42
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 100,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 416,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 101,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 443,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 102,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 103,
+      "bytes": 41
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 418,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 104,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 105,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 416,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 106,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 443,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 107,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 108,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 418,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 109,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 110,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 416,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 111,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 443,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 112,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 113,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 418,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 114,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 115,
+      "bytes": 230
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 416,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 116,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 443,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 117,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 118,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 418,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 119,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 120,
+      "bytes": 230
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 413,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 121,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 440,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 122,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 123,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 415,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 124,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 125,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 413,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 126,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 440,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 127,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 128,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 415,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 129,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 130,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 414,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 131,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "waitForFunction",
+      "bytes": 443,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": "__create__",
+      "reply_to": null,
+      "bytes": 182
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 132,
+      "bytes": 81
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 133,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 134,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 412,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 135,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 136,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 414,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 137,
+      "bytes": 47
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 471,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 138,
+      "bytes": 43
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 139,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 140,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "waitForTimeout",
+      "bytes": 359,
+      "parameter_names": [
+        "waitTimeout"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 141,
+      "bytes": 10
+    },
+    {
+      "direction": "send",
+      "method": "evaluateExpression",
+      "bytes": 824,
+      "parameter_names": [
+        "expression",
+        "arg"
+      ]
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 142,
+      "bytes": 229
+    },
+    {
+      "direction": "send",
+      "method": "dispose",
+      "bytes": 342,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 143,
+      "bytes": 10
+    },
+    {
+      "direction": "send",
+      "method": "close",
+      "bytes": 319,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 65
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 83
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 65
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 83
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 76
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 94
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 144,
+      "bytes": 10
+    },
+    {
+      "direction": "send",
+      "method": "close",
+      "bytes": 325,
+      "parameter_names": []
+    },
+    {
+      "direction": "receive",
+      "method": "close",
+      "reply_to": null,
+      "bytes": 68
+    },
+    {
+      "direction": "receive",
+      "method": "__dispose__",
+      "reply_to": null,
+      "bytes": 86
+    },
+    {
+      "direction": "receive",
+      "method": null,
+      "reply_to": 145,
+      "bytes": 10
+    }
+  ],
+  "checks": [
+    {
+      "name": "desktop HTTP /index.html",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "desktop HTTP /accepted/index.html",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "desktop same pixels T34 0",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "59c6b704b0312951b10066abff1d1a58f8cf58fb9485012cd20e15547ebc3d7a",
+          "png_bytes": 937732,
+          "width": 1440,
+          "height": 900
+        },
+        "accepted": {
+          "sha256": "59c6b704b0312951b10066abff1d1a58f8cf58fb9485012cd20e15547ebc3d7a",
+          "png_bytes": 937732,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "desktop same pixels T34 0.5",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "5801069509e34a13e75ecd093f8728246b433563d3f90b18e4be9c9ba1566502",
+          "png_bytes": 1775496,
+          "width": 1440,
+          "height": 900
+        },
+        "accepted": {
+          "sha256": "5801069509e34a13e75ecd093f8728246b433563d3f90b18e4be9c9ba1566502",
+          "png_bytes": 1775496,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "desktop same pixels T34 1",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "6a232a4b93b80339f83b6bbf749db582facc5a1cd410acf1d720738ce2f043d6",
+          "png_bytes": 810410,
+          "width": 1440,
+          "height": 900
+        },
+        "accepted": {
+          "sha256": "6a232a4b93b80339f83b6bbf749db582facc5a1cd410acf1d720738ce2f043d6",
+          "png_bytes": 810410,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "desktop same pixels T45 0.35",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "4890011d859d733ae225dc1861f8b3dd67eba89556231130ef2ca0914df1c642",
+          "png_bytes": 836459,
+          "width": 1440,
+          "height": 900
+        },
+        "accepted": {
+          "sha256": "4890011d859d733ae225dc1861f8b3dd67eba89556231130ef2ca0914df1c642",
+          "png_bytes": 836459,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "desktop same pixels T45 0.64",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "1263644d3781cc2834314bc1707307be4c712449cf598873a4ae8e0c0fb97332",
+          "png_bytes": 44978,
+          "width": 1440,
+          "height": 900
+        },
+        "accepted": {
+          "sha256": "1263644d3781cc2834314bc1707307be4c712449cf598873a4ae8e0c0fb97332",
+          "png_bytes": 44978,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "desktop same pixels T45 1",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "af19b5b9190a8d607fee5dab5b4d9c0980346b63ea98a29457019dad1ce9b9e3",
+          "png_bytes": 964768,
+          "width": 1440,
+          "height": 900
+        },
+        "accepted": {
+          "sha256": "af19b5b9190a8d607fee5dab5b4d9c0980346b63ea98a29457019dad1ce9b9e3",
+          "png_bytes": 964768,
+          "width": 1440,
+          "height": 900
+        }
+      }
+    },
+    {
+      "name": "desktop reversible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "desktop paused",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mobile_emulated HTTP /index.html",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mobile_emulated HTTP /accepted/index.html",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mobile_emulated same pixels T34 0",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "443a9e4971c5216ce6a3afea05c9ca8b3bf3025498cb16a1472e42c01ce1a37d",
+          "png_bytes": 572602,
+          "width": 585,
+          "height": 1266
+        },
+        "accepted": {
+          "sha256": "443a9e4971c5216ce6a3afea05c9ca8b3bf3025498cb16a1472e42c01ce1a37d",
+          "png_bytes": 572602,
+          "width": 585,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "name": "mobile_emulated same pixels T34 0.5",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "672c919f1478e8a3e41b7317ded219fc8e3d68d07949df5f5ea30bda92b5a479",
+          "png_bytes": 1009827,
+          "width": 585,
+          "height": 1266
+        },
+        "accepted": {
+          "sha256": "672c919f1478e8a3e41b7317ded219fc8e3d68d07949df5f5ea30bda92b5a479",
+          "png_bytes": 1009827,
+          "width": 585,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "name": "mobile_emulated same pixels T34 1",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "b86a2695631b8f192146d7b590946dff73b01b4c232375e0254a1287dcce638f",
+          "png_bytes": 498117,
+          "width": 585,
+          "height": 1266
+        },
+        "accepted": {
+          "sha256": "b86a2695631b8f192146d7b590946dff73b01b4c232375e0254a1287dcce638f",
+          "png_bytes": 498117,
+          "width": 585,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "name": "mobile_emulated same pixels T45 0.35",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "364b3e551d35b86929c3d022648b9d8f1c018c60639fb8516742734322ec4161",
+          "png_bytes": 360272,
+          "width": 585,
+          "height": 1266
+        },
+        "accepted": {
+          "sha256": "364b3e551d35b86929c3d022648b9d8f1c018c60639fb8516742734322ec4161",
+          "png_bytes": 360272,
+          "width": 585,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "name": "mobile_emulated same pixels T45 0.64",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "e554b492abfe1706932e0410354b31312f161fa045398cab32cf115d41ac283c",
+          "png_bytes": 1268423,
+          "width": 585,
+          "height": 1266
+        },
+        "accepted": {
+          "sha256": "e554b492abfe1706932e0410354b31312f161fa045398cab32cf115d41ac283c",
+          "png_bytes": 1268423,
+          "width": 585,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "name": "mobile_emulated same pixels T45 1",
+      "passed": true,
+      "details": {
+        "externalized": {
+          "sha256": "d0057ddc0b96d4007a1980ac7263aa20518e863afe4276739a0bc45c857e85a3",
+          "png_bytes": 588065,
+          "width": 585,
+          "height": 1266
+        },
+        "accepted": {
+          "sha256": "d0057ddc0b96d4007a1980ac7263aa20518e863afe4276739a0bc45c857e85a3",
+          "png_bytes": 588065,
+          "width": 585,
+          "height": 1266
+        }
+      }
+    },
+    {
+      "name": "mobile_emulated reversible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "mobile_emulated paused",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "No setContent or screenshot wire calls",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "No browser JS errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "No HTTP errors",
+      "passed": true,
+      "details": []
+    }
+  ],
+  "browser_errors": [],
+  "http_errors": [],
+  "max_send_bytes": 824,
+  "max_receive_bytes": 808,
+  "passed": 23,
+  "failed": 0
+}
